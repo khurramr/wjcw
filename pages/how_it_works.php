@@ -71,7 +71,7 @@ include "../google_translator.php"; ?>
   left: 60px;
   position: absolute;
   border-radius: 3px;
-  top: 20px;
+  top: 200px;
 }
 
     .col-md-3{
@@ -225,15 +225,15 @@ include "../google_translator.php"; ?>
 }
 .ring01::before {
   content: "1";
-  top: 0;
+  top: 50%;
 }
 .ring02::before {
   content: "2";
-  top: 45px;
+  top: 50%;
 }
 .ring03::before {
   content: "3";
-  top: 80px;
+  top: 50%;
 }
 .imageSize {
   width: 100%;
@@ -285,7 +285,7 @@ include "../google_translator.php"; ?>
 @media only screen and (max-width: 1024px) {
     
 .verticalInfoBar {
-  top: 320px;
+  top: 450px;
   height: 1300px;
 }
 
@@ -311,7 +311,7 @@ include "../google_translator.php"; ?>
       height: auto;
     }
     .verticalInfoBar {
-      top: 280px;
+      top: 400px;
     }
  }
 

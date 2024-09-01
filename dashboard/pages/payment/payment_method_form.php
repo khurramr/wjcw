@@ -13,10 +13,19 @@
                     <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
                         <!-- Credit card form tabs -->
                         <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
-                            <li class="nav-item"> <a data-toggle="pill" href="#credit-card" class="nav-link active "> 
+                            <li class="nav-item"> <a data-toggle="pill" style="height: 56px; display: flex; align-items: center;" href="#credit-card" class="nav-link active "> 
 <!--                            <i class="fas fa-credit-card mr-2"></i>-->
-<img src="../../dist/img/credit/mastercard.png" alt="" class="brand-image img-circle elevation-3" style=" width:30%; border-radius:50%" >                            
-                             Credit Card </a> </li>
+<div style="display: inline;">
+<img src="../../dist/img/credit/mastercard.png" alt="" class="brand-image img-circle elevation-3" style="  margin-right: 5px; border-radius:50%" >                            
+<img src="../../dist/img/credit/visa.png" alt="" class="brand-image img-circle elevation-3" style="  margin-right: 5px; border-radius:50%" >                            
+<img src="../../dist/img/credit/american-express.png" alt="" class="brand-image img-circle elevation-3" style="  margin-right: 5px; border-radius:50%" >                            
+
+
+</div>
+<span>
+
+Credit Card
+</span> </a> </li>
 <!--Paypal-->
 <!--                            <li class="nav-item"> <a data-toggle="pill" href="#paypal" class="nav-link "> -->
 <!--                            <i class="fab fa-paypal mr-2"></i>-->
