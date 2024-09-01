@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Main Image */
+
+#MainBanner{
+margin-top: -150px;
+
+}
+@media only screen and (max-width:1203px) {
+  #MainBanner {
+    margin-top: 10px;
+  }
+}
+/* Carousel Of DUA */
+#text-appear{
+  direction: rtl;
+}
+#audioStop{
+  display: none;
+}
+.carousel-inner{
+padding: 0;
+}
+.owl-controls .owl-nav .owl-prev{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  display: block !important;
+  border:none;
+  z-index: 9;
+}
+.owl-controls .owl-nav .owl-next{
+  position: absolute;
+  top: 30%;
+  right: 0;
+  display: block !important;
+  border:none;
+  z-index: 9;
+}
+
+  #carousel{
+    display: none;
+  }
+  @media only screen and (max-width:1203px) {
+    #dua_carousel {
+      margin-top: 300px;
+    }
+  }
+  @media only screen and (max-width:992px) {
+    #dua_carousel {
+      margin-top: 230px;
+    }
+  }
+  @media only screen and (max-width:1139px) {
+    #dua_carousel {
+      margin-top: 200px;
+    }
+  }
+  @media only screen and (max-width:991px) {
+    #dua_carousel{
+      margin-top: 50px;
+    }
+  }
+  #text-appear{
+    display: none;
+  }
+  .ayatNumber1{
+    animation-duration: 12s;
+  }
+  .ayatNumber2{
+    animation-duration: 20s;
+    animation-delay: 10s;
+
+  }
+  .ayatNumber3{
+    animation-duration: 20s;
+    animation-delay: 24s;
+
+
+  }
+  .ayatNumber4{
+    animation-duration: 30s;
+    animation-delay: 30s;
+
+  }
+  .ayatNumber5{
+    animation-duration: 30s;
+    animation-delay: 42s;
+
+  }
+  .ayatNumber6{
+    animation-duration: 30s;
+    animation-delay: 55s;
+
+  }
+  .ayatNumber7{
+    animation-duration: 30s;
+    animation-delay: 60s;
+
+  }
+  
+ 
+  @media only screen and (max-width:1203px) {
+    #dua_carousel {
+      margin-top: 300px;
+    }
+  }
+  @media only screen and (max-width:992px) {
+    #dua_carousel {
+      margin-top: 230px;
+    }
+  }
+  @media only screen and (max-width:1139px) {
+    #dua_carousel {
+      margin-top: 200px;
+    }
+  }
+  @media only screen and (max-width:991px) {
+    #dua_carousel{
+      margin-top: 50px;
+    }
+  }
+  #text-appear{
+    display: none;
+  }
+  .ayatNO3{
+    margin-left: 70px;
+  }
+ 
+  .ayatNumber1{
+    animation-duration: 12s;
+  }
+  .ayatNumber2{
+    animation-duration: 20s;
+    animation-delay: 10s;
+
+  }
+  .ayatNumber3{
+    animation-duration: 20s;
+    animation-delay: 24s;
+
+
+  }
+  .ayatNumber4{
+    animation-duration: 30s;
+    animation-delay: 30s;
+
+  }
+  .ayatNumber5{
+    animation-duration: 30s;
+    animation-delay: 42s;
+
+  }
+  .ayatNumber6{
+    animation-duration: 30s;
+    animation-delay: 55s;
+
+  }
+  .ayatNumber7{
+    animation-duration: 30s;
+    animation-delay: 60s;
+
+  }
+  
+  @media only screen and (max-width:981px) {
+    #dua_carousel button {
+      width: 100px;
+      height: 40px;
+      font-size: 10px;
+    }
+    #text-appear span{
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width:926px) {
+    #text-appear span h5 {
+      font-size: 18px !important;
+    }
+  }
+  @media only screen and (max-width:969px) {
+    .carousel_adjustment {
+      margin-bottom: 70px;
+    }
+  }
+  @media only screen and (max-width:1139px) {
+    .carousel_adjustment {
+      margin-bottom: 80px;
+    }
+  }
+  @media only screen and (max-width:926px) {
+    .carousel_adjustment {
+      margin-bottom: 120px;
+    }
+  }
+  @media only screen and (max-width:827px) {
+    .carousel_adjustment {
+      margin-bottom: 170px;
+    }
+  }
+  @media only screen and (max-width:691px) {
+    .carousel_adjustment {
+      margin-bottom: 200px;
+      margin-left: 50px;
+    }
+  }
+  @media only screen and (max-width:618px) {
+    .carousel_adjustment {
+      margin-bottom: 250px;
+    }
+  }
+  @media only screen and (max-width:978px) {
+    .carousel_adjustment {
+      margin-bottom: 130px;
+      
+    }
+  
+  }
+  @media only screen and (max-width:866px) {
+    .carousel_adjustment {
+      margin-bottom: 160px;
+    }
+    #text-appear span h5 {
+      font-size: 14px !important;
+    }
+  }
+  @media only screen and (max-width:780px) {
+    .carousel_adjustment {
+      margin-bottom: 190px;
+    }
+    #text-appear span h5 {
+      font-size: 14px !important;
+    }
+  }
+
+  @media only screen and (max-width:493px) {
+    .carousel_adjustment  {
+      margin-bottom: 300px;
+    }
+    #dua_carousel button {
+      width: 100px;
+      height: 40px;
+      font-size: 8px;
+    }
+    #text-show{
+      font-size: 14px;
+    }
+  }
+  #text-show h5{
+    color: rgb(219, 148, 16);
+  }
+  @media only screen and (max-width:387px) {
+    .carousel_adjustment {
+      margin-bottom: 350px;
+    }
+  }
+  @media only screen and (max-width:360px) {
+    #dua_carousel button {
+      height: 30px;
+      padding: 0px;
+      width: 60px;
+    }
+    #text-appear span h5 {
+      font-size: 10px !important;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    #text-appear span h5 {
+      font-size: 14px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom: 170px;
+    }
+  }
+  @media only screen and (max-width:792px) {
+    #text-appear span h5 {
+      font-size: 14px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom: 190px;
+    }
+  }
+  @media only screen and (max-width:726px) {
+    #text-appear span h5 {
+      font-size: 13px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom: 210px;
+    }
+  }
+  @media only screen and (max-width:701px) {
+    #text-appear span h5 {
+      font-size: 13px !important;
+    }
+    #removeBtn{
+      display: none;
+    }
+  }
+  @media only screen and (max-width:425px) {
+    #text-appear span h5 {
+      font-size: 12px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom: 250px;
+    }
+  }
+  @media only screen and (max-width:662px) {
+    #text-appear span h5 {
+      font-size: 11px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:240px;
+    }
+
+  }
+  @media only screen and (max-width:595px) {
+    #text-appear span h5 {
+      font-size: 9px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:270px;
+    }
+
+  }
+  @media only screen and (max-width:515px) {
+    #text-appear span h5 {
+      font-size: 7px !important;
+    }
+    #dua_carousel button {
+      font-size: 8px;
+      height: 28px;
+      padding: 0;
+
+    }
+  }
+  @media only screen and (max-width:506px) {
+    #text-appear span h5 {
+      font-size: 7px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:290px;
+    }
+  }
+  @media only screen and (max-width:458px) {
+    #text-appear span h5 {
+      font-size: 6px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:310px;
+    }
+  }
+  @media only screen and (max-width:418px) {
+    #text-appear span h5 {
+      font-size: 6px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:325px;
+    }
+  }
+  @media only screen and (max-width:372px) {
+    #text-appear span h5 {
+      font-size: 5px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:330px;
+    }
+  }
+  @media only screen and (max-width:360px) {
+    #text-appear span h5 {
+      font-size: 5px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:339px;
+    }
+  }
+
+  @media only screen and (max-width:338px) {
+    #text-appear span h5 {
+      font-size: 4px !important;
+    }
+    .carousel_adjustment {
+      margin-bottom:346px;
+    }
+  }
+.carousel-inner{
+  background: transparent !important;
+}
+  #dua_carousel{
+    margin-top: -480px;
+    margin-bottom: 180px;
+    margin-right: 20px;
+    width: 30%;
+    height: 300px;
+    background: none;
+   }
+
+/* NavBar */
+.navbar-toggler {
+        color: #00000080;
+        border-color: #0000001a;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    .toggler_adjustment{
+      width: auto;
+    }
+    .activePage{
+      background-color: #008000 !important;
+      border-radius: 50px;
+      color: white;
+    }
+  .img-res{
+  width: auto;
+  margin: 0;
+  padding: auto;
+  }
+    #menu-menu li{
+    border-radius: 50px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+    }
+  #menu-menu li:hover{
+  background: #008000;
+  color: white;
+  }
+  .nav-link {
+  color: black;
+  display: block;
+  padding: .5rem 1rem;
+  }
+  .nav-link:hover {
+ color: #ffffff;
+  padding: .5rem 1rem;
+  }
+ .navbar-light .navbar-nav .nav-link{
+    border-radius: 50px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+      background: #008000;
+      color: #ffffff;
+  
+    }
+  @media only screen and (max-width:1203px) {
+    .custom-html-widget {
+      display: none;
+    }
+  }
+  @media only screen and (max-width:1203px) {
+    #header_show{
+      display: block;
+    }
+  }
+  @media only screen and (min-width:1203px) {
+    #header_show{
+      display: none;
+    }
+  }
+  /* Carousel */
+
+  .carousel_image{
+    height: 300px;
+    width: 300px;
+  }
+.item{
+  background: #ffffff;
+  border-radius: 0px;
+}
+
+.item p {
+  color: #000;
+}
+
+/* buttons */
+.playBtn{
+  transition: 0.5s;
+}
+.playBtn:hover{
+ font-size: 15px;
+}
+
+/* footer */
+#Footer{
+  background: #27364a !important;
+}
+#Footer li {
+  list-style: none;
+  font-size: 14px;
+}
+#Footer li a{
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#Footer li a:hover{
+  color:green;
+  text-decoration: none;
+}
+.owl-carousel a{
+  text-decoration: none;
+  list-style: none;
+}
+
+  .required:after {
+    content:"*";
+    color: red;
+  }

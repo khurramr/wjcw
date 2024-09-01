@@ -1,0 +1,86 @@
+    .card-title {font-size: 24px; font-weight: bold}
+    .card-text, .card-body, .a_gift_card {font-size: 19px}    
+    .card-header {text-align:center; font-size:34px}
+    .col-md-3{
+        margin:0!important;
+        padding:0!important;
+    }
+    .mgn_pdn{
+        margin:0!important;
+        padding:0!important;
+    }
+    
+    .row {
+        display: flex;
+    }
+
+        .column {
+            flex: 45.33%;
+            padding: 5px;
+        }
+
+    .sticky {
+    max-width: 50%;
+    height: auto;
+    }
+    
+.rod_numbers {
+ margin-top: 30px;
+    height:auto;
+    width:50%
+}
+    .row_margin {
+         margin-top: 60px;
+    }
+@media only screen and (max-width: 1600px) {
+.h_1 { font-size:3vw;
+    color:green; text-align:center;
+    };
+}
+@media only screen and (max-width: 600px) {
+.h_1 { font-size:8vw;
+    };
+}
+
+@media only screen and (max-width: 1600px) {
+.card_section_heading_1 {
+    color:green; font-size:28px; text-align:center
+    };
+}
+    
+
+@media only screen and (max-width: 600px) {
+.card_section_heading_1 { color:green; font-size:14px; text-align:center
+    };
+
+}
+@media only screen and (max-width: 1600px) {
+    .card_section_heading_main{
+    color:green; font-size:52px; text-align:center
+    };
+}
+    
+
+@media only screen and (max-width: 600px) {
+.card_section_heading_main{font-size:34px; text-align:center
+    };
+}
+@media only screen and (max-width: 1600px) {
+#join_us { background-color:green; color: white; font-size: 20px; position: relative; left:0%}
+}
+
+@media only screen and (max-width: 600px) {
+#join_us { background-color:green; color: white; font-size: 2vw; position: relative; left:35%}
+}
+@media only screen and (max-width: 1600px) {    
+    #brd_gift_card_12 {width: 23rem; margin: auto; border: 3px solid seagreen;  padding: 10px}
+    }
+@media only screen and (max-width: 600px) {    
+    #brd_gift_card_12 {width: 22rem}
+    }
+@media only screen and (max-width: 1600px) {    
+    #bottom_btn {font-size:22px}
+    }
+@media only screen and (max-width: 600px) {    
+    #bottom_btn {font-size:15px}
+    }

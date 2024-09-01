@@ -1,0 +1,82 @@
+    .p_fonts {font-size:1.5vw;}
+    .text-center {text-align: center}
+    .h_color {color:green}
+@media only screen and (max-width: 2400px) {
+    .h_large_font_animate {font-size:3vw; text-transform: uppercase;
+                       -webkit-transition: all .5s ease;
+                       -moz-transition: all .5s ease;
+                       transition: all .5s ease;
+                     }
+    .h_small_font_animate {font-size:1.75vw; text-transform: uppercase; 
+         -webkit-transition: all .5s ease;
+         -moz-transition: all .5s ease;
+         transition: all .5s ease;
+         }
+    .p_small_fonts_animate {font-size:1.12vw;
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            transition: all .5s ease;
+            }
+    .p_large_font_animate {font-size:1.5vw; 
+                        -webkit-transition: all .5s ease;
+                        -moz-transition: all .5s ease;
+                        transition: all .5s ease;
+                    }
+    
+    .text-center {text-align: center}
+    .h_color {color:green}
+@media only screen and (max-width: 2400px) {
+    .h_large_font_animate {font-size:2.75vw; text-transform: uppercase;
+                       -webkit-transition: all .5s ease;
+                       -moz-transition: all .5s ease;
+                       transition: all .5s ease;
+                     }
+    .h_small_font_animate {font-size:2.35vw; text-transform: uppercase; 
+         -webkit-transition: all .5s ease;
+         -moz-transition: all .5s ease;
+         transition: all .5s ease;
+         }
+    .p_small_fonts_animate {font-size:1.12vw;
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            transition: all .5s ease;
+            }
+    .p_large_font_animate {font-size:1.5vw; 
+                        -webkit-transition: all .5s ease;
+                        -moz-transition: all .5s ease;
+                        transition: all .5s ease;
+                    }
+
+    .p_fonts {font-size:1.5vw;}
+
+    
+    
+}
+    @media only screen and (max-width: 767px) {
+            .div_fa_bars{ margin-left: -250px}
+    }    
+
+@media only screen and (max-width: 700px) {
+    .h_fonts {font-size:6vw}
+    .p_fonts {font-size:5vw}       
+    .div_fa_bars{ margin-left: 0px}
+}
+    
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .h_fonts {font-size:6vw}
+    .p_fonts {font-size:5vw}       
+}
+
+
+    @media only screen and (max-width: 2400px) {
+        .div_fa_bars{ margin-left: -320px}  
+    }
+
+
+    @media only screen and (max-width: 700px) {
+             .div_fa_bars{ margin-left: 0%}   
+    }
