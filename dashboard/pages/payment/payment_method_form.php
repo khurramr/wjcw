@@ -24,7 +24,7 @@
 </div>
 <span>
 
-Credit Card
+Credit / Debit Card
 </span> </a> </li>
 <!--Paypal-->
 <!--                            <li class="nav-item"> <a data-toggle="pill" href="#paypal" class="nav-link "> -->

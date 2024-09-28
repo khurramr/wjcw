@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
   <link rel="stylesheet" href="dist/css/gradient_buttons.css">
   <link rel = "icon" href =  "assets/images/cropped-logo.png" type = "image/x-icon"> 
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
     .mdl_stages{pointer-events: none; display: inline-block;}
     .test{color:white}
@@ -92,8 +93,80 @@
     
 </style>
 
+
 </head>
 <body class="hold-transition sidebar-mini">
+
+<div class="modal fade" id="nextStageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Next Stage Payment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" 
+                    class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name"
+                    value="<?php echo $next_stage_info["first_name"].' '.$next_stage_info["last_name"] ?>"
+                    disabled >
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">ID</label>
+                    <input type="number" class="form-control"
+                    value="<?php echo $next_stage_info["member_id"]?>"
+                    id="id" disabled>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Current Stage</label>
+                    <input type="number" class="form-control"
+                    value="<?php echo $next_stage_info["gift_donation_level"] ?>"
+                    id="current-stage" disabled>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Next Stage</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" 
+                    value="<?php echo $next_stage_info["gift_donation_level"] + 1 ?>"
+                    id="next-stage"  disabled>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Amount</label>
+                    <input type="number" disabled class="form-control" id="amount" 
+                    value="<?php echo $next_stage_amount ?>"
+                    >
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" 
+        id="pay-next-stage"
+        class="btn btn-primary">Pay</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php include"../google_translator.php"; ?>
  <div class="wrapper" id="main-wrapper">
   <!-- Navbar -->
@@ -129,10 +202,19 @@
     </section>
       
  <div class="container scroll">
+    <?php 
+        if ($show_next_stage_btn) {
+    ?>
+ <button type="button" id="next-stage-btn" class="btn btn-primary" data-toggle="modal" data-target="#nextStageModal">
+            Next Stage Payment
+            </button>       
+            <?php } ?>
+             
           <ul>
           <li>
           <div class="row">
           <div class="col-md-9">
+            
           <p class="p_fonts resizeable_p">You are at the moment 
         <?php 
                 $sql = "Select sponser_reference, gift_donation_level from member_registration where member_id = $member_id and gift_donation_level = 1";
@@ -221,8 +303,7 @@
                 }
 
               ?>    
-          </p>          
-             
+          </p>   
              </div>
               <div class="col-md-3">
                   <?php
@@ -400,6 +481,22 @@ $(document).ready(function(){
         }
     }        
     })
+
+    $("#pay-next-stage").click(function() {
+        $.ajax({
+          url:"./pay_next_stage.php",
+          method:"GET",
+          success:function(data, success){
+            swal("Request initaited successfully, kindly wait until admin approval.", {
+                          icon: "success",
+                          showConfirmButton: false
+                        });
+            setTimeout(() => {
+              location.reload();
+            }, 2000);
+          }
+      })
+    });
     
    $(".fa-bars").click(function(){
     if ( $(window).width() > 700) { 

@@ -20,9 +20,44 @@
     $row = mysqli_fetch_assoc($result);
     $total_received = $row['total_received'];
 
-//Auto Selection of Send Gifts 
 
-$sql = "SELECT * FROM member_registration WHERE member_id = $member_id AND gift_donation_level = '1'";
+    $next_stage_info = mysqli_fetch_assoc(mysqli_query($link, "select * from member_registration where member_id = $member_id"));
+    $next_stage_amount = 0;
+    $show_next_stage_btn = false;
+    $current_level = $next_stage_info["gift_donation_level"];
+    $payment_req_count = mysqli_num_rows(mysqli_query($link, "select * from wjcw_payments where sent_by = $member_id and Comment = 'Payment for next level' and active = 1"));
+    $members_enrolled_current_stage = mysqli_num_rows(mysqli_query($link, "SELECT * FROM gift_donation_transactions g where g.received_by = $member_id and g.level = $current_level;"));
+    if ($payment_req_count == 0 && $members_enrolled_current_stage >= 6) {
+        $show_next_stage_btn = true;
+    };
+    if (($next_stage_info["gift_donation_level"] + 1) == 1) {
+        $next_stage_amount = 10;
+    } else if (($next_stage_info["gift_donation_level"] + 1) == 2) {
+        $next_stage_amount = 10;
+    }  else if (($next_stage_info["gift_donation_level"] + 1) == 3) {
+        $next_stage_amount = 25;
+    }  else if (($next_stage_info["gift_donation_level"] + 1) == 4) {
+        $next_stage_amount = 125;
+    }  else if (($next_stage_info["gift_donation_level"] + 1) == 5) {
+        $next_stage_amount = 250;
+    }  else if (($next_stage_info["gift_donation_level"] + 1) == 6) {
+        $next_stage_amount = 500;
+    }  else if (($next_stage_info["gift_donation_level"] + 1) == 7) {
+        $next_stage_amount = 1000;
+    }  else if (($next_stage_info["gift_donation_level"] + 1) == 8) {
+        $next_stage_amount = 2000;
+    }   else if (($next_stage_info["gift_donation_level"] + 1) == 9) {
+        $next_stage_amount = 4000;
+    }   else if (($next_stage_info["gift_donation_level"] + 1) == 10) {
+        $next_stage_amount = 8000;
+    }   else if (($next_stage_info["gift_donation_level"] + 1) == 11) {
+        $next_stage_amount = 16000;
+    }   else if (($next_stage_info["gift_donation_level"] + 1) == 12) {
+        $next_stage_amount = 96000;
+    } 
+    //Auto Selection of Send Gifts 
+
+$sql = "SELECT * FROM member_registration WHERE member_id = $member_id";
 $result = mysqli_query($link, $sql);
 $row = mysqli_fetch_assoc($result);
 $sponser_reference = $row['sponser_reference'];

@@ -246,6 +246,14 @@ $avatar = $row['avatar'];
                   </p>
                 </a>
               </li>
+              <li class="nav-item">
+                    <a href="pages/tables/verify_payments.php" class="nav-link">
+                  <i class="nav-icon fa fa-key fas fa-group"></i>
+                  <p>
+                    Verify Payments
+                  </p>
+                </a>
+              </li>
              <li class="nav-item">
                     <a href="pages/tables/total_members.php" class="nav-link">
                   <i class="nav-icon fa fa-key fas fa-group"></i>
