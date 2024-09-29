@@ -5,7 +5,7 @@
     <option value="JPY" label="Japanese yen">JPY</option>
     <option value="GBP" label="Pound sterling">GBP</option>
     <option disabled>──────────</option>
-    <option value="AED" selected label="United Arab Emirates dirham">AED</option>
+    <option value="AED" label="United Arab Emirates dirham">AED</option>
     <option value="AFN" label="Afghan afghani">AFN</option>
     <option value="ALL" label="Albanian lek">ALL</option>
     <option value="AMD" label="Armenian dram">AMD</option>

@@ -121,6 +121,7 @@ var sp_name = $("#spn_update").val();
 var account_no = $("#acc_update").val();
 var remark = $("#remark_update").val();
 var member_id = <?php echo $member_id ?>;
+console.log(member_id)
 var id =  $("#row_id").val();
 $.ajax({
     url:"../../../ajax/payment_method_update.php",
@@ -158,7 +159,7 @@ var memberid = <?php echo $member_id ?>;
 $.ajax({
             url:"../../../ajax/payment_method_delete.php",
             method:"post",
-            data:{id:id, member_id:member_id},
+            data:{id:id, member_id:memberid},
                     success:function(data, success){
                    $("#payment_methods_table").html(data);  
                       
@@ -219,13 +220,13 @@ if (collapseItem) {
 }
 */
 $("#main-nav").show();
-document.onreadystatechange = function() {
-    if (document.readyState <> "complete") {
-        document.querySelector("#main-nav").style.visibility = "visible";
-    }/* else {
-        document.querySelector("#main-nav").style.visibility = "visible";
-    }*/
-};    
+// document.onreadystatechange = function() {
+//     if (document.readyState <> "complete") {
+//         document.querySelector("#main-nav").style.visibility = "visible";
+//     }/* else {
+//         document.querySelector("#main-nav").style.visibility = "visible";
+//     }*/
+// };    
 
 $(document).ready(function(){
     var sidebar = "hidden";

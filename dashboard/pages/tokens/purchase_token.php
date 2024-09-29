@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../../dist/css/gradient_buttons.css">
   <link rel = "icon" href =  "../../../assets/images/cropped-logo.png" type = "image/x-icon"> 
   <link rel="stylesheet" href="../../dist/css/size_adjustment_G_D_S_R.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
   
   .visitor-page .main-footer,
@@ -207,10 +208,29 @@ z-index: 9999;
 </div>
 <?php include"../../copy_right.php"; ?>
 <script>
-$("#btn_proceed").click(function(){
+$("#btn_proceed").click(function(event){
+  event.preventDefault();
     var tokens = $("#total_tokens").text();
+    var memberId = '<?php echo $member_id?>';
     if(tokens >= 1){
-$('#btn_proceed').attr("href","../payment/pay_payment.php?tokens="+tokens);
+// $('#btn_proceed').attr("href","../payment/pay_payment.php?tokens="+tokens);
+$.ajax({
+              url:"../../../ajax/token_purchase_dummy.php",
+              method:"POST",
+              data:{
+                memberid: memberId,
+                no_of_tokens: tokens,
+              },
+              success:function(data, success){
+                swal("Request initiated successfully, please wait until admin approval.", {
+                              icon: "success",
+                              showConfirmButton: false
+                            });
+                setTimeout(() => {
+                  location.reload();
+                }, 2000);
+              }
+          })
 }else{
         event.preventDefault();
     swal("Enter Valid Number!", "VALID NUMBER REQURIED!", "error");
@@ -219,7 +239,7 @@ $('#btn_proceed').attr("href","../payment/pay_payment.php?tokens="+tokens);
 
 document.onreadystatechange = function() {
     if (document.readyState != "complete") {
-        document.querySelector("#main-nav").style.visibility = "visible";
+        // document.querySelector("#main-nav").style.visibility = "visible";
     } 
 };
 

@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="../dashboard/dist/css/adminlte.min.css">
   <link rel="stylesheet" href="../dashboard/dist/css/gradient_buttons.css">
   <link rel="stylesheet" href="../dashboard/dist/css/size_adjustment_G_D_S_R.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
 #main-nav {
 position: fixed;
@@ -174,7 +175,26 @@ z-index: 9999;
 $("#btn_proceed").click(function(){
     var tokens = $("#total_tokens").text();
     if(tokens >= 1){
-$('#btn_proceed').attr("href","../dashboard/pages/payment/pay_payment.php?tokens="+tokens);
+// $('#btn_proceed').attr("href","../dashboard/pages/payment/pay_payment.php?tokens="+tokens);
+
+    $.ajax({
+              url:"../ajax/token_purchase_dummy.php",
+              method:"POST",
+              data:{
+                memberid: $member_id,
+                no_of_tokens: tokens,
+              },
+              success:function(data, success){
+                swal("Request initiated successfully, please wait until admin approval.", {
+                              icon: "success",
+                              showConfirmButton: false
+                            });
+                setTimeout(() => {
+                  location.reload();
+                }, 2000);
+              }
+          })
+
 }else{
         event.preventDefault();
     swal("Enter Valid Number!", "VALID NUMBER REQURIED!", "error");

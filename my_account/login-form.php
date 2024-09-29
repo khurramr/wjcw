@@ -64,6 +64,9 @@
 				<div class="d-flex justify-content-center links" id="card_bottom">
 					Don't have an account?<a href="join-us.php" id="join_us">Join Us</a>
 				</div>
+				<div class="d-flex justify-content-center links" id="card_bottom">
+					<a href="renew_membership.php" id="join_us">Renew Membership?</a>
+				</div>
 				<div class="d-flex justify-content-center">
 					<a href="forget_password.php" id="forgot_password">Forgot your password?</a>
 				</div>

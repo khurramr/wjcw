@@ -1,7 +1,7 @@
-<select id="from_currency" disabled name="from_currency" class="form-control" required>
+<select id="from_currency" name="from_currency" class="form-control">
     <option value="" selected="selected" label="Select">SELECT</option>
     <option value="USD" label="US dollar">USD</option>
-    <option value="EUR" selected label="Euro">EUR</option>
+    <option value="EUR" label="Euro">EUR</option>
     <option value="JPY" label="Japanese yen">JPY</option>
     <option value="GBP" label="Pound sterling">GBP</option>
     <option disabled>──────────</option>

@@ -100,14 +100,18 @@ z-index: 9999;
         
 
     if(isset($_POST['submit'])){
-        // $from_currency = $_POST['from_currency'];
+        $from_currency = $_POST['from_currency'];
         $to_currency = $_POST['to_currency'];
         $amount = $_POST['amount'];
 
         $curl = curl_init();
-
+        $headers = [
+          'Content-Type: application/json',
+          'x-rapidapi-host: currency-converter5.p.rapidapi.com',
+          'x-rapidapi-key: 2e8e7c3f72msha0fb280ca0df6adp1ce6a2jsnd9a798505800'
+        ];
         curl_setopt_array($curl, [
-          CURLOPT_URL => "https://api.exchangeratesapi.io/v1/latest?access_key=7969c44dc4f0b59042bff782c378d04c&base=EUR",
+          CURLOPT_URL => "https://currency-converter5.p.rapidapi.com/currency/convert?format=json&from=".$from_currency."&to=".$to_currency."&amount=1&language=en%27",
           CURLOPT_RETURNTRANSFER => true,
           CURLOPT_ENCODING => "",
           CURLOPT_MAXREDIRS => 10,
@@ -115,39 +119,16 @@ z-index: 9999;
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "GET",
           CURLOPT_SSL_VERIFYHOST => 0,
-          CURLOPT_SSL_VERIFYPEER => 0
+          CURLOPT_SSL_VERIFYPEER => 0,
+          CURLOPT_HTTPHEADER => $headers      
         ]);
                 
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
         curl_close($curl);
-
-        if ($err) {
-          // echo "cURL Error #:" . $err;
-        } else {
-          $response = json_decode($response, true);
-          // echo $response["rates"]["AED"];
-          $rate = $response["rates"]["AED"] * $amount;
-        }
-        
-
-        // $url = "https://api.exchangeratesapi.io/v1/latest?access_key=7969c44dc4f0b59042bff782c378d04c&base=". $from_currency ."&symbols=". $to_currency;
-        // $url = "https://api.exchangeratesapi.io/v1/latest?access_key=7969c44dc4f0b59042bff782c378d04c&base=EUR";
-        // $ch = curl_init();
-        // curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        // curl_setopt($ch, CURLOPT_URL, $url);
-        // curl_setopt($ch, CURLOPT_HTTPHEADER, [
-        //   'x-rapidapi-host: currency-conversion-and-exchange-rates.p.rapidapi.com',
-        //   'x-rapidapi-key: d5a27c6359mshdbdbeb98eb81034p116322jsn01b2d56dd648'
-        // ]);
-        // $result = curl_exec($ch);
-        // echo "HEY";
-        // echo $result;
-        // curl_close($ch);
-        // $result = json_decode($result, true);
-        // echo $result;
-        // $rate = $result["rates"][$to_currency] * $amount;
+        $response = json_decode($response, true);
+        $rate = $response['rates'][$to_currency]['rate'];
     }   
 ?>
 </div>
