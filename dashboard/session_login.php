@@ -7,6 +7,6 @@ if(isset($_SESSION['fullname']) || isset($_GET["is_visitor"])){
     }
 } else
     {
-    // header("location: http://wjcwcf.com/index.php");
+    header("location: http://wjcwcf.com/index.php");
 }
 ?>
