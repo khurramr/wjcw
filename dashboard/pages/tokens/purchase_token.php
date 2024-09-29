@@ -211,7 +211,7 @@ z-index: 9999;
 $("#btn_proceed").click(function(event){
   event.preventDefault();
     var tokens = $("#total_tokens").text();
-    var memberId = '<?php echo $member_id?>';
+    var memberId = '<?php echo isset($member_id) ? $member_id : 0?>';
     if(tokens >= 1){
 // $('#btn_proceed').attr("href","../payment/pay_payment.php?tokens="+tokens);
 $.ajax({
@@ -227,7 +227,11 @@ $.ajax({
                               showConfirmButton: false
                             });
                 setTimeout(() => {
-                  location.reload();
+                  if (memberId == 0) {
+                    window.location.href = "../../../my_account/join-us.php";
+                  } else {
+                    location.reload();
+                  }
                 }, 2000);
               }
           })

@@ -669,7 +669,7 @@ include "../google_translator.php"; ?>
                <div class="row">
                     <div class="col-xl-2 col-md-2 col-sm-2 col-xs-2"></div>
                      <div class="col-xl-8 col-md-8 col-sm-8 col-xs-8">
-                        <h2 style="color:green; font-size: 1.5vw; font-weight:bold">Follow the system, and the system will follow you through all the welfare benefits for yourself and others around the globe.</h2>
+                        <h2 style="color:green; font-size: 19px; font-weight:bold">Follow the system, and the system will follow you through all the welfare benefits for yourself and others around the globe.</h2>
                      </div>
                     <div class="col-xl-2 col-md-2 col-sm-2 col-xs-2"></div>                 
                </div>   

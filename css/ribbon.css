@@ -1,12 +1,12 @@
 .ribbon {
- font-size: 1.55vw; !important;
+ font-size: 19px !important;
  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may change the position of the ribbon elements */
  width: 96%;
  position: relative;
  background: /*#ba89b6;*/green;
  color: #fff;
  text-align: center;
- padding: 1em 3em; /* Adjust Height of the ribbon */
+ padding: 15px 5px; /* Adjust Height of the ribbon */
  margin: 3em auto 0em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 .ribbon:before, .ribbon:after {

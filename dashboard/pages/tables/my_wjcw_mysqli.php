@@ -69,7 +69,7 @@ $result_level12 = mysqli_query($link, $sql);
 
 
 
-$sql = "select wp.*, mr.first_name, mr.last_name from wjcw_payments wp inner join member_registration mr ON (mr.member_id = wp.sent_by)  where active = 1;";
+$sql = "select wp.*, mr.first_name, mr.last_name from wjcw_payments wp left join member_registration mr ON (mr.member_id = wp.sent_by)  where active = 1;";
 $wjcw_payments = mysqli_query($link, $sql);
 
 
