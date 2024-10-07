@@ -88,7 +88,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
-gift_donation_transactions.sent_by = $member_id AND gift_donation_transactions.verified = 1 AND 
+gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 2";
 
 $result_level2 = mysqli_query($link, $sql);

@@ -91,7 +91,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level1 > 1){
+                            if ($status_level1 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -148,7 +148,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level2 > 1){
+                            if ($status_level2 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -206,7 +206,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level3 > 1){
+                            if ($status_level3 > 0){
                                 echo "<span class='badge badge-success btn-lg' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -264,7 +264,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level4 > 1){
+                            if ($status_level4 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -323,7 +323,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level5 > 1){
+                            if ($status_level5 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -382,7 +382,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level6 > 1){
+                            if ($status_level6 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -441,7 +441,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level7 > 1){
+                            if ($status_level7 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -500,7 +500,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level8 > 1){
+                            if ($status_level8 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -559,7 +559,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level9 > 1){
+                            if ($status_level9 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -618,7 +618,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level10 > 1){
+                            if ($status_level10 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -677,7 +677,7 @@ only screen and (max-width: 760px),
                             
                             <?php 
                             
-                            if ($status_level11 > 1){
+                            if ($status_level11 > 0){
                                 echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                             }else{
                                 echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";
@@ -736,7 +736,7 @@ only screen and (max-width: 760px),
 
                                     <?php 
 
-                                    if ($status_level12 > 1){
+                                    if ($status_level12 > 0){
                                         echo "<span class='badge badge-success' style='font-size:95%'>Active</span>";        
                                     }else{
                                         echo "<span class='badge badge-danger' style='font-size:95%'>Inactive</span>";

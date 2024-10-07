@@ -11,7 +11,7 @@ $memberId = $row["member_id"];
 $sql = "SELECT
 TIMESTAMPDIFF( YEAR, expiry_date, now() ) as _years
 ,TIMESTAMPDIFF( MONTH, now(), expiry_date) % 12 as _month
-,FLOOR( TIMESTAMPDIFF( DAY, now(), expiry_date) % 30.4375 ) as _day from token_purchase where memberid = '$memberId' and issued_date is not null ORDER BY issued_date DESC  LIMIT 1";
+,FLOOR( TIMESTAMPDIFF( DAY, now(), expiry_date) % 30.4375 ) as _day from token_purchase where (purchasedby = '$memberId' or memberid = '$memberId') and issued_date is not null ORDER BY issued_date DESC  LIMIT 1";
 $user_expiration = mysqli_fetch_assoc(mysqli_query($link, $sql));
 
 $isExpired = $user_expiration['_years'] == 0 && $user_expiration['_month'] == 0 && $user_expiration['_day'] == 0;
