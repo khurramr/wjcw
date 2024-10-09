@@ -1,7 +1,6 @@
 <?php 
     include("../db/connect.php");
     
-    include("../db/mail.php");
     $sql = "Select count(member_id) as total_members from member_registration where sponser_reference = '$member_id'";
     $result = mysqli_query($link, $sql);
     $row = mysqli_fetch_assoc($result);
