@@ -212,10 +212,11 @@ $("#btn_proceed").click(function(event){
   event.preventDefault();
     var tokens = $("#total_tokens").text();
     var memberId = '<?php echo isset($member_id) ? $member_id : 0?>';
+    var isVisitor = '<?php echo isset($_GET["is_visitor"]) ? 'is_visitor=true' : ''?>';
     if(tokens >= 1){
 // $('#btn_proceed').attr("href","../payment/pay_payment.php?tokens="+tokens);
 $.ajax({
-              url:"../../../ajax/token_purchase_dummy.php",
+              url:"../../../ajax/token_purchase_dummy.php?" + isVisitor,
               method:"POST",
               data:{
                 memberid: memberId,
