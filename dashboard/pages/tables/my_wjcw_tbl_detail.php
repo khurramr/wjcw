@@ -23,42 +23,42 @@ include("my_wjcw_mysqli.php");
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#stage01"
-                    class="<?php echo $current_user_level == 1 ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 1 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= 1 ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 1 ?  "" : "disabled" ?>"
                     aria-controls="home" role="tab" data-toggle="tab">Stage 01</a></li>
                     <li role="presentation"><a href="#stage02" 
-                    class="<?php echo $current_user_level == '2' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 2 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '2' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 2 ?  "" : "disabled" ?>"
                     aria-controls="profile" role="tab" data-toggle="tab">Stage 02</a></li>
                     <li role="presentation"><a href="#stage03" 
-                    class="<?php echo $current_user_level == '3' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 3 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '3' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 3 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 03</a></li>
                     <li role="presentation"><a href="#stage04" 
-                    class="<?php echo $current_user_level == '4' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 4 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '4' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 4 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 04</a></li>
                     <li role="presentation"><a href="#stage05" 
-                    class="<?php echo $current_user_level == '5' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 5 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '5' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 5 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 05</a></li>
                     <li role="presentation"><a href="#stage06" 
-                    class="<?php echo $current_user_level == '6' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 6 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '6' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 6 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 06</a></li>
                 </ul>
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation"><a href="#stage07" 
-                    class="<?php echo $current_user_level == '7' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 7 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '7' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 7 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 07</a></li>
                     <li role="presentation"><a href="#stage08" 
-                    class="<?php echo $current_user_level == '8' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 8 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '8' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 8 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 08</a></li>
                     <li role="presentation"><a href="#stage09" 
-                    class="<?php echo $current_user_level == '9' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 9 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '9' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 9 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 09</a></li>
                     <li role="presentation"><a href="#stage10" 
-                    class="<?php echo $current_user_level == '10' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 10 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '10' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 10 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 10</a></li>
                     <li role="presentation"><a href="#stage11" 
-                    class="<?php echo $current_user_level == '11' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 11 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '11' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 11 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 11</a></li>
                     <li role="presentation"><a href="#stage12" 
-                    class="<?php echo $current_user_level == '12' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 12 ?  "" : "disabled" ?>"
+                    class="<?php echo $current_user_level >= '12' ?  "stage_active" : "stage_inactive" ?> <?php echo $current_user_level >= 12 ?  "" : "disabled" ?>"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 12</a></li>
                 </ul>
                 <!-- Tab panes -->

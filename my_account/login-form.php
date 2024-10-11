@@ -60,7 +60,7 @@
 					</div>
 				</form>
 			</div>
-			<div class="card-footer">
+			<div class="card-footer" style="padding: 5px;">
 				<div class="d-flex justify-content-center links" id="card_bottom">
 					Don't have an account?<a href="join-us.php" id="join_us">Join Us</a>
 				</div>

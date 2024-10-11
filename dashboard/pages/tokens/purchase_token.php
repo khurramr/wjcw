@@ -226,14 +226,15 @@ $.ajax({
                 swal("Request initiated successfully, please wait until admin approval.", {
                               icon: "success",
                               showConfirmButton: false
+                            })
+                            .then(response => {
+                                if (memberId == 0) {
+                                  window.location.href = "../../../my_account/join-us.php";
+                                } else {
+                                  location.reload();
+                                }
+
                             });
-                setTimeout(() => {
-                  if (memberId == 0) {
-                    window.location.href = "../../../my_account/join-us.php";
-                  } else {
-                    location.reload();
-                  }
-                }, 2000);
               }
           })
 }else{
