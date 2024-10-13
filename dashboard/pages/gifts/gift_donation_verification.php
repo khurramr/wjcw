@@ -210,15 +210,22 @@ Swal.fire({
         method:"POST",
         data:{id:id},
         success:function(data, success){
-            if(data == 1){
+          console.log()
+          data = JSON.parse(data);
+            if(data.is_successful == 1){
+               $.ajax({
+                      url:"../../../ajax/send_email_to_verify.php",
+                      method:"POST",
+                      data: data,
+                      success:function(data, success){                     
+                        location.reload(true);
+                      }   
+              })
             Swal.fire(
               'VERIFIED!',
               'Amount received has been verified',
               'success'
             )
-         setTimeout(function(){
-            location.reload(true);
-         }, 2000);
                 
         }
         }

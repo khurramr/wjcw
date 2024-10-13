@@ -54,11 +54,40 @@ if (isset($no_of_transation["count"]) && $no_of_transation["count"] == '6') {
         $current_level_payment = $stages_n_payment[$current_level];
         $next_level = (int)$person_info["gift_donation_level"] + 1;
         $next_level_payment = $pay_wjcf[$next_level];
-        sendNextStepMail($person_info["email"], $name, $current_level, $current_level_payment, $next_level, $next_level_payment, $person_info["member_id"]);
+        // sendNextStepMail($person_info["email"], $name, $current_level, $current_level_payment, $next_level, $next_level_payment, $person_info["member_id"]);
+        // Data to send in POST request
+        // $postData = [
+        //     'fullname' => $name,
+        //     'to' => $person_info["email"],
+        //     'current_level' => $current_level,
+        //     'current_stage_amount' => $current_level_payment,
+        //     'next_level' => $next_level,
+        //     'next_amount' => $next_level_payment,
+        //     'member_id'=> $person_info["member_id"]
+        // ];
+        $postData = [
+            'is_successful'=> 1,
+            'fullname' => $name,
+            'to' => $person_info["email"],
+            'current_level' => $current_level,
+            'current_stage_amount' => $current_level_payment,
+            'next_level' => $next_level,
+            'next_amount' => $next_level_payment,
+            'member_id'=> $person_info["member_id"]
+        ];
+
+   
     }
 }
 if($result){
-echo "1";
+if (isset($postData)) {
+    echo json_encode($postData);
+} else {
+    $postData = [
+        'is_successful'=> 1
+    ];
+    echo json_encode($postData); 
+}
 }
 
 ?>
