@@ -360,72 +360,40 @@
                 $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 2";
                 $result = mysqli_query($link, $sql);
                 $count = mysqli_num_rows($result);
-               if($count == 0) {
+               if($data["gift_donation_level"] < 2) {
                     echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 02 £40</a>, ';    
                 }
-        
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 3";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal100" class="mdl_stages">Stage 03 £100</a>, ';    
+                if($data["gift_donation_level"] < 3) {
+                    echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 03 £100</a>, ';    
                 }
-              
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 4";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal250" class="mdl_stages">Stage 04 £250</a>, ';    
+               if($data["gift_donation_level"] < 4) {
+                    echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 04 £250</a>, ';    
+                }
+                if($data["gift_donation_level"] < 5) {
+                     echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 05 £500</a>, ';    
+                 }
+                 if($data["gift_donation_level"] < 6) {
+                      echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 06 £1000</a>, ';    
+                  }
+                  if($data["gift_donation_level"] < 7) {
+                       echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 07 £2000</a>, ';    
+                   }
+                   if($data["gift_donation_level"] < 8) {
+                        echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 08 £4000</a>, ';    
                     }
-              
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 5";                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal500" class="mdl_stages">Stage 05 £500</a>, ';    
-                    }
-              
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 6";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal1000" class="mdl_stages"> Stage 06 £1000</a>, ';    
-                    }
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 7";                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal2000" class="mdl_stages"> Stage 07 £2000</a>, ';    
-                    }
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 8";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal4000" class="mdl_stages"> Stage 08 £4000</a>, ';    
-                    }
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 9";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal8000" class="mdl_stages"> Stage 09 £8000</a>, ';    
-                    }
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 10";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal16000" class="mdl_stages"> Stage 10 £16000</a>, ';    
-                    }
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 11";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo '<a href="" data-toggle="modal" data-target="#modal32000" class="mdl_stages"> Stage 11 £32000</a>, ';
-                    }
-
-                $sql = "Select sponser_reference, gift_donation_level from member_registration where sponser_reference = $member_id and gift_donation_level = 12";
-                $result = mysqli_query($link, $sql);
-                $count = mysqli_num_rows($result);
-               if($count == 0) {
-                    echo ' and <a href="" data-toggle="modal" data-target="#modal64000" class="mdl_stages">Stage 12 £64000</a>';
-                    }
+                    if($data["gift_donation_level"] < 9) {
+                         echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 09 £8000</a>, ';    
+                     }
+                     if($data["gift_donation_level"] < 10) {
+                          echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 10 £16000</a>, ';    
+                      }
+                      if($data["gift_donation_level"] < 11) {
+                           echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 11 £32000</a>, ';    
+                       }
+                       if($data["gift_donation_level"] < 12) {
+                            echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 22 £64000</a>, ';    
+                        }
+                
 
               ?>    
           </p>
