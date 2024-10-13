@@ -391,7 +391,7 @@
                            echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 11 £32000</a>, ';    
                        }
                        if($data["gift_donation_level"] < 12) {
-                            echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 22 £64000</a>, ';    
+                            echo '<a href="" data-toggle="modal" data-target="#modal40" class="mdl_stages">Stage 12 £64000</a>, ';    
                         }
                 
 
