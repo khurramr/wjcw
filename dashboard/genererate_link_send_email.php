@@ -197,13 +197,22 @@ $(document).ready(function(){
         var message = $("#txt-message").val() + "  " + link;
         var fullname = "<?php echo $fullname; ?>";
         var member_id = "<?php echo $member_id; ?>";
+        var sendBtn = $('#send-message');
+        sendBtn.text("Loading...");
+        sendBtn.attr("disabled", true);
         $.ajax({
             url:"../ajax/send_email_link_dashboard.php",
             method:"POST",
             data:{link:link, email:email, from_email:from_email, fullname:fullname, member_id:member_id, subject:subject, message:message},
                     success:function(data, success){
                     $("#confirm_email").show(500);
-                    alert(data);    
+                    sendBtn.text("Send Email");
+                    sendBtn.attr("disabled", false);
+                   
+                    $("#email").val("");
+                    $("#txt-subject").val("");
+                    $("#txt-message").val("");
+
                     }   
 })
 

@@ -62,7 +62,7 @@ try {
 
     //$mail->AltBody = $message1;
     $mail->SMTPKeepAlive = true;   
-    $mail->Mailer = “smtp”; // don't change the quotes!
+    // $mail->Mailer = “smtp”; // don't change the quotes!
 
     $mail->send();
     

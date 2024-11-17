@@ -110,8 +110,9 @@ z-index: 9999;
           'x-rapidapi-host: currency-converter5.p.rapidapi.com',
           'x-rapidapi-key: 2e8e7c3f72msha0fb280ca0df6adp1ce6a2jsnd9a798505800'
         ];
+
         curl_setopt_array($curl, [
-          CURLOPT_URL => "https://currency-converter5.p.rapidapi.com/currency/convert?format=json&from=".$from_currency."&to=".$to_currency."&amount=1&language=en%27",
+          CURLOPT_URL => "https://currency-converter5.p.rapidapi.com/currency/convert?format=json&from=".$from_currency."&to=".$to_currency."&amount=".$amount."&language=en%27",
           CURLOPT_RETURNTRANSFER => true,
           CURLOPT_ENCODING => "",
           CURLOPT_MAXREDIRS => 10,
@@ -128,7 +129,7 @@ z-index: 9999;
 
         curl_close($curl);
         $response = json_decode($response, true);
-        $rate = $response['rates'][$to_currency]['rate'];
+        $rate = $response['rates'][$to_currency]['rate'] * $amount;
     }   
 ?>
 </div>
