@@ -5,13 +5,13 @@ $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' 
 $host = $_SERVER['HTTP_HOST']; // e.g., 'www.example.com'
 $baseUrl = $protocol . $host;
 
-$amount = $_POST['f_amount'];  // The amount user wants to pay
+$amount = filter_input(INPUT_POST, 'f_amount', FILTER_VALIDATE_FLOAT); // The amount user wants to pay
 $module = $_POST['module'];  // The amount user wants to pay
 
 $currency = 'GBP';  // The currency chosen by the user
 $cancelUrl = $baseUrl;
 $successUrl = $baseUrl;
-
+$description = 'WJCW CF Purchase Token';
 if($module == 'purchase_token'){
     $cancelUrl = $baseUrl."/my_account/payment/payment-success.php?payment_status=cancel&module=puchase_token";
     $successUrl = $baseUrl."/my_account/payment/payment-success.php?payment_status=success&module=puchase_token";
@@ -19,6 +19,8 @@ if($module == 'purchase_token'){
 if($module == 'pay_wjcw'){
     $cancelUrl = $baseUrl."/my_account/payment/payment-success.php?payment_status=cancel&module=pay_wjcw";
     $successUrl = $baseUrl."/my_account/payment/payment-success.php?payment_status=success&module=pay_wjcw";
+    $description = 'Payment to WJCW';
+
 }
 if($module == 'purchase_token_outside'){
     $name = $_POST['name'];  // The amount user wants to pay
@@ -31,7 +33,7 @@ $paypal_client_id = PAYPAL_CLIENT_ID;
 $paypal_secret = PAYPAL_SECRET;
 
 // Set up PayPal API endpoint
-$paypal_api_url = 'https://api.sandbox.paypal.com/v1/';
+$paypal_api_url = PAYPAL_API_URL;
 
 $curl = curl_init();
 
@@ -43,6 +45,7 @@ curl_setopt($curl, CURLOPT_URL, $paypal_api_url . 'oauth2/token');
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, 'grant_type=client_credentials');
+curl_setopt($curl, CURLOPT_TIMEOUT, 30);
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Authorization: Basic ' . $basic_auth,
     'Content-Type: application/x-www-form-urlencoded'
@@ -69,7 +72,7 @@ $payment_data = [
                 'total' => $amount,  // Use the amount entered by the user
                 'currency' => $currency  // Use the selected currency
             ],
-            'description' => 'Purchase Token'
+            'description' => $description
         ]
     ],
     'redirect_urls' => [
@@ -116,7 +119,7 @@ if (isset($response_data['state']) && $response_data['state'] == 'created') {
         header("Location: " . $approval_url);
         exit();
     } else {
-        echo 'Error: Approval URL not found in the response.';
+        echo 'Something Went Wrong!'; //Error: Approval URL not found in the response
     }
 } else {
     // If payment creation failed or state is not 'created', handle the error

@@ -34,6 +34,7 @@ if(isset($data['module']) && $data['module'] == 'purchase_token'){
         }
         $action = $memberid == 0 ? "" : "INSERT INTO token_purchase (token, memberid, purchasedby, purchase_date, issued_date, expiry_date, annual_fee, status,`description`,`cardDetails`,`cardNetwork`,`tokenizationData`) values $values";
         mysqli_query($link,$action);
+        $action = "";
         $insert = "insert into wjcw_payments (sent_by, amount, date, Comment, action, active)
         values ($memberid, $amount, '$date', 'Purchase Token Online', \"$action\", 1);
         ";

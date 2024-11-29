@@ -17,7 +17,7 @@ $status = $_GET['payment_status'];
 // PayPal API credentials
 $paypal_client_id = PAYPAL_CLIENT_ID;
 $paypal_secret = PAYPAL_SECRET;
-$paypal_api_url = 'https://api.sandbox.paypal.com/v1/';
+$paypal_api_url = PAYPAL_API_URL;
 
 // Prepare the authorization header with the client id and secret
 $basic_auth = base64_encode($paypal_client_id . ":" . $paypal_secret);
@@ -49,6 +49,7 @@ $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $paypal_api_url . 'payments/payment/' . $payment_id . '/execute');
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_TIMEOUT, 30);
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
     'Authorization: Bearer ' . $access_token,
     'Content-Type: application/json'
@@ -86,6 +87,7 @@ if($module == 'puchase_token'){
         }
         $action = $memberid == 0 ? "" : "INSERT INTO token_purchase (token, memberid, purchasedby, purchase_date, issued_date, expiry_date, annual_fee, status,`description`,`cardDetails`,`cardNetwork`,`tokenizationData`) values $values";
         mysqli_query($link,$action);
+        $action = "";
         $insert = "insert into wjcw_payments (sent_by, amount, date, Comment, action, active)
         values ($memberid, $amount, '$date', 'Purchase Token Online', \"$action\", 1);
         ";

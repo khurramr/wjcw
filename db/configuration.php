@@ -1,12 +1,12 @@
 <?php
     
-define('GPAY_MERCHANT_ID', 'BCR2DN4TQPP6372M');
+define('GPAY_MERCHANT_ID', 'BCR2DN4T2P4Y5GDR');
+define('GPAY_PAYMENT_GATEWAY', 'stripe');
 define('GPAY_MERCHANT_NAME', 'WJCW');
-define('GPAY_ENV', 'TEST'); // TEST, PRODUCTION
+define('GPAY_ENV', 'PRODUCTION'); // TEST, PRODUCTION
 
-define('PAYPAL_CLIENT_ID', 'AZlZvhlOraxBv3vQOTRBfGyxmvQRQMoPhM3JJhCaSf2B5yDePBDGhRCpSBGVc4i7AkWlMQB5kP5OVAV5');
-define('PAYPAL_SECRET', 'EIE4krAkkFdcy3M0xv4waC3HrlXPmSyhW9dgYXRudEST5akvKMag5XTOIExM6LoFCxI-9BWvzUdLFTKh');
+define('PAYPAL_CLIENT_ID', 'AQHGIVyxf0zINVvOjNpQ90k78IaSMJZPnqru3jTLvTe86Qb09dyQnex9jwswATiR-BVH67vcEVJ3MhR2');
+define('PAYPAL_SECRET', 'ENINyUUOlbKiWtMgwk_2jReIAWA9ucQ2MaYXCditkVpE3V-h8sXiTmrD57k2S5JjuaDdiKLCYVys0OVz');
+define('PAYPAL_API_URL', 'https://api.paypal.com/v1/'); // for live https://api.paypal.com/v1/ ,,, for testing https://api.sandbox.paypal.com/v1/ 
 
-// define('PAYPAL_CLIENT_ID', 'AYMgAWRF1MvxpI-4vaaOwnR_S77BifjtNKBTxezsSPYqeXEEXp5Ys43lH8Mf7bfpQ2xrIRD5uNFYNeGt');
-// define('PAYPAL_SECRET', 'EDc7Ox_Yq4f5LpF4BuNO-UEnENkygLL83Bbwn7LC60EUnWQAbmaz8zIySZFt6QmM9Ck-N7ONuMG1OUgx');
 ?>

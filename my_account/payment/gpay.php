@@ -65,7 +65,7 @@
               tokenizationSpecification: {
                 type: 'PAYMENT_GATEWAY',
                 parameters: {
-                  gateway: 'example', // Set your gateway
+                  gateway: '<?= GPAY_PAYMENT_GATEWAY ?>', // Set your gateway
                   gatewayMerchantId: '<?= GPAY_MERCHANT_ID ?>'
                 }
               }
@@ -103,7 +103,7 @@
             tokenizationSpecification: {
               type: 'PAYMENT_GATEWAY',
               parameters: {
-                gateway: 'example', // Set your gateway
+                gateway: '<?= GPAY_PAYMENT_GATEWAY ?>', // Set your gateway
                 gatewayMerchantId: '<?= GPAY_MERCHANT_ID ?>'
               }
             }
