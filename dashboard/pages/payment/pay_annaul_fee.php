@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../../dist/css/gradient_buttons.css">
   <link rel = "icon" href =  "../../../assets/images/cropped-logo.png" type = "image/x-icon"> 
   <link rel="stylesheet" href="../../dist/css/size_adjustment_G_D_S_R.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <style>
 .scroll-menu {
   width: 100%;
@@ -76,10 +77,13 @@
   </aside>
 <?php include"../../header_green.php" ?>
         <div class="content-wrapper  mt-4">
+        <input type="hidden" id="memberid" value="<?= isset($_SESSION['member_id']) ? $_SESSION['member_id'] : 0?>"> 
+        <input type="hidden" id="f_token" value="0"> 
+        <input type="hidden" id="module_name" value="pay_wjcw"> 
             <?php include "pay_annual_fee_card_section.php" ?>
         </div>
 </div>
-
+<?php include("../../../my_account/payment/alert-message.php") ; ?>
 <?php include"../../copy_right.php"; ?>
 <script>
 
