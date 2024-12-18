@@ -1,4 +1,4 @@
-<?php include("../../session_login.php") ?>
+<?php include("../../session_login.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -150,6 +150,18 @@ z-index: 9999;
                        <h class="h_fonts  resizeable_h">SELECT HOW MANY TOKENS </h>
                 </div>
                 <div class="col-md-4">
+                    <input type="hidden" id="f_amount" value="0"> 
+                    <input type="hidden" id="memberid" value="<?= isset($member_id) ? $member_id : 0?>"> 
+                    <input type="hidden" id="f_token" value="0"> 
+                    <?php if(isset($_GET["is_visitor"])){?>
+                      <input type="hidden" id="module_name" value="purchase_token_outside"> 
+                      <input type="hidden" id="is_visitor" name="is_visitor" value="true"> 
+                      
+                    <? }else{ ?>
+                    <input type="hidden" id="module_name" value="purchase_token"> 
+                    <? } ?>
+                    <input type="hidden" id="hiddenName" name="name">
+                    <input type="hidden" id="hiddenEmail" name="email">
                     <input type="number" class="notranslate form-control" placeholder="TYPE # OF TOKENS" id="box_no_of_tokens" min="0" max="999999999999999999" style="height:auto; font-size:150% ;font-weight:bold" onkeydown="if(event.key==='.'){event.preventDefault();}"  oninput="event.target.value = event.target.value.replace(/[^0-9]*/g,'');">   
                             <div class="text-center">
                             <span class="p_fonts">OR</span>
@@ -197,6 +209,35 @@ z-index: 9999;
                         <a href="" id="btn_proceed" class="btn btn-lg btn-success" style=" font-size:150%; font-weight:bold; background-color:green">P R O C E E D</a>                      
                 </div>
             </div>
+            <!-- Button to Open the Modal -->
+          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Open modal
+          </button> -->
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <!-- <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div> -->
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <?php include("../../../my_account/payment/main-payment.php") ; ?>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
                         
 </div>              
 </div>
@@ -206,16 +247,59 @@ z-index: 9999;
 </div>
 
 </div>
+<div class="modal fade" id="userDetail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Submit Your Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="myForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" form="myForm" class="btn btn-success" id="submitForm">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <?php include"../../copy_right.php"; ?>
+<?php include("../../../my_account/payment/alert-message.php") ; ?>
+
 <script>
 $("#btn_proceed").click(function(event){
   event.preventDefault();
     var tokens = $("#total_tokens").text();
-    var memberId = '<?php echo isset($member_id) ? $member_id : 0?>';
-    var isVisitor = '<?php echo isset($_GET["is_visitor"]) ? 'is_visitor=true' : ''?>';
     if(tokens >= 1){
-// $('#btn_proceed').attr("href","../payment/pay_payment.php?tokens="+tokens);
-$.ajax({
+      $('#myModal').modal('show');
+        var total_license_fee = $("#f_amount").val();
+      $('#amount_show_gpay').text('£' + total_license_fee);
+
+}
+else{
+        event.preventDefault();
+    swal("Enter Valid Number!", "VALID NUMBER REQURIED!", "error");
+}
+})
+
+
+function generateToken(){
+  var tokens = $("#total_tokens").text();
+  var memberId = '<?php echo isset($member_id) ? $member_id : 0?>';
+  var isVisitor = '<?php echo isset($_GET["is_visitor"]) ? 'is_visitor=true' : ''?>';
+  $.ajax({
               url:"../../../ajax/token_purchase_dummy.php?" + isVisitor,
               method:"POST",
               data:{
@@ -237,12 +321,7 @@ $.ajax({
                             });
               }
           })
-}else{
-        event.preventDefault();
-    swal("Enter Valid Number!", "VALID NUMBER REQURIED!", "error");
 }
-})
-
 document.onreadystatechange = function() {
     if (document.readyState != "complete") {
         // document.querySelector("#main-nav").style.visibility = "visible";
@@ -250,6 +329,11 @@ document.onreadystatechange = function() {
 };
 
 $(document).ready(function(){
+    <?php if(isset($_GET["is_visitor"])){?>
+      $('#userDetail').modal('show');
+      $('#btn_proceed').hide();
+    <? }
+    ?>
     var sidebar = "visible";
     $(".fa-bars").click(function(){
     if ( $(window).width() > 700) { 
@@ -277,6 +361,9 @@ $(document).ready(function(){
         var total_tokens = $("#total_tokens").text(no_of_tokens);
         var result = no_of_tokens * 12;
         var final_result = "£" + result;
+        console.log('result'+ result); 
+        $("#f_amount").val(result); 
+        $("#f_token").val(no_of_tokens); 
         var total_license_fee = $("#total_license_fee").text(final_result);
         $("#displayValue").val(no_of_tokens); 
     })
@@ -288,6 +375,9 @@ $(document).ready(function(){
         var total_tokens = $("#total_tokens").text(no_of_tokens);
         var result = no_of_tokens * 12;
         var final_result = "£" + result;
+        console.log('result'+ result); 
+        $("#f_token").val(no_of_tokens); 
+        $("#f_amount").val(result); 
         var total_license_fee = $("#total_license_fee").text(final_result);
     })
 
@@ -295,11 +385,37 @@ $(document).ready(function(){
         var no_of_tokens = $("#box_no_of_tokens").val();
         var total_tokens = $("#total_tokens").text(no_of_tokens);
         var result = no_of_tokens * 12;
+        $("#f_amount").val(result); 
+        $("#f_token").val(no_of_tokens); 
         var final_result = "£" + result;
         var total_license_fee = $("#total_license_fee").text(final_result);
     })
 
 });
+$(document).ready(function() {
+      $('#submitForm').click(function(event) {
+        event.preventDefault(); // Prevent form submission temporarily
+
+        var name = $('#name').val();
+        var email = $('#email').val();
+
+        // Validate the form fields
+        if (name == "" || email == "") {
+          alert("Please fill in both fields.");
+          return;
+        }
+
+        // Set the hidden fields with the form values
+        $('#hiddenName').val(name);
+        $('#hiddenEmail').val(email);
+        $('.gpay_name').text(name);
+        $('.gpay_email').text(email);
+        $('#userDetail').modal('hide');
+        alert('Now you can puchase tokens');
+        $('#btn_proceed').show();
+        // Submit the form after filling hidden fields
+      });
+  });
 
 </script>
 <script src="../../plugins/jquery/jquery.min.js"></script>

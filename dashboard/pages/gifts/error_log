@@ -1911,3 +1911,129 @@
 [06-Jul-2024 14:34:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
 [06-Jul-2024 14:34:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
 [06-Jul-2024 14:34:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[31-Oct-2024 14:57:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[31-Oct-2024 14:57:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[31-Oct-2024 14:57:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[31-Oct-2024 14:57:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[31-Oct-2024 14:59:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[31-Oct-2024 14:59:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[31-Oct-2024 14:59:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[31-Oct-2024 14:59:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[31-Oct-2024 15:00:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[31-Oct-2024 15:00:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[31-Oct-2024 15:00:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[31-Oct-2024 15:00:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[31-Oct-2024 15:00:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[31-Oct-2024 15:00:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[31-Oct-2024 15:00:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[31-Oct-2024 15:00:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[01-Nov-2024 19:19:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[01-Nov-2024 19:19:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[01-Nov-2024 19:19:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[01-Nov-2024 19:19:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[01-Nov-2024 19:21:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[01-Nov-2024 19:21:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[01-Nov-2024 19:21:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[01-Nov-2024 19:21:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[01-Nov-2024 19:21:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[01-Nov-2024 19:21:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[01-Nov-2024 19:21:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[01-Nov-2024 19:21:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[01-Nov-2024 19:24:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[01-Nov-2024 19:24:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[01-Nov-2024 19:24:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[01-Nov-2024 19:24:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[01-Nov-2024 19:50:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[01-Nov-2024 19:50:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[01-Nov-2024 19:50:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[01-Nov-2024 19:50:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 4
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 6
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 9
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 156
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 124
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 95
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 97
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 100
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 140
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 142
+[04-Nov-2024 12:55:37 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 158
+[04-Nov-2024 12:55:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[04-Nov-2024 13:57:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[04-Nov-2024 13:57:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[04-Nov-2024 13:57:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[04-Nov-2024 13:57:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[04-Nov-2024 14:28:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[04-Nov-2024 14:28:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[04-Nov-2024 14:28:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[04-Nov-2024 14:28:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[04-Nov-2024 21:44:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[04-Nov-2024 21:44:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[04-Nov-2024 21:44:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[04-Nov-2024 21:44:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 00:01:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 00:01:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 00:01:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 00:01:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 4
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 6
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 9
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 156
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 124
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 95
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 97
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 100
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 140
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 142
+[05-Nov-2024 11:14:02 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 158
+[05-Nov-2024 11:14:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 14:41:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 14:41:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 14:41:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 14:41:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 14:45:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 14:45:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 14:45:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 14:45:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 14:45:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 14:45:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 14:45:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 14:45:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 16:24:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 16:24:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 16:24:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 16:24:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 16:24:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 16:24:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 16:24:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 16:24:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 16:24:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 16:24:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 16:24:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 16:24:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[05-Nov-2024 16:24:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[05-Nov-2024 16:24:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[05-Nov-2024 16:24:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[05-Nov-2024 16:24:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[19-Nov-2024 21:13:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[19-Nov-2024 21:13:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[19-Nov-2024 21:13:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[19-Nov-2024 21:13:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
+[19-Nov-2024 21:13:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/send_gift_donation.php on line 11
+[19-Nov-2024 21:13:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 102
+[19-Nov-2024 21:13:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 117
+[19-Nov-2024 21:13:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/gifts/reference_wise_members.php on line 160
