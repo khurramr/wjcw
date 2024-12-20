@@ -1,0 +1,5 @@
+[12-Dec-2024 23:11:59 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[12-Dec-2024 23:11:59 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[12-Dec-2024 23:11:59 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 156
+[12-Dec-2024 23:11:59 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[12-Dec-2024 23:11:59 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
