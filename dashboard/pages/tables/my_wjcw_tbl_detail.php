@@ -21,6 +21,9 @@ li.active a::before, li.active a::after {
     width: 16%;
     text-align: center;
 }
+.tab-content {
+    z-index: initial !important;
+}
 </style>
 <div class="cont_width" style="text-align:left">
     <div class="row">
@@ -30,31 +33,31 @@ li.active a::before, li.active a::after {
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#stage01"
                     aria-controls="home" role="tab" data-toggle="tab">Stage 01</a></li>
-                    <li role="presentation"><a href="#stage02" 
+                    <li role="presentation"><a href="#stage02"
                     aria-controls="profile" role="tab" data-toggle="tab">Stage 02</a></li>
-                    <li role="presentation"><a href="#stage03" 
+                    <li role="presentation"><a href="#stage03"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 03</a></li>
-                    <li role="presentation"><a href="#stage04" 
+                    <li role="presentation"><a href="#stage04"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 04</a></li>
-                    <li role="presentation"><a href="#stage05" 
+                    <li role="presentation"><a href="#stage05"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 05</a></li>
-                    <li role="presentation"><a href="#stage06" 
+                    <li role="presentation"><a href="#stage06"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 06</a></li>
-                    <li role="presentation"><a href="#stage07" 
+                    <li role="presentation"><a href="#stage07"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 07</a></li>
-                    <li role="presentation"><a href="#stage08" 
+                    <li role="presentation"><a href="#stage08"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 08</a></li>
-                    <li role="presentation"><a href="#stage09" 
+                    <li role="presentation"><a href="#stage09"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 09</a></li>
-                    <li role="presentation"><a href="#stage10" 
+                    <li role="presentation"><a href="#stage10"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 10</a></li>
-                    <li role="presentation"><a href="#stage11" 
+                    <li role="presentation"><a href="#stage11"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 11</a></li>
-                    <li role="presentation"><a href="#stage12" 
+                    <li role="presentation"><a href="#stage12"
                     aria-controls="messages" role="tab" data-toggle="tab">Stage 12</a></li>
                 </ul>
                 <!-- <ul class="nav nav-tabs" role="tablist">
-                   
+
                 </ul> -->
                 <!-- Tab panes -->
                 <div class="tab-content tabs">
@@ -62,14 +65,15 @@ li.active a::before, li.active a::after {
                          <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 01</h1>
                           <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
-                            <th>Note</th>    
+                            <th>Gift Donation Date</th>
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                                 <?php
@@ -81,27 +85,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
+                                    <!--<td>
+                                         <?php echo $row['remarks']?>
+                                    </td> -->
                                     <td>
-                                        <?php echo $row['remarks']?>
+                                      <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--?php if ($row['remarks'] != '') {?-->
+                                        <!--button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button-->
+                                        <!--?php } ?-->
                                     </td>
                                     </tr>
-                                    <?php } ?>    
-                        </tbody>    
-                    </table>         
+                                    <?php } ?>
+                        </tbody>
+                    </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage02">
                             <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 02</h1>
                           <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!--  <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                                  <?php
@@ -113,28 +124,35 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>    
-                        </tbody>    
-                    </table>  
-                    
+                                    <?php } ?>
+                        </tbody>
+                    </table>
+
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage03">
                         <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 03</h1>
                          <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                                <?php
@@ -146,27 +164,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                    </table>  
+                                    <?php } ?>
+                        </tbody>
+                    </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage04">
-                         <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 04</h1>                     
+                         <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 04</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th> Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -178,27 +203,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
+                                    <!-- <td>
+                                          <?php echo $row['remarks']?>
+                                    </td> -->
                                     <td>
-                                        <?php echo $row['remarks']?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                    </table>  
+                                    <?php } ?>
+                        </tbody>
+                    </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage05">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 05</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 05</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -210,27 +242,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
+                                    <!-- <td>
+                                         <?php echo $row['remarks']?>
+                                    </td> -->
                                     <td>
-                                        <?php echo $row['remarks']?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                    </table>  
+                                    <?php } ?>
+                        </tbody>
+                    </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage06">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 06</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 06</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -242,27 +281,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?>-->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                    </table>  
+                                    <?php } ?>
+                        </tbody>
+                    </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage07">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 07</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 07</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -274,27 +320,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?>-->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                        </table>  
+                                    <?php } ?>
+                        </tbody>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage08">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 08</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 08</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -306,27 +359,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?>-->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                        </table>  
+                                    <?php } ?>
+                        </tbody>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage09">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 09</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 09</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action </th>
                         </thead>
                         <tbody>
                               <?php
@@ -338,27 +398,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!-- <?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                        </table>  
+                                    <?php } ?>
+                        </tbody>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage10">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 10</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 10</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action </th>
                         </thead>
                         <tbody>
                               <?php
@@ -370,27 +437,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!-- <?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                        </table>  
+                                    <?php } ?>
+                        </tbody>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage11">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 11</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 11</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -402,27 +476,34 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!--<?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?>-->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                        </table>  
+                                    <?php } ?>
+                        </tbody>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="stage12">
-                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 12</h1>                     
+                    <h1 class="h_fonts h_color resizeable_h" style="text-align:center">STAGE 12</h1>
                       <table id="" class="table  display table-hover text-center">
                         <thead>
-                            <th >Sr #</th>    
-                            <th>Sender ID</th>    
-                            <th>Sender Name</th>    
-                            <th>Amount</th>    
-                            <th>Method of Payment</th>    
+                            <th >Sr #</th>
+                            <th>Sender ID</th>
+                            <th>Sender Name</th>
+                            <th>Amount</th>
+                            <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
-                            <th>Gift Donation Date</th>    
+                            <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>    
+                            <!-- <th>Note</th> -->
+                            <th>Action</th>
                         </thead>
                         <tbody>
                               <?php
@@ -434,18 +515,46 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
+                                    <!-- <td>
                                         <?php echo $row['remarks']?>
+                                    </td> -->
+                                    <td>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <!-- <?php if ($row['remarks'] != '') {?>
+                                        <button class="btn btn-danger delete-note" data-id="<?php echo $row['id'];?>">Delete Note</button>
+                                        <?php } ?> -->
                                     </td>
                                     </tr>
-                                    <?php } ?>   
-                        </tbody>    
-                        </table>  
+                                    <?php } ?>
+                        </tbody>
+                        </table>
                     </div>
 
-            
+
             </div>
             </div>
         </div>
     </div>
 </div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+     $(".delete-note").click(function() {
+      var clickedElement = $(this);
+      var deleteTokenId = clickedElement[0].getAttribute("data-id");
+      $.ajax({
+          url:"my_wjcw_delete_remarks.php",
+          method:"POST",
+          data:{donation_id: deleteTokenId},
+          success:function(data, success){
+            swal("Note deleted successfully!", {
+                          icon: "success",
+                          showConfirmButton: false
+                        })
+                        .then(() => {
+                            location.reload();
+                        });
+          }
+      })
+    });
+    </script>

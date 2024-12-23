@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
   <link rel="stylesheet" href="../../dist/css/gradient_buttons.css">
-  <link rel = "icon" href =  "../../../assets/images/cropped-logo.png" type = "image/x-icon"> 
+  <link rel = "icon" href =  "../../../assets/images/cropped-logo.png" type = "image/x-icon">
   <link rel="stylesheet" href="../../dist/css/size_adjustment_G_D_S_R.css"><style>
 <style>
 #main-nav1 {
@@ -19,7 +19,7 @@ height: 100vh;
 
 z-index: 9999;
 }
-    
+
 .p_fonts {text-align:justify}
 
 .scroll-menu {
@@ -34,21 +34,21 @@ z-index: 9999;
 
 /* Track */
 .scroll-menu::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 .scroll-menu::-webkit-scrollbar-thumb {
 /*  background: #5cb85c; */
-  background: grey; 
+  background: grey;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 .scroll-menu::-webkit-scrollbar-thumb:hover {
 /*  background: #0275d8; */
-  background: #5bc0de; 
+  background: #5bc0de;
 }
 
 /*Not supported in firefox / edge browsers */
@@ -64,31 +64,31 @@ z-index: 9999;
 
 /* Track */
 .scroll::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px green; 
+  box-shadow: inset 0 0 5px green;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 .scroll::-webkit-scrollbar-thumb {
-  background: #5cb85c; 
+  background: #5cb85c;
   border-radius: 10px;
 }
 
 .scroll::-webkit-scrollbar-thumb:hover {
-  background: #5bc0de; 
+  background: #5bc0de;
 }
 </style>
 
-  
+
 </head>
 <body class="hold-transition sidebar-mini">
 <?php include"../../../google_translator.php"; ?>
  <div class="wrapper">
   <aside class="main-sidebar sidebar-dark-primary elevation-4" id="main-nav">
       <!-- Sidebar Menu -->
-       <?php include"../sidebar-menu-pages.php" ?>      
+       <?php include"../sidebar-menu-pages.php" ?>
       <!-- /.sidebar-menu -->
-  </aside>  
+  </aside>
 <?php include"../../header_green.php" ?>  <!-- Content Wrapper. Contains page content -->
 <div class="container" style="margin-left:250px">
 <?php
@@ -97,7 +97,7 @@ z-index: 9999;
         $amount = "";
         $rate = "";
 
-        
+
 
     if(isset($_POST['submit'])){
         $from_currency = $_POST['from_currency'];
@@ -121,20 +121,20 @@ z-index: 9999;
           CURLOPT_CUSTOMREQUEST => "GET",
           CURLOPT_SSL_VERIFYHOST => 0,
           CURLOPT_SSL_VERIFYPEER => 0,
-          CURLOPT_HTTPHEADER => $headers      
+          CURLOPT_HTTPHEADER => $headers
         ]);
-                
+
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
         curl_close($curl);
         $response = json_decode($response, true);
         $rate = $response['rates'][$to_currency]['rate'] * $amount;
-    }   
+    }
 ?>
 </div>
 <div class="content-wrapper  mt-4">
-        <div class="container-fluid scroll">
+        <div>
             <div class="row">
                <div class="col-md-12">
                <form method="post" autocomplete="off">
@@ -155,6 +155,10 @@ z-index: 9999;
                             <label for="Amount">Amount</label>
                             <input type="number" class="form-control" id="amount" name="amount" placeholder="Enter Amount here....">
                         </div>
+                       <div>
+                          <br>
+                          <p style="color: red;"><b><u>NOTE</u>: The rate provided here is only an estimate.</b></p>
+                          </div>
                         <div>
                             <br>
                             <button type="submit" name="submit" class="btn btn-success btn-block" style="font-size:24px;">
@@ -168,13 +172,13 @@ z-index: 9999;
                                 <?php
                                     echo $amount . "  " . $from_currency . " = " . $rate . " " . $to_currency;
                                 ?>
-                                
+
                             </h3>
                         </div>
                     </div>
 
                 </div>
-            </form>                
+            </form>
             </div>
             </div>
         </div>
@@ -191,7 +195,7 @@ z-index: 9999;
 $('a').click(function() {
     localStorage.setItem('currency_converter', $(this).attr('href'));
 });
-var collapseItem = localStorage.getItem('currency_converter'); 
+var collapseItem = localStorage.getItem('currency_converter');
 if (collapseItem) {
    $(collapseItem).collapse('show')
 }
@@ -200,9 +204,9 @@ $("#main-nav").show();
 document.onreadystatechange = function() {
     if (document.readyState <> "complete") {
         document.querySelector("#main-nav").style.visibility = "visible";
-    } 
+    }
 };
-    
+
 </script>
 </body>
 </html>
