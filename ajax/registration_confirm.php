@@ -17,7 +17,10 @@ $user_expiration = mysqli_fetch_assoc(mysqli_query($link, $sql));
 $isExpired = $user_expiration['_years'] == 0 && $user_expiration['_month'] == 0 && $user_expiration['_day'] == 0;
 
 $rowCount = mysqli_num_rows($result);
-    if ($isExpired){
+    if ($rowCount == 0) {
+        echo "Invalid Login";
+    }    
+    else if ($isExpired){
         echo "Please renew your membership!";
     }else if ($rowCount > 0) {
 

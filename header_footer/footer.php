@@ -61,7 +61,7 @@
             <div class="container text-muted pt-3 pb-3 ">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 ">
-                        &copy; Copyright 2020-2022. <span class="text-success">Wjcw Crowdfunding</span>. | All rights reserved. 
+                        &copy; Copyright 2020-<span id="end-date"></span>. <span class="text-success">Wjcw Crowdfunding</span>. | All rights reserved. 
                     </div>
                     <div class="col-md-6 col-sm-6">
 
@@ -69,3 +69,8 @@
                 </div>
             </div>
         </small>
+        
+
+        <script>
+            $("#end-date").html(new Date().getFullYear())
+            </script>

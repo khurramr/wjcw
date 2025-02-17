@@ -237,15 +237,14 @@ $avatar = $row['avatar'];
                     if($privilege == 1){    
             ?>              
               
-             <li class="nav-item">
+             <!-- <li class="nav-item">
                     <a href="pages/tokens/generate_token.php" class="nav-link">
                   <i class="nav-icon fa fa-key fas fa-group"></i>
                   <p>
                     Generate Token(s)
-                    <!--<span class="right badge badge-danger">New</span>-->
                   </p>
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
                     <a href="pages/tables/verify_payments.php" class="nav-link">
                   <i class="nav-icon fa fa-key fas fa-group"></i>

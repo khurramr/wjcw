@@ -188,13 +188,10 @@ $("#btn_proceed").click(function(){
                 swal("Request initiated successfully, please wait until admin approval.", {
                               icon: "success",
                               showConfirmButton: false
-                            })
-                            .then(response => {
-                              console.log(response)
                             });
-                // setTimeout(() => {
-                //   //location.reload();
-                // }, 2000);
+                setTimeout(() => {
+                  location.reload();
+                }, 2000);
               }
           })
 

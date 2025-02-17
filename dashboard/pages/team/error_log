@@ -79,3 +79,26 @@
 [12-Mar-2022 18:14:29 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
 [12-Mar-2022 18:14:29 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
 [12-Mar-2022 18:14:29 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_members.php on line 67
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 4
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 9
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 14
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 19
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 24
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 30
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 33
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 38
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 41
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 46
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 49
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 54
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 57
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 61
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_mysqli.php on line 64
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 24
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 156
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 160
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Jan-2025 18:03:59 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/team/team_members.php on line 67

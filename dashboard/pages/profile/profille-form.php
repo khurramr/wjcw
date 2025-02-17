@@ -5,7 +5,7 @@
                   $sql = "SELECT
                         TIMESTAMPDIFF( YEAR, expiry_date, now() ) as _year
                         ,TIMESTAMPDIFF( MONTH, now(), expiry_date) % 12 as _month
-                        ,FLOOR( TIMESTAMPDIFF( DAY, now(), expiry_date) % 30.4375 ) as _day from token_purchase where memberid = '$member_id' and issued_date is not null";
+                        ,FLOOR( TIMESTAMPDIFF( DAY, now(), expiry_date) % 30.4375 ) as _day from token_purchase where memberid = '$member_id' and issued_date is not null ORDER BY issued_date DESC  LIMIT 1";
                         $result = mysqli_query($link, $sql);
                         while ($row = mysqli_fetch_assoc($result)){
                             echo "<strong class='h_color' style='float:right'>" . $row['_month'].  " Months " . $row['_day'] . " Days Left to Expire</strong>";

@@ -3,20 +3,57 @@
             <!-- Custom Tabs -->
             <div class="card">
               <div class="card-header d-flex p-0">
-                <ul class="nav nav-pills ml-auto p-2" style="font-size:24px; color:green">
-                  <li class="nav-item"><a class="nav-link nav-color stages active" href="#tab_1" data-toggle="tab">STAGE 01 £20</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_2" data-toggle="tab">STAGE 02 £40</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_3" data-toggle="tab">STAGE 03 £100</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_4" data-toggle="tab">STAGE 04 £250</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_5" data-toggle="tab">STAGE 05 £500</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_6" data-toggle="tab">STAGE 06 £1000</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_7" data-toggle="tab">STAGE 07 £2000</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_8" data-toggle="tab">STAGE 08 £4000</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_9" data-toggle="tab">STAGE 09 £8000</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_10" data-toggle="tab">STAGE 10 £16000</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_11" data-toggle="tab">STAGE 11 £32000</a></li>
-                  <li class="nav-item"><a class="nav-link nav-color stages" href="#tab_12" data-toggle="tab">STAGE 12 £64000</a></li>
-                </ul>
+              <ul class="nav nav-pills ml-auto p-2" style="font-size:24px; color:green">
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages active" href="#tab_1" data-toggle="tab">STAGE 01 £20</a>
+                  <input type="hidden" class="stage-amount" value="10">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_2" data-toggle="tab">STAGE 02 £40</a>
+                  <input type="hidden" class="stage-amount" value="10">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_3" data-toggle="tab">STAGE 03 £100</a>
+                  <input type="hidden" class="stage-amount" value="25">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_4" data-toggle="tab">STAGE 04 £250</a>
+                  <input type="hidden" class="stage-amount" value="125">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_5" data-toggle="tab">STAGE 05 £500</a>
+                  <input type="hidden" class="stage-amount" value="250">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_6" data-toggle="tab">STAGE 06 £1000</a>
+                  <input type="hidden" class="stage-amount" value="500">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_7" data-toggle="tab">STAGE 07 £2000</a>
+                  <input type="hidden" class="stage-amount" value="1000">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_8" data-toggle="tab">STAGE 08 £4000</a>
+                  <input type="hidden" class="stage-amount" value="2000">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_9" data-toggle="tab">STAGE 09 £8000</a>
+                  <input type="hidden" class="stage-amount" value="4000">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_10" data-toggle="tab">STAGE 10 £16000</a>
+                  <input type="hidden" class="stage-amount" value="8000">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_11" data-toggle="tab">STAGE 11 £32000</a>
+                  <input type="hidden" class="stage-amount" value="16000">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-color stages" href="#tab_12" data-toggle="tab">STAGE 12 £64000</a>
+                  <input type="hidden" class="stage-amount" value="96000">
+                  <input type="hidden" id="f_amount" value="0"> 
+                </li>
+              </ul>
               </div><!-- /.card-header -->
               <div class="card-body">
                 <div class="tab-content">
@@ -180,8 +217,41 @@
                       </div>
                   </div>
                 </div>
-                        <?php include "pay_annaul_fee_form.php" ?>              
+                        <?php include "pay_annaul_fee_form.php"; ?>              
               </div>
             </div>
           </div>
         </div>
+
+
+  <script>
+    $(document).ready(function() {
+      updatePayment();
+    // When any stage link is clicked, handle the change event
+        $('.nav-item .nav-link.stages').on('click', function() {
+            // Find the clicked stage link
+          // Example: set it in another input field
+          var activeStageLink = $(this);
+
+            // Get the hidden input value associated with the clicked stage
+            var amount = activeStageLink.siblings('.stage-amount').val();
+            $('#amount_show_gpay').text('£' + amount);
+            $('#amount-display').text('£' + amount);
+            $("#f_amount").val(amount);
+            // You can set the value of a visible field or trigger some other action
+            // For example, setting a hidden input value elsewhere:
+            $('#selectedAmount').val(amount);  
+        });
+        function updatePayment(){
+          var activeStageLink = $('.nav-item .nav-link.active');
+
+          // Get the hidden input value associated with the clicked stage
+          var amount = activeStageLink.siblings('.stage-amount').val();
+          $('#amount_show_gpay').text('£' + amount);
+          $("#f_amount").val(amount);
+          // You can set the value of a visible field or trigger some other action
+          // For example, setting a hidden input value elsewhere:
+          $('#selectedAmount').val(amount);  
+        }
+    });
+  </script>

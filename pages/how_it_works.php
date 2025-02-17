@@ -370,7 +370,7 @@ include "../google_translator.php"; ?>
     #bottom_btn {font-size:6px}
     }
 
-@media only screen and (max-width: 2400px) {#five_principals_role{position: absolute; right: 120px;  top: 28%}
+@media only screen and (max-width: 2400px) {#five_principals_role{position: absolute; right: 120px;  top: 32%}
 
 @media only screen and (max-width: 1270px) {#b_gift_card_01, #b_gift_card_02, #b_gift_card_03, #b_gift_card_04, #b_gift_card_05, #b_gift_card_06, #b_gift_card_07, #b_gift_card_08, #b_gift_card_09, #b_gift_card_10, #b_gift_card_11, #b_gift_card_12 {font-size: 1.3vw} }
 

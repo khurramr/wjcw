@@ -12,7 +12,7 @@ pfcClient.prototype.buildNickItem = function(nickid)
     a.pfc_nick   = nick;
     a.pfc_nickid = nickid;
     a.setAttribute('target','_blank');
-    a.setAttribute('href','http://www.google.com/search?q='+nick);
+    a.setAttribute('href','https://www.google.com/search?q='+nick);
     /*
     a.onclick = function(evt){
       var d = pfc.getNickWhoisBox(this.pfc_nickid);

@@ -35,23 +35,33 @@
                         <div id="navbarNav" class="collapse navbar-collapse align-self-start ">
                             <ul id="menu-menu" class="navbar-nav mx-auto my-2 mt-4 p-1 text-center font-weight-bolder">
                                 <li class="nav-item  ">
-                                    <a class="nav-link " title="Home" href="../index.php">Home</a>
+                                    <a class="nav-link " id="home" title="Home" href="../index.php">Home</a>
                                 </li>
-                        <li id="menu-item-46" class=""><a href="../pages/how_it_works.php" class="nav-link" title="How It Works">How It Works</a>
+                        <li id="menu-item-46" class=""><a href="../pages/how_it_works.php" 
+                        id="how-it-works"
+                        class="nav-link activePage text-white" title="How It Works">How It Works</a>
                         </li>
                                 <li class="nav-item">
-                                    <a class=" nav-link" title="Join us" href="../my_account/join-us.php">Join us</a>
+                                    <a class=" nav-link" title="Join us"
+                        id="join-us"
+                                    href="../my_account/join-us.php">Join us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" nav-link" title="Contact Us" href="../my_account/contact-us.php">Contact Us</a>
+                                    <a class=" nav-link" title="Contact Us" 
+                        id="contact-us"
+                                    href="../my_account/contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
                                 <?php                                  
                                     if(isset($_SESSION['fullname'])){
                                 ?>
-                                    <a class=" nav-link" title="Dashboard" href="../dashboard/index.php">Dashboard</a>
+                                    <a class=" nav-link" title="Dashboard"
+                        id="dashboard"
+                                    href="../dashboard/index.php">Dashboard</a>
                                 <?php } else {?>    
-                                    <a class=" nav-link" title="Login" href="../my_account/login.php">Login</a>
+                                    <a class=" nav-link" title="Login" 
+                        id="login"
+                                    href="../my_account/login.php">Login</a>
                                     <?php } ?>
                                 </li>
                             </ul>
@@ -83,7 +93,7 @@
                             <a id="a_one" class="nav-link text-black" title="Home" href="../index.php">Home</a>
                         </li>
                         <li id="menu-item-46" class="">
-                            <a id="a_two" href="../pages/how_it_works.php" class="nav-link" title="How It Works">How It Works</a>
+                            <a id="a_two" href="../pages/how_it_works.php" class="nav-link activePage text-white" title="How It Works">How It Works</a>
                         </li>
                         <li>
                             <a  id="a_three" class="nav-link" title="Join us" href="../my_account/join-us.php">Join us</a>
@@ -114,4 +124,3 @@
         </nav>
 
         </header>
-                                

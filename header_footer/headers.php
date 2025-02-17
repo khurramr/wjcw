@@ -41,13 +41,20 @@
                         <li id="menu-item-46" class=""><a href="../pages/how_it_works.php" class="nav-link" title="How It Works">How It Works</a>
                         </li>
                                 <li class="nav-item">
-                                    <a class=" nav-link" title="Join us" href="../my_account/join-us.php">Join us</a>
+                                    <a
+                                    id="header-join-us"
+                                    class=" nav-link" title="Join us" href="../my_account/join-us.php">Join us</a>
+                                </li>
+                                <li 
+                                class="nav-item">
+                                    <a 
+                                id="header-contact-us"
+                                    class=" nav-link" title="Contact Us" href="../my_account/contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class=" nav-link" title="Contact Us" href="../my_account/contact-us.php">Contact Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class=" nav-link" title="Login" href="../my_account/login.php">Login</a>
+                                    <a class=" nav-link" 
+                                    id="header-login"
+                                    title="Login" href="../my_account/login.php">Login</a>
                                 </li>
                             </ul>
                         </div>
@@ -74,17 +81,23 @@
                 <div class="collapse navbar-collapse align-self-start ">
                     <ul id="menu-menu-1" class="navbar-nav mx-auto my-2 mt-4">
                         <li class="">
-                            <a class="nav-link activePage text-white " title="Home" href="../index.php">Home</a>
+                            <a class="nav-link" id="header-home" title="Home" href="../index.php">Home</a>
                         </li>
-                        <li id="menu-item-46" class=""><a href="../pages/how_it_works.php" class="nav-link" title="How It Works">How It Works</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" title="Join us" href="../my_account/join-us.php">Join us</a>
-                        </li>
-                        <li><a class="nav-link" title="Contact Us" href="../my_account/contact-us.php">Contact Us</a>
+                        <li id="menu-item-46" class=""><a href="../pages/how_it_works.php"
+                        id="header-how-it-works"
+                        class="nav-link" title="How It Works">How It Works</a>
                         </li>
                         <li>
-                            <a class="nav-link" title="Login" href="../my_account/login.php">Login</a>
+                            <a class="nav-link"
+                        id="header-join-us"
+                            title="Join us" href="../my_account/join-us.php">Join us</a>
+                        </li>
+                        <li><a class="nav-link" title="Contact Us"
+                        id="header-contact-us"
+                        href="../my_account/contact-us.php">Contact Us</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" title="Login" id="header-login" href="../my_account/login.php">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -92,3 +105,25 @@
         </nav>
     </header>
     
+    <script>
+        $(document).ready(function() {
+            $("#header-home").removeClass("activePage text-white");
+            $("#header-login").removeClass("activePage text-white");
+            $("#header-join-us").removeClass("activePage text-white");
+            $("#header-how-it-works").removeClass("activePage text-white");
+            $("#header-contact-us").removeClass("activePage text-white");
+            const paths = window.location.pathname.split("/");
+            const activePath = paths[paths.length - 1];
+            if (activePath.indexOf("login") > -1) {
+                $("#header-login").addClass("activePage text-white");
+            } else if (activePath.indexOf("join-us") > -1) {
+                $("#header-join-us").addClass("activePage text-white");
+            } else if (activePath.indexOf("how_it_works") > -1) {
+                $("#header-how-it-works").addClass("activePage text-white");
+            } else if (activePath.indexOf("contact-us") > -1) {
+                $("#header-contact-us").addClass("activePage text-white");
+            } else  {
+                $("#header-home").addClass("activePage text-white");
+            }
+        });
+        </script>

@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="dist/css/gradient_buttons.css">
   <link rel = "icon" href =  "assets/images/cropped-logo.png" type = "image/x-icon"> 
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.0.5/js/adminlte.min.js"></script>
 <style>
     .mdl_stages{pointer-events: none; display: inline-block;}
     .test{color:white}
@@ -397,7 +399,7 @@
 
               ?>    
           </p>
-         <?php// include("pages/modal/modal_donation.php") ?>
+         <?php // include("pages/modal/modal_donation.php") ?>
          </li>
          <li>
           <p class="p_fonts resizeable_p">This is your first step in this journey...Simply follow the system and the system will follow you. Everything on this journey is for the welfare of the community around the globe where everyone benefits, InshaAllah.</p>

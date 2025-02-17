@@ -176,3 +176,6 @@
 [26-Jun-2024 22:58:01 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/registration.php on line 93
 [02-Jul-2024 20:53:09 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
 [02-Jul-2024 20:54:37 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/registration.php on line 93
+[19-Dec-2024 08:20:48 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[19-Dec-2024 08:21:04 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/registration.php on line 93
+[11-Jan-2025 15:53:22 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57

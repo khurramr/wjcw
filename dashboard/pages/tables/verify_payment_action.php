@@ -4,7 +4,7 @@ include("../../../db/connect.php");
 
 $logged_in_member = mysqli_fetch_assoc(mysqli_query($link, "select * from member_registration mr where mr.member_id = $member_id"));
 if ($logged_in_member["privilege"] != 1) {
-    header("location: http://wjcwcf.com/index.php");
+    header("location: https://wjcwcf.com/index.php");
 }
 
 $id = $_POST["id"];

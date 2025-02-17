@@ -160,14 +160,14 @@ $avatar = $row['avatar'];
                     $privilege = $row['privilege'];
                     if($privilege == 1){    
             ?>              
-             <li class="nav-item">
+             <!-- <li class="nav-item">
                     <a href="../tokens/generate_token.php" class="nav-link">
                   <i class="nav-icon fa fa-key fas fa-group"></i>
                   <p>
                     Generate Token(s)
                   </p>
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
                     <a href="../tables/verify_payments.php" class="nav-link">
                   <i class="nav-icon fa fa-key fas fa-group"></i>
