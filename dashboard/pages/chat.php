@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Summary</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../plugins/jquery/jquery.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
@@ -14,7 +14,26 @@
   <link rel = "icon" href="../../../assets/images/cropped-logo.png" type = "image/x-icon"> 
   <link rel="stylesheet" href="../dist/css/size_adjustment_G_D_S_R.css">
   <style>
-  </style>
+    .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+    }
+    .span_alert {
+    display:none
+    }
+
+    .bigicon {
+        font-size: 22px;
+        color: #36A0FF;
+    }
+    
+    input[type=text], input[type=password], #message {
+      border: 1px solid purple;
+    }    
+    
+        
+    </style>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -58,174 +77,9 @@
     </section>
 <div class="container-fluid scroll">
     <!-- Main content -->
-   <section class="content" id="chat_room">
+   <section class="content" id="contact-us-page">
       <div class="container-fluid">
-        <h4 class="mt-4 mb-2">Direct Chat / Message To Your SPONSER</h4>
-        <div class="row">
-                     <?php 
-                            while($row = mysqli_fetch_assoc($sponser)){
-                            $member_id = $row['member_id'];
-                            $id = $row['id'];
-                    ?>
-     
-          <div class="col-md-3">
-            <!-- DIRECT CHAT SUCCESS -->
-            <div class="card card-success  direct-chat direct-chat-success" id="card_<?php echo $id; ?>">
-              <div class="card-header"  style='background-color:purple'>
-                <h3 class="card-title"><?php echo $row['first_name'] . ' ' . $row['last_name']?></h3>
-
-                <div class="card-tools">
-                  <span title="3 New Messages" class="badge bg-primary"></span>
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                      <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="direct-chat-messages">
-                  <!-- Message. Default to the left -->
-                  <div class="direct-chat-msg">
-                      <div class="direct-chat-infos clearfix">
-
-                        <?php 
-                            $sql = "SELECT
-                                    member_registration.member_id,
-                                    CONCAT(member_registration.first_name,' ' , member_registration.last_name) as full_name,
-                                    chat.message,
-                                    chat.status,
-                                    chat.sender_userid,
-                                    chat.`timestamp`
-                                    FROM
-                                    chat
-                                    INNER JOIN member_registration ON chat.sender_userid = member_registration.member_id
-                                    where chat.sender_userid = '$login_id' and chat.reciever_userid = '$member_id' 
-                                    OR chat.sender_userid = '$member_id' and chat.reciever_userid = '$login_id'
-                                    ORDER BY chat.chat_id";
-                            $result = mysqli_query($link, $sql);
-                            while($row = mysqli_fetch_assoc($result)){        
-                        if($row['sender_userid'] == $login_id){
-                        echo "<div class='container mt-2'><strong>". $row['full_name']  . "<span class='direct-chat-timestamp float-right'>". $row['timestamp'] ."</span></strong></div>";                    
-                        echo "<img class='direct-chat-img' src='../dist/img/user1-128x128.jpg' alt='Message User Image'>
-                        <div class='direct-chat-text' style='background-color:#00b359; color:white;  border-radius:10px'>". $row['message']  . "</div>";
-                        } else{ ?>
-                        <?php
-                        echo "<div class='container mt-2' style='text-align:right'><strong>". $row['full_name']  . "<span class='direct-chat-timestamp float-left'>". $row['timestamp'] ."</span></strong></div>";
-                        echo "<div class='row'>";    
-                        echo "<div class='col-md-10'>";    
-                        echo "<div class='direct-chat-text' style='background-color:#0275d8; color:white; border-radius:10px; margin-left:.5rem; height:35px'>". $row['message']  . "</div>";
-                        echo "</div>";
-
-                        echo "<div class='col-md-1'>";                                
-                        echo "<img class='direct-chat-img' src='../dist/img/user6-128x128.jpg' alt='Message User Image'>";                                                       
-                        echo "</div>";
-                        echo "</div>";                        
-                        }
-
-                        } ?>
-                    </div>                    
-                    </div>                    
-                </div>                    
-                </div>                    
-              <div class="card-footer">
-                  <div class="input-group">
-                    <input type="text" name="message" placeholder="Type Message ..." class="form-control" id="msg_<?php echo $id ?>">
-                    <span class="input-group-append">
-                      <button type="submit" class="btn btn-success btn_send" id="<?php echo $id ?>" memberid='<?php echo $member_id ?>'>Send</button>
-                    </span>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <!-- /.col -->
-<?php } ?>
-
-        </div>        
-        <h4 class="mt-4 mb-2"> Message To Our Representative</h4>
-        <div class="row">
-                     <?php 
-                            while($row = mysqli_fetch_assoc($members)){
-                            $member_id = $row['member_id'];
-                            $id = $row['id'];
-                    ?>
-     
-          <div class="col-md-3">
-            <!-- DIRECT CHAT SUCCESS -->
-            <div class="card card-success  direct-chat direct-chat-success" id="card_<?php echo $id; ?>">
-              <div class="card-header">
-                <h3 class="card-title"><?php echo $row['first_name'] . ' ' . $row['last_name']?></h3>
-
-                <div class="card-tools">
-                  <span title="3 New Messages" class="badge bg-primary"></span>
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                      <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="direct-chat-messages">
-                  <!-- Message. Default to the left -->
-                  <div class="direct-chat-msg">
-                      <div class="direct-chat-infos clearfix">
-
-                        <?php 
-                            $sql = "SELECT
-                                    member_registration.member_id,
-                                    CONCAT(member_registration.first_name,' ' , member_registration.last_name) as full_name,
-                                    chat.message,
-                                    chat.status,
-                                    chat.sender_userid,
-                                    chat.`timestamp`
-                                    FROM
-                                    chat
-                                    INNER JOIN member_registration ON chat.sender_userid = member_registration.member_id
-                                    where chat.sender_userid = '$login_id' and chat.reciever_userid = '$member_id' 
-                                    OR chat.sender_userid = '$member_id' and chat.reciever_userid = '$login_id'
-                                    ORDER BY chat.chat_id";
-                            $result = mysqli_query($link, $sql);
-                            while($row = mysqli_fetch_assoc($result)){        
-                        if($row['sender_userid'] == $login_id){
-                        echo "<div class='container mt-2'><strong>". $row['full_name']  . "<span class='direct-chat-timestamp float-right'>". $row['timestamp'] ."</span></strong></div>";                    
-                        echo "<img class='direct-chat-img' src='../dist/img/user1-128x128.jpg' alt='Message User Image'>
-                        <div class='direct-chat-text' style='background-color:#00b359; color:white;  border-radius:10px'>". $row['message']  . "</div>";
-                        } else{ ?>
-                        <?php
-                        echo "<div class='container mt-2' style='text-align:right'><strong>". $row['full_name']  . "<span class='direct-chat-timestamp float-left'>". $row['timestamp'] ."</span></strong></div>";
-                        echo "<div class='row'>";    
-                        echo "<div class='col-md-10'>";    
-                        echo "<div class='direct-chat-text' style='background-color:#0275d8; color:white; border-radius:10px; margin-left:.5rem; height:35px'>". $row['message']  . "</div>";
-                        echo "</div>";
-
-                        echo "<div class='col-md-1'>";                                
-                        echo "<img class='direct-chat-img' src='../dist/img/user6-128x128.jpg' alt='Message User Image'>";                                                       
-                        echo "</div>";
-                        echo "</div>";                        
-                        }
-
-                        } ?>
-                    </div>                    
-                    </div>                    
-                </div>                    
-                </div>                    
-              <div class="card-footer">
-                  <div class="input-group">
-                    <input type="text" name="message" placeholder="Type Message ..." class="form-control" id="msg_<?php echo $id ?>">
-                    <span class="input-group-append">
-                      <button type="submit" class="btn btn-success btn_send" id="<?php echo $id ?>" memberid='<?php echo $member_id ?>'>Send</button>
-                    </span>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <!-- /.col -->
-<?php } ?>
-
-        </div>
+        <?php include "../../my_account/contact-us-form.php" ?>
       </div>
     </section>
 </div>
@@ -238,51 +92,127 @@
   </div>
   <!-- /.content-wrapper -->
 
-  <footer class="main-footer">
-
-    </footer>
 
 </div>
-<br><br><br><br><br><br><br><br>
 <?php include"../copy_right.php"; ?>  
 <script>
-$(".btn_send").click(function(){
-    var id = $(this).attr('id');
-    var msg = $("#msg_" + id).val();
-    var reciever = $(this).attr('memberid');
-    var sender = "<?php echo $login_id; ?>";
-    $.ajax({
-        url:"../../ajax/chat_message_insert.php",
-        method:"post",
-        data:{id:id, msg:msg, reciever:reciever, sender:sender},
-        success:function(data, success){
-            $("#chat_room").html(data);
-        }
+const userData = <?= json_encode($me) ?>;
+$("#fname").val(userData.first_name);
+$("#lname").val(userData.last_name);
+$("#member_id").val(userData.member_id);
+$("#email").val(userData.email);
+$("#phone").val(userData.contact_no_1);  
+$("#member_id").attr("disabled", "disabled");
 
-    })
-})
+$("#submit").click(function(){
+event.preventDefault();
+var firstname = $("#fname").val();
+var lastname = $("#lname").val();
+var member_id = $("#member_id").val();
+var email = $("#email").val();
+var contactno = $("#phone").val();  
 
+var message = $("#message").val();    
+var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;    
+if(!emailReg.test(email)){
+    $("#email_err").hide();
+    $("#email_span").hide();
+     $("#email").after('<span class="text-danger" id="email_err">Enter a valid email address.</span>');
+    return false;
+}else{
+    $("#email_err").hide();
+}
 
-    setInterval(function(){
-    var login = "<?php echo $login_id; ?>";        
-        $.ajax({
-        url:"../../ajax/chat_realtime.php",
-        method:"post",
-        data:{login:login},
-        success:function(data, success){
-            $("#chat_room").html(data);
-        }
+if (firstname == ""){
+    $("#fname_span").show()
+}else{
+    $("#fname_span").hide()
+}
 
-    })
+if (lastname == ""){
+    $("#lname_span").show()
+}else{
+    $("#lname_span").hide()
+}    
     
-    }, 20000)
+if (email == ""){
+    $("#email_span").show()
+}else{
+    $("#email_span").hide()
+}
+if (member_id == ""){
+    $("#member_id_span").show()
+}else{
+    $("#member_id_span").hide()
+}
+    
+if (contactno == ""){
+    $("#phone_span").show()
+}else{
+    $("#phone_span").hide()
+}
+
+if ($("#message").val().trim() == ""){
+    $("#message_span").show()
+}else{
+    $("#message_span").hide()
+}
+    
+if($("#message").val().trim() == ""){
+    return false;
+}
+    
+if(member_id == "" || firstname == "" || lastname == "" || email == "" || contactno == "" || $("#message").val().trim() == ""){
+    return false;
+}   
+    
+swal({
+  title: "SEND",
+  text: "Do you want to send the message ?",
+  icon: "info",
+  buttons: true,
+})
+.then((willSave) => {
+  if (willSave) {    
+    $.ajax({
+            url:"../../ajax/send_email_to_contact_us.php",
+            method:"POST",
+            data:{
+              to: "krf_20@hotmail.com",
+              memberId: userData.member_id,
+              firstName: firstname,
+              lastName: lastname,
+              email: email,
+              contactNo: contactno, 
+              message: message},
+                    success:function(data, success){
+                    if(data == 0){
+                       swal("Your entered wrong member id !", {
+                          icon: "error",
+                        });
+                    }else{
+                        $("#message").val("");
+                        
+                       swal("Your message has been sent!", {
+                          icon: "success",
+                        });
+                        
+                    }
+                    }
+                        
+})
+      
+  }      
+      
+});
+});
     
 </script>
-<script src="../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="../dist/js/adminlte.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../dist/js/demo.js"></script>
 </body>

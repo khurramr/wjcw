@@ -42,7 +42,7 @@ try {
     $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
     */
 
-    echo $verify_now = 'http://wjcwcf.com/my_account/email_verified.php?memberid=' . $new_member_id;
+    echo $verify_now = 'https://wjcwcf.com/my_account/email_verified.php?memberid=' . $new_member_id;
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
 

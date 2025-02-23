@@ -57,7 +57,6 @@
         $next_stage_amount = 96000;
     } 
     //Auto Selection of Send Gifts 
-    
 
 $sql = "SELECT * FROM member_registration WHERE member_id = $member_id";
 $result = mysqli_query($link, $sql);

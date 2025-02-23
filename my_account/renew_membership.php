@@ -83,7 +83,7 @@
             <div class="well well-md">
                 <form class="form-horizontal" id='form_join_us'>
                     <fieldset>
-                        <legend class="text-left header text-success"><h4>GENERAL INFORMATION</h4></legend>
+                        <legend class="text-left header text-success"><h4>General information - Renew Membership</h4></legend>
                     
                         
                      <div class="row">   
@@ -115,18 +115,31 @@
                      <div class="row">   
                         <div class="col-md-4  mt-2">
                         <div class="form-group">
+                            <label for="" class="required">Email:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-lock bigicon" ></i></span>
+                                 </div>
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                            </div>
+                                <span id="email_span" class="text-danger span_alert">Enter Email Address</span>
+                        </div>
+                        </div>
+                        <div class="col-md-4  mt-2">
+                        <div class="form-group">
                             <label for="" class="required">Token #:</label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa fa-lock bigicon" ></i></span>
                                  </div>
-                                <input id="tokenNo" name="password" type="password" placeholder="Password" class="form-control">
+                                <input id="tokenNo" name="password" type="text" placeholder="Token" class="form-control">
                             </div>
                                 <span id="tokenNo_span" class="text-danger span_alert">Enter Valid Token No</span>
                         </div>
                         </div>
                         </div>
-                                            
+                              
+                        
                 
                           <br>
                           <div class="row">
@@ -157,6 +170,7 @@ $("#submit_renew").click(function(){
 var member_id = $("#memberId").val();
 var name = $("#name").val();
 var tokenNo = $("#tokenNo").val();    
+var email = $("#email").val();    
 var response = "";
 if (member_id == ""){
     $("#memberId_span").show()
@@ -173,18 +187,23 @@ if (tokenNo == ""){
 }else{
     $("#tokenNo_span").hide()
 }
+if (email == ""){
+    $("#email_span").show()
+}else{
+    $("#email_span").hide()
+}
     
 if(tokenNo == "" || memberId == "" || name == "" ){
     return false;
 }     
-console.log("dfdf");
 
 $.ajax({
             url:"../ajax/member_renew.php",
             method:"POST",
             data: {
                 member_id: member_id,
-                token_no: tokenNo
+                token_no: tokenNo,
+                email: email
             },
             success: function(data) {
                 console.log(data)

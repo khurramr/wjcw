@@ -54,7 +54,7 @@ try {
     $message1 .= "<p>". $fullname ." has just registered as a new active member with the worldwide WJCW crowdfunding team.</p>";
     $message1 .= "<p>The next step is very important and needs to be actioned as soon as possible.// Log into your account on the website and get in touch with" . $fullname . " You can find their email and phone number in your online account.</p>";
     $message1 .= "<p>Give them a very warm welcome to WJCW Crowd Funding. Remember Allah SWT asks us to help one another in good deeds. Together we will achieve all of our objectives and work together like one family for the welfare of the community around the globe.</p>";
-    echo $link = "http://wjcwcf.com/index.php?member_id=$member_id";
+    echo $link = "https://wjcwcf.com/index.php?member_id=$member_id";
 
     $mail->Subject = $subject;
     $mail->Body = $message . '  ' . $link;
@@ -62,7 +62,7 @@ try {
 
     //$mail->AltBody = $message1;
     $mail->SMTPKeepAlive = true;   
-    // $mail->Mailer = “smtp”; // don't change the quotes!
+    $mail->Mailer = “smtp”; // don't change the quotes!
 
     $mail->send();
     

@@ -10009,3 +10009,93 @@ Stack trace:
 #1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
 #2 {main}
   thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[16-Feb-2025 16:46:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 4
+[16-Feb-2025 16:46:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 9
+[16-Feb-2025 16:46:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 14
+[16-Feb-2025 16:46:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 19
+[16-Feb-2025 16:46:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[16-Feb-2025 16:46:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php:25
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php(25): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[16-Feb-2025 22:41:17 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 4
+[16-Feb-2025 22:41:17 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 9
+[16-Feb-2025 22:41:17 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 14
+[16-Feb-2025 22:41:17 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 19
+[16-Feb-2025 22:41:17 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[16-Feb-2025 22:41:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php:25
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php(25): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[18-Feb-2025 03:07:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 4
+[18-Feb-2025 03:07:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 9
+[18-Feb-2025 03:07:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 14
+[18-Feb-2025 03:07:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 19
+[18-Feb-2025 03:07:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[18-Feb-2025 03:07:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php:25
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php(25): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[18-Feb-2025 17:31:02 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 4
+[18-Feb-2025 17:31:02 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 9
+[18-Feb-2025 17:31:02 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 14
+[18-Feb-2025 17:31:02 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 19
+[18-Feb-2025 17:31:02 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[18-Feb-2025 17:31:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php:25
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php(25): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[18-Feb-2025 21:49:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 4
+[18-Feb-2025 21:49:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 9
+[18-Feb-2025 21:49:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 14
+[18-Feb-2025 21:49:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 19
+[18-Feb-2025 21:49:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[18-Feb-2025 21:49:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php:25
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php(25): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[19-Feb-2025 01:08:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 4
+[19-Feb-2025 01:08:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 9
+[19-Feb-2025 01:08:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 14
+[19-Feb-2025 01:08:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 19
+[19-Feb-2025 01:08:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[19-Feb-2025 01:08:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php:25
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php(25): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/index.php(3): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/index_mysqli.php on line 25
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 6
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 9
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 88
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 91
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 113
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 232
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 236
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 156
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 198
+[20-Feb-2025 21:57:24 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 199
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 6
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 9
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 88
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 91
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 113
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 232
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 236
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 156
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 198
+[21-Feb-2025 15:39:55 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/genererate_link_send_email.php on line 199

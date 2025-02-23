@@ -1,5 +1,7 @@
 <?php 
+
  include("../../../db/configuration.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,10 +41,11 @@
         <div class="col-sm-4 font-weight-bold">Amount:</div>
         <div class="col-sm-8" id="amount_show_gpay">£0</div>
     </div>
-    <?} ?>
+    <?php } ?>
   </div>
   
   <script type="text/javascript">
+    
     // Wait until the Google Pay API script has loaded before proceeding
     if (typeof google !== 'undefined' && google.payments && google.payments.api) {
       // Google Pay API is available, proceed with initialization

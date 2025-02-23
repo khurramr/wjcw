@@ -36,7 +36,7 @@ try {
     //Recipient(s)    
     $mail->addAddress($_POST['email']);     //Add a recipient
     
-    echo $change_password = 'http://wjcwcf.com/my_account/change_password.php?memberid='. $memberid;
+    echo $change_password = 'https://wjcwcf.com/my_account/change_password.php?memberid='. $memberid;
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
 

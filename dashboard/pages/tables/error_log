@@ -116,3 +116,27 @@
 [05-Nov-2024 16:24:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_tbl_detail.php on line 370
 [05-Nov-2024 16:24:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_tbl_detail.php on line 402
 [05-Nov-2024 16:24:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_tbl_detail.php on line 434
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 24
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 156
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 160
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_tbl.php on line 72
+[18-Feb-2025 02:35:01 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_mysqli.php on line 6
+[18-Feb-2025 02:35:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_mysqli.php:7
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_mysqli.php(7): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_tbl_detail.php(2): include('/home/em8cxtwqi...')
+#2 /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_tbl.php(79): include('/home/em8cxtwqi...')
+#3 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/tables/my_wjcw_mysqli.php on line 7
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 24
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 156
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 160
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[20-Feb-2025 17:35:28 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/tables/total_members.php on line 68

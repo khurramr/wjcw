@@ -70,7 +70,7 @@ function sendTokenPurchaseEmail($to_email, $fullname, $amount, $tokens, $subject
        
 
         // Insert a custom link (you can use any dynamic value here)
-        // $link = "http://wjcwcf.com/index.php?member_id=12345"; // Example link (replace with dynamic member ID if needed)
+        // $link = "https://wjcwcf.com/index.php?member_id=12345"; // Example link (replace with dynamic member ID if needed)
         // $message .= "<p><a href='{$link}'>Click here to view your profile</a></p>";
 
         // Set email content

@@ -19,3 +19,68 @@
 [16-Jan-2025 12:58:37 UTC] PHP Notice:  Undefined index: module in /home/em8cxtwqiira/public_html/my_account/payment/paypal_payment.php on line 9
 [17-Jan-2025 08:24:54 UTC] PHP Notice:  Undefined index: module in /home/em8cxtwqiira/public_html/my_account/payment/paypal_payment.php on line 9
 [20-Jan-2025 01:00:53 UTC] PHP Notice:  Undefined index: module in /home/em8cxtwqiira/public_html/my_account/payment/paypal_payment.php on line 9
+[11-Feb-2025 18:52:11 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[11-Feb-2025 18:52:11 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[11-Feb-2025 18:52:11 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 110
+[11-Feb-2025 18:55:47 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[11-Feb-2025 18:55:47 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[11-Feb-2025 18:55:47 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[11-Feb-2025 18:56:25 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[11-Feb-2025 18:56:25 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[11-Feb-2025 18:56:25 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 67
+[11-Feb-2025 19:01:28 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[11-Feb-2025 19:01:28 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[11-Feb-2025 19:01:28 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[13-Feb-2025 21:15:31 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[13-Feb-2025 21:15:31 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[13-Feb-2025 21:15:31 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[15-Feb-2025 03:02:17 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[15-Feb-2025 03:02:17 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[15-Feb-2025 03:02:17 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[15-Feb-2025 20:46:00 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[15-Feb-2025 20:46:00 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[15-Feb-2025 20:46:00 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[15-Feb-2025 21:03:06 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[15-Feb-2025 21:03:06 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[15-Feb-2025 21:03:07 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[16-Feb-2025 04:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function debug_to_console() in /home/em8cxtwqiira/public_html/my_account/payment/paypal_payment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/payment/paypal_payment.php on line 8
+[16-Feb-2025 05:00:38 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[16-Feb-2025 05:00:38 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[16-Feb-2025 05:00:38 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 67
+[16-Feb-2025 17:22:13 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[16-Feb-2025 17:22:13 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[16-Feb-2025 17:22:13 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[17-Feb-2025 23:45:11 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[17-Feb-2025 23:45:11 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[17-Feb-2025 23:45:11 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 67
+[18-Feb-2025 22:01:55 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[18-Feb-2025 22:01:55 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[18-Feb-2025 22:01:55 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 110
+[18-Feb-2025 22:02:47 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[18-Feb-2025 22:02:47 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[18-Feb-2025 22:02:47 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[18-Feb-2025 22:03:04 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[18-Feb-2025 22:03:04 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[18-Feb-2025 22:03:04 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 67
+[18-Feb-2025 22:03:23 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[18-Feb-2025 22:03:23 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[18-Feb-2025 22:03:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[18-Feb-2025 23:42:29 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[18-Feb-2025 23:42:29 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[18-Feb-2025 23:42:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[20-Feb-2025 03:31:44 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[20-Feb-2025 03:31:44 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[20-Feb-2025 03:32:14 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[21-Feb-2025 15:46:32 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[21-Feb-2025 15:46:32 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[21-Feb-2025 15:46:32 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 110
+[21-Feb-2025 15:55:56 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[21-Feb-2025 15:55:56 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[21-Feb-2025 15:55:56 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 67
+[21-Feb-2025 15:59:06 UTC] PHP Warning:  Undefined array key "paymentId" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 12
+[21-Feb-2025 15:59:06 UTC] PHP Warning:  Undefined array key "PayerID" in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 13
+[21-Feb-2025 15:59:06 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/my_account/payment/payment-success.php on line 152
+[22-Feb-2025 03:51:01 UTC] PHP Warning:  Undefined array key "module" in /home/em8cxtwqiira/public_html/my_account/payment/paypal_payment.php on line 9

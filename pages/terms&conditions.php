@@ -40,7 +40,7 @@
                     <p>Furthermore, you will be subject to any additional terms applicable when using certain services in addition to services provided by WJCW CF. This includes guarantees and terms and conditions as stipulated in the official WJCW Membership Form. All such terms are hereby incorporated by reference into these Terms of Service.</p>
                     <h2>Access and Use of the Services</h2>
                     <p><strong>Services Description:</strong> The services of WJCW CF are offered as a platform on which individuals can take part in crowdfunding. Individuals are “users” of the WJCW CF platform and may be deemed a “campaign organiser” and/or “donor” (each defined further below). Among other features, the services are designed to allow a user (a “campaign organiser”) to post a fundraising “campaign” to the WJCW CF Platform for the purpose of accepting monetary “donations” and/or “gifts” from other registered users wishing to contribute funds to the campaign. The term “campaign organiser” will also include in that definition any individual(s) designated as a beneficiary of a “campaign”. There are no fees to set up a campaign, but there is an annual platform fee, more details of this fee and further details can be found in the “Fees” section.</p>
-                    <p><strong>Charitable Giving:</strong> Campaigns are not charities to which you can make tax-deductible charitable contributions. However, WJCW CF permits donors to contribute directly to certain charitable organisations (“charities”) through the Platform, in addition to the services described above.</p>
+                    <p><strong>Charitable Giving:</strong> Campaigns are not charities to which you can make taxdeductible charitable contributions. However, WJCW CF permits donors to contribute directly to certain charitable organisations (“charities”) through the Platform, in addition to the services described above.</p>
                     <p>WJCW CF is an administrative platform only from which users of said platform may use the website or associated platforms (such as mobile application, etc) to view the current status of individual accounts and manage online information individually.</p>
                     <p>WJCW CF is not a financial organisation or broker, creditor or charity. The services provided by WJCW CF are administrative only. WJCW CF facilitates the gifts/donation transactions between a campaign organisers and donors but is not a party to any agreement between a campaign organiser and a donor, or between any user and a charity.</p>
                     <p>WJCW CF is not liable for the conduct of, or any information provided by, a campaign organiser or a charity or donor and does not claim responsibility for the individual actions of others.</p>
@@ -98,69 +98,11 @@
                     <p><strong>Gifts/Donations:</strong> In order to contribute to a “campaign” or to a charity, a “donor” will be required to provide WJCW CF information regarding its credit card or other payment instruments. You, as a Donor, confirm to WJCW CF that such information is true and that you are authorised to use the payment method. <strong>You agree that a certain minimum gift/donation amount may apply and that all gift/donation payments are final and are non-refundable.</strong> Donors may have the option to contribute recurring period gift/donations, and in electing to contribute on a recurring basis, you, as a Donor (i) agree to promptly update your account information with any changes (for example, a change in your billing address or credit card expiration date) that may occur and to pay the gift/donation amount that you specify, and (ii) hereby authorise WJCW CF to bill your payment instrument in advance on a periodic basis until you terminate such periodic payments, which can be done at any time through the user portal via the WJCW CF website. Furthermore, you as a user of this platform are solely responsible for sending and receiving gifts/donations from other parties; this responsibility does not lie with WJCW CF.</p>
                     <h2>Gifting and Donating:</h2>
                     <p>A user of WJCW CF Platform making a gift/donation is deemed a “donor” and may choose one of the following “Gift/Donations Levels” as set out in the WJCW Membership Form and as explained further on the WJCW CF website:</p>
-                    <h3>Gift/Donation Levels</h3>
-                    <table class="table table-bordered font-weight-bold">
-                        <tbody>
-                            <tr>
-                                <td>Stage</td>
-                                <td>#1</td>
-                                <td>#2</td>
-                                <td>#3</td>
-                                <td>#4</td>
-                                <td>#5</td>
-                                <td>#6</td>
-                                <td>#7</td>
-                                <td>#8</td>
-                            </tr>
-                            <tr>
-                                <td>Give</td>
-                                <td>£20</td>
-                                <td>£40</td>
-                                <td>£100</td>
-                                <td>£250</td>
-                                <td>£500</td>
-                                <td>£1000</td>
-                                <td>£2000</td>
-                                <td>£4000</td>
-                            </tr>
-                            <tr>
-                                <td>Receive</td>
-                                <td>£60</td>
-                                <td>£120</td>
-                                <td>£300</td>
-                                <td>£750</td>
-                                <td>£1500</td>
-                                <td>£3000</td>
-                                <td>£6000</td>
-                                <td>£12000</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table class="table table-bordered font-weight-bold">
-                        <tbody>
-                            <tr>
-                                <td>Stage</td>
-                                <td>#9</td>
-                                <td>#10</td>
-                                <td>#11</td>
-                                <td>#12</td>
-                            </tr>
-                            <tr>
-                                <td>Give</td>
-                                <td>£8000</td>
-                                <td>£16,000</td>
-                                <td>£32,000</td>
-                                <td>£64,000</td>
-                            </tr>
-                            <tr>
-                                <td>Receive</td>
-                                <td>£24,000</td>
-                                <td>£48,000</td>
-                                <td>£96,000</td>
-                                <td>£192,000</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h3>Gift/Donation Levels <span style="color: #f70909;">*</span></h3>
+                    
+                    <?php include "gift_donations_levels_t&c.php"; ?>
+                    
+                    <p><span style="color: #f70909;"><b>*N.B.: these figures are approximate and may be more or less at times.</b></span></p>
                     <p>Please note it is your absolute choice to gift/donate at the level or levels you so desire. According to your gifts/donation level, a member must “give” and “receive” through all twelve stages of the software platform in order to qualify for WJCW benefits and can recycle repeatedly as many times as you like.</p>
                     <p>Please note that if you do not follow the rules or are not an active member of WJCW CF, you risk losing your membership and status as a shareholder. For members to note that all money gifted via WJCW CF is non-refundable.</p>
                     <p><strong>Fees:</strong> WJCW CF charges an annual fee for the use of the software platform and licensing. <strong>This fee is subject to change but for the year 2020/2021 is an annual sum of £12 GBP.</strong> This is separate from the 50% of each “gift/donation level” which is given to WJCW and the remaining 50% is kept by the user/member. More information on fees can be found on the WJCW website. We reserve the right to change WJCW CF’s fee pricing at any time with reasonable notice of 30 days via the online WJCW CF Platform or in an email to you, at WJCW CF’s discretion. Your continued use of WJCW CF services after the fee change becomes effective constitutes your acceptance of the updated fees. All fees referred to in these Terms of Service are exclusive of Value Added Tax, Goods and Services Tax and any other taxes, where applicable.</p>

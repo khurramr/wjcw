@@ -1,3 +1,9 @@
+<?php
+
+
+//error_reporting(~E_ALL & ~E_NOTICE & ~E_WARNING); 
+include("../session_login.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +86,13 @@
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
   <!-- Navbar -->
-<?php include"../header_green.php" ?>
+  
+<?php include "../header_green.php";  
+// ini_set('display_errors', '1');
+// ini_set('display_startup_errors', '1');
+// error_reporting(E_ALL);
+?>
+
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
@@ -104,7 +116,7 @@
       </div>
 
       <!-- Sidebar Menu -->
-    <?php include "sidebar-menu.php" ?>     
+    <?php include "sidebar-menu.php"; ?>     
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
@@ -222,7 +234,7 @@
   <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
-<?php include"../copy_right.php"; ?>
+<?php include "../copy_right.php"; ?>
 <!-- jQuery -->
 <script src="../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->

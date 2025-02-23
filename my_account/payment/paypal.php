@@ -168,6 +168,20 @@
         // });
 
         $('.paypal').click(function() {
+            CallPaypal();
+        });
+        $('#btn_proceed').click(function() {
+            // alert("here");
+            $(".nav-item.gpay").hide();
+            setTimeout(function (){
+                $('.paypal').trigger('click');
+                }, 
+                100);
+            CallPaypal();
+        });
+        
+       
+        function CallPaypal(){
             var amount = $('#f_amount').val();
             $('#amount-display').text('£' + amount);
             var module_name = $('#module_name').val();
@@ -184,7 +198,7 @@
             $('#module').val(module_name);
             // $('#amount-display').text('£' + amount);
             $('#paypalForm').append('<input type="hidden" id="f_amount" name="f_amount" value="'+amount+'">');
-        });
+        }
     </script>
 
 </body>

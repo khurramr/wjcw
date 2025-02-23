@@ -80,7 +80,7 @@
         <input type="hidden" id="memberid" value="<?= isset($_SESSION['member_id']) ? $_SESSION['member_id'] : 0?>"> 
         <input type="hidden" id="f_token" value="0"> 
         <input type="hidden" id="module_name" value="pay_wjcw"> 
-            <?php include "pay_annual_fee_card_section.php"; ?>
+            <?php include "pay_annual_fee_card_section.php" ?>
         </div>
 </div>
 <?php include("../../../my_account/payment/alert-message.php") ; ?>

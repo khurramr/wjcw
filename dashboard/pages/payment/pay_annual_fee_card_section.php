@@ -227,6 +227,11 @@
   <script>
     $(document).ready(function() {
       updatePayment();
+      $(".nav-item.gpay").hide();
+            setTimeout(function (){
+                $('.paypal').trigger('click');
+                }, 
+                100);
     // When any stage link is clicked, handle the change event
         $('.nav-item .nav-link.stages').on('click', function() {
             // Find the clicked stage link
