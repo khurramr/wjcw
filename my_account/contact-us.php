@@ -1,3 +1,6 @@
+<?php 
+    include("../db/constants.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,22 +192,40 @@ swal({
 })
 .then((willSave) => {
   if (willSave) {    
+    $("#submit").html("Loading, please wait...");
+    $("#submit").attr("disabled", "disabled");
+    
     $.ajax({
-            url:"../ajax/contactus-message-add.php",
+            url:"../ajax/send_email_to_contact_us.php",
             method:"POST",
-            data:{member_id:member_id, message:message},
+            data:{
+                to: '<?php echo $contactUsEmail ?>',
+                memberId: member_id,
+                firstName: firstname,
+                lastName: lastname,
+                email: email,
+                contactNo: contactno, 
+                message: message
+            },
                     success:function(data, success){
                     if(data == 0){
                        swal("Your entered wrong member id !", {
                           icon: "error",
                         });
                     }else{
-                    $("#response").html(data);
                         $("#message").val("");
+                        $("#phone").val("");
+                        $("#email").val("");
+                        $("#lname").val("");
+                        $("#fname").val("");
+                        $("#member_id").val("");
                         
                        swal("Your message has been sent!", {
                           icon: "success",
                         });
+                        $("#submit").html("Submit");
+                        $("#submit").attr("disabled", false);
+
                         
                     }
                     }

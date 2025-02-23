@@ -14,12 +14,12 @@ try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->CharSet = 'UTF-8';
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.wjcwcf.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'wjcwcf.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'wjcwcf_registration@wjcwcf.com';                     //SMTP username
     $mail->Password   = 'WelcomeTas15';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+    $mail->Port       = 465;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Sender
     $mail->setFrom('wjcwcf_registration@wjcwcf.com', 'WJCW CF');
@@ -52,7 +52,7 @@ try {
     
     $mail->AltBody = $message1;
     $mail->SMTPKeepAlive = true;   
-    $mail->Mailer = “smtp”; // don't change the quotes!
+    $mail->Mailer = "smtp";
 
     $mail->send();
     

@@ -59,7 +59,7 @@ try {
     $mail->Body    = $message;
     $mail->AltBody = $message_alt;
     $mail->SMTPKeepAlive = true;   
-    $mail->Mailer = “smtp”; // don't change the quotes!
+    $mail->Mailer = 'smtp'; //“smtp”; // don't change the quotes!
 
     $mail->send();
 echo 'Message has been sent';

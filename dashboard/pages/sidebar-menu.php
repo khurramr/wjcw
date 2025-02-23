@@ -84,14 +84,6 @@ color: greenyellow;
                 </a>
               </li>
               
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-<!--<img src="../../dashboard/dist/img/gift_money.jpg" alt="circle_7" class="brand-image img-circle elevation-3" style=" width:11%; border-radius:50%" >                  -->
-                  <p>My Gift Money</p>
-                </a>
-              </li>
-              
             </ul>
           </li>
 
@@ -239,7 +231,7 @@ color: greenyellow;
               </li>
 -->
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="./marketing_tool.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Marketing Tools</p>
                 </a>

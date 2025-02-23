@@ -190,7 +190,7 @@ $email = $row['email'];
 $(document).ready(function(){
     
     $("#send-message").click(function(){
-        var link = $("#send_link").attr("href", )
+        var link = $("#send_link").attr("href")
         var email = $("#email").val();
         var from_email = "<?= $email ?>";
         var subject = $("#txt-subject").val();

@@ -24,12 +24,12 @@ function sendTokenPurchaseEmail($to_email, $fullname, $amount, $tokens, $subject
         // SMTP server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
         $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'mail.wjcwcf.com';                       // Set the SMTP server to send through
+        $mail->Host       = 'wjcwcf.com';                       // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                    // Enable SMTP authentication
         $mail->Username   = 'wjcwcf_registration@wjcwcf.com';        // SMTP username
         $mail->Password   = 'WelcomeTas15';                          // SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;          // Enable TLS encryption
-        $mail->Port       = 587;                                     // TCP port to connect to
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          // Enable TLS encryption
+        $mail->Port       = 465;                                     // TCP port to connect to
 
         // Sender's email
         $mail->setFrom('wjcwcf_registration@wjcwcf.com', 'WJCW CF');

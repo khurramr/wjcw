@@ -5,7 +5,6 @@ $member_id = $_POST['member_id'];
 $token_no = $_POST['token_no'];
 $email = $_POST['email'];
 
-
 $member_info_sql = "select * from member_registration where email = '$email' and member_id = '$member_id'";
 
 $memberInfo = mysqli_query($link, $member_info_sql);

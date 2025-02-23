@@ -288,7 +288,7 @@ only screen and (max-width: 760px),
                                     $status = 'Invalid';
                                 }
                         ?>        
-                            <tr style='color:red'>
+                            <tr style='color:red' id="<?php echo $row['id'].'-row'; ?>">
                                 <td><?= $i++; ?></td>
                                 <td><?= $row["purchase_date"]; ?></td>
                                 <td><?= $row["issued_date"]; ?></td>
@@ -297,7 +297,7 @@ only screen and (max-width: 760px),
                                 <td> <?= $row["fullname"]; ?></td>
                                 <td><?= "<span class='unselectable'>WJCW CF-</span>" . $row["token"]; ?></td>
                                 <td>£12</td>
-                                <td><button class="btn btn-danger btn_delete" id="<?php echo $row['id']; ?>">DELETE</button></td>
+                                <td><button class="btn btn-danger btn_delete delete-token" id="<?php echo $row['id']; ?>">DELETE</button></td>
                             </tr>    
                         <?php  } ?>
 
@@ -322,5 +322,20 @@ $(document).ready(function() {
           "pageLength": 25
 
     });
+
+    $(".delete-token").click(function(e) {
+      const row = $(this);
+      $.ajax({
+            url:"../../../ajax/delete_token.php",
+            method:"POST",
+            data:{
+              tokenId: row.attr("id")
+            },
+                    success:function(data, success){
+                      $("#"+row.attr("id")+'-row').hide();
+                    }
+                        
+    })
+    })
 });
 </script>

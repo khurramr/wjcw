@@ -177,6 +177,7 @@ if (member_id == ""){
 }else{
     $("#memberId_span").hide()
 }
+
 if (name == ""){
     $("#name_span").show()
 }else{

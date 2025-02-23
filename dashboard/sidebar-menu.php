@@ -199,13 +199,6 @@ $avatar = $row['avatar'];
                 </a>
               </li>
               
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>My Gift Money</p>
-                </a>
-              </li>
-              
             </ul>
           </li>
             <li class="nav-item">
@@ -347,7 +340,7 @@ $avatar = $row['avatar'];
                 </a>
               </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="pages/marketing_tool.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Marketing Tools</p>
                 </a>

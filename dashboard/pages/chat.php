@@ -1,5 +1,7 @@
 <?php include("../session_login.php") ?>
 <?php include("chat_mysqli.php") ?>
+<?php 
+    include("../../db/constants.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -174,11 +176,13 @@ swal({
 })
 .then((willSave) => {
   if (willSave) {    
+    $("#submit").html("Loading, please wait...");
+    $("#submit").attr("disabled", "disabled");
     $.ajax({
             url:"../../ajax/send_email_to_contact_us.php",
             method:"POST",
             data:{
-              to: "krf_20@hotmail.com",
+              to: '<?php echo $contactUsEmail ?>',
               memberId: userData.member_id,
               firstName: firstname,
               lastName: lastname,
@@ -196,6 +200,9 @@ swal({
                        swal("Your message has been sent!", {
                           icon: "success",
                         });
+                  
+                        $("#submit").html("Submit");
+                        $("#submit").attr("disabled", false);
                         
                     }
                     }
