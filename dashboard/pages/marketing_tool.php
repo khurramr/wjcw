@@ -1,4 +1,5 @@
 <?php include("../session_login.php") ?>
+<?php include"../../google_translator.php"; ?>
 <?php include("chat_mysqli.php") ?>
 <?php 
     include("../../db/constants.php"); ?>
@@ -16,11 +17,24 @@
   <link rel = "icon" href="../../../assets/images/cropped-logo.png" type = "image/x-icon"> 
   <link rel="stylesheet" href="../dist/css/size_adjustment_G_D_S_R.css">
   <style>
+    .green {
+      color: green;
+      font-weight: 600;
+    }
     .header {
     color: #36A0FF;
     font-size: 27px;
     padding: 10px;
     }
+    q {
+  quotes: "“" "”" "‘" "’";
+}
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
     .span_alert {
     display:none
     }
@@ -85,6 +99,25 @@
   </aside>
 <?php include"../header_green.php" ?>
   <div class="content-wrapper">
+      <div class="new-sec text-center">
+        <p class="green">
+            بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+        <br />In the name of Allah, The Most Gracious and The Most Merciful
+        <br /><br />
+        وَاﻋْﺘَﺼِﻤُﻮاْ ﺑِﺤَﺒْﻞِ ﷲِّ ﺟَﻤِﯿﻌًﺎ وَﻻَ ﺗَﻔَﺮﱠﻗُﻮاْ
+        <br />
+        Hold firmly to the way, rope of Allah all together and do not become divided (Sura Aali Imran:103)
+        </p>
+      <strong>
+        Work together under the banner of the Ahlulbayt (a.s)
+      </strong>
+      <br/><br/>
+        <h1>
+        <q>
+          Work Hard &  Be Nice To People
+      </q>
+      </h1>
+    </div>
     <div class="new-sec">
       <h1>
         Tools of WJCW crowdfunding platform 

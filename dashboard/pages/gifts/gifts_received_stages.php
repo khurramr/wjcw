@@ -98,7 +98,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -274,7 +274,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -309,7 +309,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -344,7 +344,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -379,7 +379,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -414,7 +414,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -449,7 +449,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>
@@ -484,7 +484,7 @@ only screen and (max-width: 760px),
                             <td><?php  echo $row['dated'] ?></td>
                             <td>
                                 <?php if($row['verified'] == 1){ ?>
-                                <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
+                                <button disabled id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
                                 <?php } else{?>
                                     <button id="<?= $row['gdt_id']; ?>" btn_verified="<?= $row['verified']; ?>" class="btn btn-danger btn_verify">VERIFY</button>
                                 <?PHP } ?>

@@ -42,18 +42,15 @@
                         </li>
                                 <li class="nav-item">
                                     <a
-                                    id="header-join-us"
                                     class=" nav-link" title="Join us" href="../my_account/join-us.php">Join us</a>
                                 </li>
                                 <li 
                                 class="nav-item">
                                     <a 
-                                id="header-contact-us"
                                     class=" nav-link" title="Contact Us" href="../my_account/contact-us.php">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class=" nav-link" 
-                                    id="header-login"
                                     title="Login" href="../my_account/login.php">Login</a>
                                 </li>
                             </ul>
@@ -114,6 +111,7 @@
             $("#header-contact-us").removeClass("activePage text-white");
             const paths = window.location.pathname.split("/");
             const activePath = paths[paths.length - 1];
+            console.log(activePath.indexOf("contact-us") > -1)
             if (activePath.indexOf("login") > -1) {
                 $("#header-login").addClass("activePage text-white");
             } else if (activePath.indexOf("join-us") > -1) {

@@ -153,7 +153,7 @@ $email = $row['email'];
               <div class="form-inline mt-4">
               <button class="btn btn-success btn-lg" id="btn-link">WHATSAPP</button>
                   &nbsp;&nbsp;
-                  <div class="input form-control" id="whatsapp-share"><a href="https://web.whatsapp.com/send?text=https://wjcwcf.com/index.php?member_id=<?= $member_id; ?>" data-action="share/whatsapp/share" target="_blank"><h4 class="h_color">SHARE VIA WHATSAPP WEB</h4></a></div>
+                  <div class="input form-control" id="whatsapp-share"><a id="whatsapp-link" href="https://web.whatsapp.com/send?text=https://wjcwcf.com/index.php?member_id=<?= $member_id; ?>" data-action="share/whatsapp/share" target="_blank"><h4 class="h_color">SHARE VIA WHATSAPP WEB</h4></a></div>
               </div>
               <div class="form-inline mt-4">
               <button class="btn btn-danger btn-lg" id="btn-to">Email</button>               

@@ -273,7 +273,7 @@ $avatar = $row['avatar'];
               </li>
 -->
                <li class="nav-item">
-                <a href="./marketing_tool.php" class="nav-link">
+                <a href="../marketing_tool.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Marketing Tools</p>
                 </a>
