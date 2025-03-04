@@ -8,6 +8,8 @@ include "../google_translator.php"; ?>
         border-radius: 50%;
     </style>      
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <?php include"../google_translator.php"; ?>
+
     <meta http-equiv='cache-control' content='no-cache'>
     <meta http-equiv='expires' content='0'>
     <meta http-equiv='pragma' content='no-cache'>   

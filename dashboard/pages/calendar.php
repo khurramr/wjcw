@@ -21,6 +21,8 @@ include("../session_login.php");
   <!-- Theme style -->
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <link rel="stylesheet" href="../dist/css/gradient_buttons.css">
+  <?php include"../../google_translator.php"; ?>
+  
   <style>
     .div_fa_bars{ margin-left: -350px}
 .scroll-menu {

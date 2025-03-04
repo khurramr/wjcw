@@ -4,6 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WJCW</title>
+  <?php include"../../../google_translator.php"; ?>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">

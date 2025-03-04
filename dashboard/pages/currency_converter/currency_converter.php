@@ -199,13 +199,6 @@ var collapseItem = localStorage.getItem('currency_converter');
 if (collapseItem) {
    $(collapseItem).collapse('show')
 }
-/*
-$("#main-nav").show();
-document.onreadystatechange = function() {
-    if (document.readyState <> "complete") {
-        document.querySelector("#main-nav").style.visibility = "visible";
-    }
-};
 
 </script>
 </body>

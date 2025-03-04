@@ -60,19 +60,12 @@ q::after {
             color: black;
             line-height: 1.6;
         }
-        h2, h3 {
+        h1, h2, h3 {
             color: green;
         }
         ul {
             padding-left: 20px;
         }
-        h1 {
-            color: green;
-            font-size: 25px;
-        }
-        .content-wrapper p {
-            font-size: 20px;
-        }        
         
     </style>
 </head>
@@ -111,27 +104,23 @@ q::after {
             بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
         <br />In the name of Allah, The Most Gracious and The Most Merciful
         <br /><br />
-        <span style="font-size: 22px;">إِنَّمَا يُرِيدُ اللَّـهُ لِيُذْهِبَ عَنكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا</span>
+        وَاﻋْﺘَﺼِﻤُﻮاْ ﺑِﺤَﺒْﻞِ ﷲِّ ﺟَﻤِﯿﻌًﺎ وَﻻَ ﺗَﻔَﺮﱠﻗُﻮاْ
         <br />
-        Indeed Allah desires to repel all impurity from only you, Ahl al-Bayt (People of the Household), and purify you with a thorough purification.  (Quran 33:33)
-        <br /><br />
-        <span style="font-size: 22px;">قُلۡ لَّاۤ اَسۡـَٔلُکُمۡ عَلَیۡہِ اَجۡرًا اِلَّا الۡمَوَدَّۃَ فِی الۡقُرۡبٰی</span> 
-        <br />
-        Say (O’ Mohammad), I do not ask of you any recompense for it, save love of (my) relatives (near of kin).  (Quran 42:23)
+        Hold firmly to the way, rope of Allah all together and do not become divided (Sura Aali Imran:103)
         </p>
       <strong>
-        <span style="color: green; font-size: 22px;">Work together under the banner of the Ahlulbayt (a.s)</span>
+        Work together under the banner of the Ahlulbayt (a.s)
       </strong>
       <br/><br/>
         <h1>
         <q>
-          <span style="font-size: 25px;">Work Hard & Be Nice To People</span>
+          Work Hard &  Be Nice To People
       </q>
       </h1>
     </div>
     <div class="new-sec">
       <h1>
-        <div style="text-align: center;">Tools of WJCW CF</div>
+        Tools of WJCW crowdfunding platform 
   </h1>
       <strong>
       Your Digital Marketing Toolbox
@@ -170,8 +159,7 @@ ethical decisions and live with integrity.
     </ul>
   </div>
   <div class="new-sec">
-    <h1><div style="text-align: center;">MOTIVATION</div></h1>
-    
+
     <h1>Motivation is essential for the success of a networking and crowdfunding platform. Here are several reasons why motivation is particularly important in this context:</h1>    
         <br/>
     <h3>1. Building Community Engagement:</h3>
@@ -362,11 +350,6 @@ swal({
 });
 });
     
-var totalHeight = 0;
-$(".content-wrapper").children().each(function() {
-    totalHeight += $(this).outerHeight(true); // true includes margins
-});
-$(".content-wrapper").height(totalHeight);
 </script>
 <!-- Bootstrap 4 -->
 <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

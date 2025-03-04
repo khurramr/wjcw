@@ -241,7 +241,7 @@ color: greenyellow;
           
          <li class="nav-header">OTHERS</li>
         <li class="nav-item">
-            <a href="pages/calendar.php" class="nav-link">
+            <a href="calendar.php" class="nav-link">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
                 Calendar

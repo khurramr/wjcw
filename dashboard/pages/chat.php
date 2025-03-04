@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../dist/css/gradient_buttons.css">
   <link rel = "icon" href="../../../assets/images/cropped-logo.png" type = "image/x-icon"> 
   <link rel="stylesheet" href="../dist/css/size_adjustment_G_D_S_R.css">
+  <?php include"../../google_translator.php"; ?>
   <style>
     .header {
     color: #36A0FF;

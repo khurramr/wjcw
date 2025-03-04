@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/links/owl.carousel.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <?php include"./google_translator.php"; ?>
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--    <link rel = "icon" href =  "assets/images/cropped-logo.png" type = "image/x-icon">-->
@@ -75,7 +76,7 @@
 </style>
 <body>
     <!-- NAV -->
-    
+  
 <?php
 
     

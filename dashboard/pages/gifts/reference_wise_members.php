@@ -257,9 +257,5 @@ $(document).ready(function() {
 
     })
     
-    
-    $('#members').DataTable({
-        "ordering": false
-    });
 });
 </script>
