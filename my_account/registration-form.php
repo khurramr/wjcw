@@ -84,7 +84,7 @@
                           </div>
                           <div class="row mt-2">
                           <div class="col-md-10">
-                                <h4 style="color:green; display:none" id="confirm_email">A confirmation email has been sent to your email address</h4>
+                                <h4 style="color:green; display:none" id="confirm_email">A confirmation email has been sent to your email address, please wait you will be redirected shortly!</h4>
                             </div>
                           </div>
                     </fieldset>

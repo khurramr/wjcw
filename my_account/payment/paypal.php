@@ -170,6 +170,13 @@
         $('.paypal').click(function() {
             CallPaypal();
         });
+        $('.stages').click(function() {
+            setTimeout(function (){
+                $('.paypal').trigger('click');
+                }, 
+                100);
+            CallPaypal();
+        });
         $('#btn_proceed').click(function() {
             // alert("here");
             $(".nav-item.gpay").hide();
@@ -183,6 +190,7 @@
        
         function CallPaypal(){
             var amount = $('#f_amount').val();
+            // alert(amount);
             $('#amount-display').text('£' + amount);
             var module_name = $('#module_name').val();
             var paypalHiddenName = $("#hiddenName").val();

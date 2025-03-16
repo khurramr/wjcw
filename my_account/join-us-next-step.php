@@ -54,7 +54,7 @@ $row = mysqli_fetch_assoc($result);
     <title>Join US</title>
 </head>
 <body>
-    <?php// include '../db/connect.php' ?>   
+    <?php include '../db/connect.php' ?>   
     <?php include '../header_footer/headers.php'?>
     
 <section id="MainBanner">

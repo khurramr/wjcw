@@ -194,12 +194,12 @@ swal({
   if (willSave) {    
     $("#submit").html("Loading, please wait...");
     $("#submit").attr("disabled", "disabled");
-    
+    console.log('send_email_to_contact_us')
     $.ajax({
             url:"../ajax/send_email_to_contact_us.php",
             method:"POST",
             data:{
-                to: '<?php echo $contactUsEmail ?>',
+                to: '<?php echo $contactUsEmailOutside ?>',
                 memberId: member_id,
                 firstName: firstname,
                 lastName: lastname,

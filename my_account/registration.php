@@ -9,7 +9,7 @@ $gift_donation_amount = $row['gift_donation_amount'];
 $sponser_member_id = $row['sponser_reference'];
 $new_member_id = $row['member_id'];
 $token = $row['token'];
-
+ 
 
 $select = "SELECT * FROM token_purchase where token = '$token'";
 $result = mysqli_query($link, $select);
@@ -207,7 +207,17 @@ $("#btn_update_edit").click(function(){
     $('.form-control').prop("disabled", false);
 })
     
+function setSessionAndRedirect(count) {
+  if (count >= 5) {
+    <?php 
+        $_SESSION['fullname'] = $row['first_name'].' '.$row['last_name']; 
+        $_SESSION['member_id'] = $new_member_id;
+    ?>
+    window.location.href = "https://wjcwcf.com/dashboard/index.php";
+  }
+}
 $("#btn_confirm_proceed").click(function(){
+  let responseCntr = 0;
 event.preventDefault();
 var registration_process = "<?php echo $registration_process ?>";    
 var new_member_id = "<?php echo $new_member_id ?>";    
@@ -280,6 +290,8 @@ if ($(".form-check-inline input:checkbox[name=check_confirmation]:checked").leng
             method:"POST",
             data:{token:token},
                     success:function(data, success){
+                      responseCntr++;
+                      setSessionAndRedirect(responseCntr);
                     }   
     })
     
@@ -290,7 +302,8 @@ if ($(".form-check-inline input:checkbox[name=check_confirmation]:checked").leng
                     success:function(data, success){
                     $("#btn_cancel").prop("disabled", true);                        
                     $("#confirm_email").show(500);
-                                                
+                    responseCntr++;
+                    setSessionAndRedirect(responseCntr);
                     }   
     })
     
@@ -299,14 +312,18 @@ if ($(".form-check-inline input:checkbox[name=check_confirmation]:checked").leng
             method:"POST",
             data:{new_member_id:new_member_id, sponer_email:sponer_email, email:email, firstname:firstname, lastname:lastname},
                     success:function(data, success){
+                      responseCntr++;
+                      setSessionAndRedirect(responseCntr);
                     }   
     })
     
     $.ajax({
             url:"../ajax/send_welcome_email_new_member.php",
             method:"POST",
-            data:{sponer_email:sponer_email, email:email, firstname:firstname, lastname:lastname, gift_donation_amount:gift_donation_amount},
+            data:{new_member_id:new_member_id, sponer_email:sponer_email, email:email, firstname:firstname, lastname:lastname, gift_donation_amount:gift_donation_amount},
                     success:function(data, success){
+                      responseCntr++;
+                      setSessionAndRedirect(responseCntr);
                     }   
     })
     
@@ -315,7 +332,9 @@ if ($(".form-check-inline input:checkbox[name=check_confirmation]:checked").leng
             method:"POST",
             data:{sponser_id:sponser_id},
                     success:function(data, success){
-
+                      responseCntr++;
+                      setSessionAndRedirect(responseCntr);
+                      
                     }   
     })
     

@@ -2223,3 +2223,189 @@ Stack trace:
 #1 /home/em8cxtwqiira/public_html/ajax/payment_method_add.php(14): include('/home/em8cxtwqi...')
 #2 {main}
   thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[26-Feb-2025 23:04:43 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[26-Feb-2025 23:04:43 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[26-Feb-2025 23:04:43 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[26-Feb-2025 23:04:43 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[26-Feb-2025 23:34:05 UTC] PHP Warning:  Undefined array key "add_sp_type" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 3
+[26-Feb-2025 23:34:05 UTC] PHP Warning:  Undefined array key "add_sp_name" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 4
+[26-Feb-2025 23:34:05 UTC] PHP Warning:  Undefined array key "add_account_no" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 5
+[26-Feb-2025 23:34:05 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 6
+[26-Feb-2025 23:34:05 UTC] PHP Warning:  Undefined array key "member_id" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 7
+[26-Feb-2025 23:34:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/payment_method_add.php(14): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[28-Feb-2025 19:21:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[28-Feb-2025 19:21:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[28-Feb-2025 19:21:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[28-Feb-2025 19:21:24 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[28-Feb-2025 19:43:11 UTC] PHP Warning:  Undefined array key "add_sp_type" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 3
+[28-Feb-2025 19:43:11 UTC] PHP Warning:  Undefined array key "add_sp_name" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 4
+[28-Feb-2025 19:43:11 UTC] PHP Warning:  Undefined array key "add_account_no" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 5
+[28-Feb-2025 19:43:11 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 6
+[28-Feb-2025 19:43:11 UTC] PHP Warning:  Undefined array key "member_id" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 7
+[28-Feb-2025 19:43:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/payment_method_add.php(14): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[28-Feb-2025 19:43:13 UTC] PHP Warning:  Undefined array key "add_sp_type" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 3
+[28-Feb-2025 19:43:13 UTC] PHP Warning:  Undefined array key "add_sp_name" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 4
+[28-Feb-2025 19:43:13 UTC] PHP Warning:  Undefined array key "add_account_no" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 5
+[28-Feb-2025 19:43:13 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 6
+[28-Feb-2025 19:43:13 UTC] PHP Warning:  Undefined array key "member_id" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 7
+[28-Feb-2025 19:43:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/payment_method_add.php(14): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[02-Mar-2025 17:38:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[02-Mar-2025 17:38:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[02-Mar-2025 17:38:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[02-Mar-2025 17:38:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[02-Mar-2025 18:26:41 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[02-Mar-2025 18:26:41 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[02-Mar-2025 18:26:41 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[02-Mar-2025 18:26:41 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[03-Mar-2025 02:14:16 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[03-Mar-2025 02:14:16 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[03-Mar-2025 02:14:16 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[03-Mar-2025 02:14:16 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[03-Mar-2025 21:48:44 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[03-Mar-2025 21:48:44 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[03-Mar-2025 21:48:44 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[03-Mar-2025 21:48:44 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 17:54:23 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 17:54:23 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 17:54:23 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 19:42:06 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[07-Mar-2025 19:42:06 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 19:42:06 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 19:42:06 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 20:08:53 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 9
+[07-Mar-2025 20:08:53 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 20:08:53 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 20:08:53 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/ajax/registration_confirm.php on line 17
+[07-Mar-2025 20:42:47 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[07-Mar-2025 20:42:47 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[07-Mar-2025 20:42:47 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[07-Mar-2025 20:42:47 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[07-Mar-2025 20:42:47 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[07-Mar-2025 20:42:47 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[07-Mar-2025 20:42:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[07-Mar-2025 20:42:58 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[07-Mar-2025 20:42:58 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[07-Mar-2025 20:42:58 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[07-Mar-2025 20:42:58 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[07-Mar-2025 20:42:58 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[07-Mar-2025 20:42:58 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[07-Mar-2025 20:42:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[07-Mar-2025 20:43:16 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[07-Mar-2025 20:43:16 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[07-Mar-2025 20:43:16 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[07-Mar-2025 20:43:16 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[07-Mar-2025 20:43:16 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[07-Mar-2025 20:43:16 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[07-Mar-2025 20:43:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[08-Mar-2025 20:42:43 UTC] PHP Warning:  Undefined array key "add_sp_type" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 3
+[08-Mar-2025 20:42:43 UTC] PHP Warning:  Undefined array key "add_sp_name" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 4
+[08-Mar-2025 20:42:43 UTC] PHP Warning:  Undefined array key "add_account_no" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 5
+[08-Mar-2025 20:42:43 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 6
+[08-Mar-2025 20:42:43 UTC] PHP Warning:  Undefined array key "member_id" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 7
+[08-Mar-2025 20:42:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/payment_method_add.php(14): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[09-Mar-2025 08:49:58 UTC] PHP Warning:  Undefined array key "add_sp_type" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 3
+[09-Mar-2025 08:49:58 UTC] PHP Warning:  Undefined array key "add_sp_name" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 4
+[09-Mar-2025 08:49:58 UTC] PHP Warning:  Undefined array key "add_account_no" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 5
+[09-Mar-2025 08:49:58 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 6
+[09-Mar-2025 08:49:58 UTC] PHP Warning:  Undefined array key "member_id" in /home/em8cxtwqiira/public_html/ajax/payment_method_add.php on line 7
+[09-Mar-2025 08:49:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/payment_method_add.php(14): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[09-Mar-2025 21:48:39 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[09-Mar-2025 21:48:39 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[09-Mar-2025 21:48:39 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[09-Mar-2025 21:48:39 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[09-Mar-2025 21:48:39 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[09-Mar-2025 21:48:39 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[09-Mar-2025 21:48:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[09-Mar-2025 22:02:14 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[09-Mar-2025 22:02:14 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[09-Mar-2025 22:02:14 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[09-Mar-2025 22:02:14 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[09-Mar-2025 22:02:14 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[09-Mar-2025 22:02:14 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[09-Mar-2025 22:02:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[09-Mar-2025 22:04:17 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[09-Mar-2025 22:04:17 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[09-Mar-2025 22:04:17 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[09-Mar-2025 22:04:17 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[09-Mar-2025 22:04:17 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[09-Mar-2025 22:04:17 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[09-Mar-2025 22:04:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[09-Mar-2025 22:09:13 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[09-Mar-2025 22:09:13 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[09-Mar-2025 22:09:13 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[09-Mar-2025 22:09:13 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[09-Mar-2025 22:09:13 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[09-Mar-2025 22:09:13 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[09-Mar-2025 22:09:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4
+[09-Mar-2025 22:11:41 UTC] PHP Warning:  Undefined array key "id" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 3
+[09-Mar-2025 22:11:41 UTC] PHP Warning:  Undefined array key "sp_type" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 4
+[09-Mar-2025 22:11:41 UTC] PHP Warning:  Undefined array key "sp_name" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 5
+[09-Mar-2025 22:11:41 UTC] PHP Warning:  Undefined array key "account_no" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 6
+[09-Mar-2025 22:11:41 UTC] PHP Warning:  Undefined array key "remark" in /home/em8cxtwqiira/public_html/ajax/update_member.php on line 7
+[09-Mar-2025 22:11:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 3
+[09-Mar-2025 22:11:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php:4
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/ajax/payment_method_select.php(4): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/ajax/update_member.php(12): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/ajax/payment_method_select.php on line 4

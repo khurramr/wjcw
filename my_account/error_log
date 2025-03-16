@@ -179,3 +179,32 @@
 [19-Dec-2024 08:20:48 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
 [19-Dec-2024 08:21:04 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/registration.php on line 93
 [11-Jan-2025 15:53:22 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[03-Mar-2025 02:26:16 UTC] PHP Parse error:  syntax error, unexpected variable "$contactUsEmailInside" in /home/em8cxtwqiira/public_html/db/constants.php on line 4
+[03-Mar-2025 21:29:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[03-Mar-2025 21:29:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[03-Mar-2025 21:29:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[03-Mar-2025 21:30:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[07-Mar-2025 20:10:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[07-Mar-2025 20:12:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
+[07-Mar-2025 20:25:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/em8cxtwqiira/public_html/my_account/join-us-next-step.php on line 57
