@@ -110,11 +110,8 @@ z-index: 9999;
                   </div>
                   <div class="card-body">
                     <p class="p_fonts resizeable_p">
-                        You can see gifts/donations sent here. All stages are from stage 01 to stage 12.
 
-                        <?php echo $fullname ?>, on this page you can see your Gifts/Donations you sent. You will also find recipients who have accepted your Gifts/Donations money.
-
-                        All the information about Gifts/Donations that you have sent.
+                        <?php echo $fullname ?>, you can see gifts/donations you sent, All stages are from stage 01 to stage 12.  You will also find recipients who have accepted your Gifts/Donations money. All the information about Gifts/Donations that you have sent.
                     </p>
                   </div>
             </div>

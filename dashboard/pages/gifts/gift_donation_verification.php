@@ -137,7 +137,9 @@
 <div class="content-wrapper mt-4">
        <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">Received Gifts /Donations Verification</h1>
     <p style="margin-left:25px" class="p_fonts mt-3 resizeable_p"><strong><?= $fullname; ?></strong>, you can see who sent you gifts/ donations.</p>
-    <p style="margin-left:25px; margin-right:25px" class="p_fonts mt-3 resizeable_p">NOTE: Please verify the gifts/donations immediately as you receive them. Click on the membership number of the person who sent you the gift / donation below. If you want to see the gifts/donations which you have not yet verified, please click here.</p>
+    <p style="margin-left:25px; margin-right:25px" class="p_fonts mt-3 resizeable_p">NOTE: Please verify the gifts/donations immediately as you receive them. Check your bank account or other methods of payment you have added to make sure.</p>
+    
+    <p style="margin-left:25px; margin-right:25px" class="p_fonts mt-3 resizeable_p">If you want to see the gifts/donations which you have not verified, see the section below where it shows in the green box “VERIFIED” and in red box, “VERIFY.”</p>
 <div class="container scroll">
  <?php include"gifts_received_stages.php" ?>
 </div>  
