@@ -2,52 +2,52 @@
 
 include("../../../db/connect.php");
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 1 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 1 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level1 = mysqli_num_rows($result);
 
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 2 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 2 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level2 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 3 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 3 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level3 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 4 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 4 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level4 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 5 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 5 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level5 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 6 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 6 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level6 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 7 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 7 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level7 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 8 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 8 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level8 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 9 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 9 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level9 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 10 and verified = 1";
+$sql = "Select * from gift_donation_transactions where  sent_by <> received_by and sent_by = $member_id and level = 10 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level10 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 11 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 11 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level11 = mysqli_num_rows($result);
 
-$sql = "Select * from gift_donation_transactions where sent_by = $member_id and level = 12 and verified = 1";
+$sql = "Select * from gift_donation_transactions where sent_by <> received_by and sent_by = $member_id and level = 12 and verified = 1";
 $result = mysqli_query($link, $sql);
 $status_level12 = mysqli_num_rows($result);
 
@@ -68,6 +68,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.sent_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND
 gift_donation_transactions.`level` = 1";
 $result_level1 = mysqli_query($link, $sql);
@@ -88,6 +89,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 2";
 
@@ -110,6 +112,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 3";
 $result_level3 = mysqli_query($link, $sql);
@@ -130,6 +133,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 4";
 
@@ -152,6 +156,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 5";
 
@@ -173,6 +178,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 6";
 
@@ -195,6 +201,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 7";
 
@@ -216,6 +223,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 8";
 
@@ -238,6 +246,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 9";
 
@@ -259,6 +268,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 10";
 
@@ -281,6 +291,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND 
 gift_donation_transactions.`level` = 11";
 
@@ -302,6 +313,7 @@ FROM
 member_registration
 INNER JOIN gift_donation_transactions ON member_registration.member_id = gift_donation_transactions.received_by
 WHERE
+gift_donation_transactions.received_by <> gift_donation_transactions.sent_by and
 gift_donation_transactions.received_by = $member_id AND gift_donation_transactions.verified = 1 AND
 gift_donation_transactions.`level` = 12";
 $result_level12 = mysqli_query($link, $sql);

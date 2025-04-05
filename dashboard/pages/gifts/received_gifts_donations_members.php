@@ -162,8 +162,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -213,8 +213,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -265,8 +265,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -317,8 +317,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -369,8 +369,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -421,8 +421,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -473,8 +473,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -525,8 +525,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -577,8 +577,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -629,8 +629,8 @@ only screen and (max-width: 760px),
                     <div class="card-body">
                          <table id="received_history" class="table  display table-hover text-center">
                         <thead>
-                            <th>Recipeint ID</th>    
-                            <th>Recipeint Name</th>    
+                            <th>Sender ID</th>    
+                            <th>Sender Name</th>    
                             <th>Amount</th>    
                             <th>Method of Payment</th>    
                             <th>Gift Donation Date</th>    
@@ -681,8 +681,8 @@ only screen and (max-width: 760px),
                             <div class="card-body">
                                  <table id="received_history" class="table  display table-hover text-center">
                                 <thead>
-                                    <th>Recipeint ID</th>    
-                                    <th>Recipeint Name</th>    
+                                    <th>Sender ID</th>    
+                                    <th>Sender Name</th>    
                                     <th>Amount</th>    
                                     <th>Method of Payment</th>    
                                     <th>Gift Donation Date</th>    
