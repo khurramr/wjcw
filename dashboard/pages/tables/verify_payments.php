@@ -67,6 +67,10 @@ include("my_wjcw_mysqli.php");
   <div class="content-wrapper  mt-4">
   <div class="container-fluid">
 <h1 class="h_fonts h_color resizeable_h" style="text-align:center">Verify WJCW Payments</h1>
+<h2 class="p_fonts h_color resizeable_p" style="text-align:justify">
+
+<?= $fullname; ?>, this is where you can see all the gifts/donations you verify, you have received. 
+</h2>
 
     
 <?php
@@ -171,8 +175,9 @@ only screen and (max-width: 760px),
                             <th>Sender ID</th>    
                             <th>Sender Name</th>    
                             <th>Amount</th>    
-                            <th>Date</th>    
-                            <th>Comments</th>
+                            <th>Date</th>      
+                            <th>Stage</th>    
+                            <!-- <th>Comments</th> -->
                             <th>Action</th>    
                         </thead>
                         <tbody>
@@ -183,7 +188,8 @@ only screen and (max-width: 760px),
                                         <td><?php  echo $row['first_name'] . ' ' . $row['last_name'] ; ?></td>
                                         <td><?php  echo $row['amount']; ?></td>
                                         <td><?php  echo $row['date'] ?></td>
-                                        <td><?php  echo $row['Comment'] ?></td>
+                                        <td><?php  echo $row['gift_donation_level']; ?></td>
+                                        <!-- <td><?php  echo $row['Comment'] ?></td> -->
                                           <td>
                                             <button class="btn btn-success verify-btn" data-id='<?php echo $row['id']?>'>
                                               Verify

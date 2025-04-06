@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WJCW</title>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>   
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
   <link rel="stylesheet" href="../../dist/css/gradient_buttons.css">
@@ -69,9 +70,8 @@
       <div class="container-fluid">
 <h2 class="p_fonts h_color resizeable_p" style="text-align:justify">
 
-<?= $fullname; ?>, on this page you can see who and how many people have already sent you gifts/donations, and how many people will send you gifts/donations.
-
-You have accepted 6 of them at each stage from stage 01 to stage 12. You can also see your day-to-day activities.
+<?= $fullname; ?>, on this page you can see who and how many people have already sent you gifts/donations, and how many people will send you gifts/donations. 
+You have accepted 6 of them at each stage from stage 01 to stage 12. You can also see your day-day activities. 
 </h2>
 </div>
 
