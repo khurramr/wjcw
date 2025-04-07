@@ -5,8 +5,6 @@ include("../../../db/connect.php");
                         $result = mysqli_query($link, $sql);
                         $row = mysqli_fetch_assoc($result);
                         $sponser_reference = $row['sponser_reference'];
-                            echo $sponser_reference;
-                            echo $sponser_reference != $member_id;
                         if ($sponser_reference && $sponser_reference != $member_id) {
                           $sql = "SELECT * FROM gift_donation_transactions WHERE sent_by = $member_id and received_by = $sponser_reference";
                           $result = mysqli_query($link, $sql);

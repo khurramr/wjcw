@@ -16,7 +16,7 @@
             LEFT OUTER JOIN payment_methods ON member_registration.member_id = payment_methods.memberid
             WHERE
             member_registration.member_id = $member_id
-            and member_id <> sponser_reference
+            and member_registration.member_id <> member_registration.sponser_reference
             ";
             $result = mysqli_query($link, $sql);
             $result2 = mysqli_query($link, $sql);

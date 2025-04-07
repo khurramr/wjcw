@@ -72,7 +72,6 @@ li.active a::before, li.active a::after {
                             <th>Method of Payment</th>
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -86,9 +85,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                         <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -120,7 +116,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                             <th>Note</th>
                              <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -134,9 +129,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -169,7 +161,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -183,9 +174,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -217,7 +205,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th> Action</th>
                         </thead>
@@ -231,9 +218,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                          <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -265,7 +249,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -279,9 +262,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                         <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -313,7 +293,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -327,9 +306,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -361,7 +337,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -375,9 +350,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -409,7 +381,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -423,9 +394,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -457,7 +425,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action </th>
                         </thead>
@@ -471,9 +438,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -505,7 +469,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action </th>
                         </thead>
@@ -519,9 +482,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -553,7 +513,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -567,9 +526,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                
@@ -601,7 +557,6 @@ li.active a::before, li.active a::after {
                             <!-- <th>Tracking Number</th>     -->
                             <th>Gift Donation Date</th>
                             <!-- <th style="width:15%; ">Receipt Date</th>     -->
-                            <th>Note</th>
                             <th>Received</th>
                             <th>Action</th>
                         </thead>
@@ -615,9 +570,6 @@ li.active a::before, li.active a::after {
                                     <td><?php  echo '£'.$row['amount']; ?></td>
                                     <td><?php  echo $row['method_of_payment'] ?></td>
                                     <td><?php  echo $row['dated'] ?></td>
-                                    <td>
-                                        <?php echo $row['remarks']?>
-                                    </td>
                                     <td>
                                             <?php if($row['verified'] == 1){ ?>
                                             <button style="pointer-events: none;"  btn_verified="<?= $row['verified']; ?>" class="btn btn-success btn_verify">VERIFIED</button>                                

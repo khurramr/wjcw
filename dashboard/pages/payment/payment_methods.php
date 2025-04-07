@@ -128,10 +128,10 @@ $.ajax({
     method:"post",
     data:{id:id, sp_type:sp_type, sp_name:sp_name, account_no:account_no, remark:remark, member_id:member_id},
     success:function(data, success){
-        $("#payment_methods_table").html(data);
-        $("#saved").show().delay(1250).fadeOut(function(){
-            
-        });          
+      location.reload();
+      // $("#payment_methods_table").html(data);
+      //   $("#saved").show().delay(1250).fadeOut(function(){
+      //   });          
 
     }
 })
@@ -161,7 +161,8 @@ $.ajax({
             method:"post",
             data:{id:id, member_id:memberid},
                     success:function(data, success){
-                   $("#payment_methods_table").html(data);  
+                      location.reload();
+                  //  $("#payment_methods_table").html(data);  
                       
                     }   
 })    
