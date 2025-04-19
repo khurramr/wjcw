@@ -66,12 +66,15 @@
 <div class="content-wrapper  mt-4">
 <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px"><?= $fullname; ?></h1>
 <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">My Team Members</h1>
+<h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">These Are</h1>
+<h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">Your Direct Sponsored</h1>
+<h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">Members</h1>
 
 <!--<div class="container-fluid">-->
 
-    <h4 class="h_fonts h_color resizeable_h" style="margin-left:25px">These are your direct personal members</h4>                                  
+    <!-- <h4 class="h_fonts h_color resizeable_h" style="margin-left:25px">These are your direct personal members</h4>                                   -->
     
-                <?php include "team_members_detail.php" ?> 
+    <?php include "team_members_detail.php" ?> 
 
 </div>
   
