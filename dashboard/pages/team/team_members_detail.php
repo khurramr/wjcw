@@ -1,3 +1,9 @@
+  <style>
+
+.nav-tabs li {
+    margin-bottom: 10px;
+}
+    </style>
   <div class="cont_width" style="text-align:left">
       <div class="row">
           <div class="col-md-12">
@@ -24,8 +30,8 @@
                                   <th>Name</th>
                                   <th>Mobile</th>
                                   <th>Email</th>
-                                  <th>Current Status</th>
-                                  <th>Invited By</th> <!-- Added sponsor reference column -->
+                                  <th>Status</th>
+                                  
                               </thead>
                               <tbody>
                                   <?php
@@ -57,7 +63,6 @@
                                           <td><?= $row['contact_no_1'] ?? 'N/A'; ?></td> <!-- Added null check -->
                                           <td><?= $row['email']; ?></td>
                                           <td><?= $status ?></td>
-                                          <td><?= $row['invited_by'] ?? 'Root'; ?></td> <!-- Show who invited them -->
                                       </tr>
                                   <?php endwhile; ?>
                               </tbody>
@@ -75,9 +80,7 @@
                                   <th>Mobile</th>
                                   <th>Email</th>
                                   <th>Status</th>
-                                  <th>Invited By</th>
-                                  <th>Token Expiry</th>
-                                  <th>Remaining</th>
+                                  <th>Remaining Duration</th>
                               </thead>
                               <tbody>
                                   <?php
@@ -118,8 +121,6 @@
                                               <td><?= $row['contact_no_1'] ?? 'N/A'; ?></td>
                                               <td><?= $row['email'] ?></td>
                                               <td><?= $status; ?></td>
-                                              <td><?= $row['invited_by'] ?? 'Root'; ?></td>
-                                              <td><?= $row['expiry_date'] ?? 'N/A'; ?></td>
                                               <td><?= $row['remaining_days'] ?? 'N/A'; ?></td>
                                           </tr>
                                       <?php
@@ -141,7 +142,6 @@
                                   <th>Member ID</th>
                                   <th>Name</th>
                                   <th>Email</th>
-                                  <th>Invited By</th>
                                   <th>Renew</th>
                               </thead>
                               <tbody>
@@ -160,8 +160,9 @@
                                           <td><?= $member_id; ?></td>
                                           <td><?= $name; ?></td>
                                           <td><?= $email; ?></td>
-                                          <td><?= $invited_by; ?></td>
-                                          <td><a href="http://localhost/wjcw/my_account/renew_membership.php">Link</a></td>
+                                          <td><a
+                                          target="_blank"
+                                          href="../../../my_account/renew_membership.php?memberId=<?= $member_id ?>&name=<?= $name ?>&email=<?= $email ?>">Renew Membership</a></td>
                                       </tr>
                                   <?php } ?>
                               </tbody>
@@ -176,8 +177,7 @@
                                   <th>Name</th>
                                   <th>Mobile</th>
                                   <th>Email</th>
-                                  <th>Current Status</th>
-                                  <th>Invited By</th>
+                                  <th>Status</th>
                               </thead>
                               <tbody>
                                   <?php
@@ -208,9 +208,8 @@
                                               <td><?= htmlspecialchars($row['member_id']) ?></td>
                                               <td><?= htmlspecialchars($row['first_name'] . ' ' . $row['last_name']) ?></td>
                                               <td><?= htmlspecialchars($row['contact_no_1'] ?? 'N/A') ?></td>
-                                              <td><?= htmlspecialchars($row['email']) ?></td>
+                                              <td><?= htmlspecialchars($row['email'] ? $row['email'] : "") ?></td>
                                               <td><?= $status ?></td>
-                                              <td><?= htmlspecialchars($row['sponser_reference'] ?? 'Root') ?></td>
                                           </tr>
                                       <?php
                                         }
@@ -236,8 +235,7 @@
                                   <th>Name</th>
                                   <th>Mobile</th>
                                   <th>Email</th>
-                                  <th>Current Status</th>
-                                  <th>Invited By</th>
+                                  <th>Status</th>
                               </thead>
                               <tbody>
                                   <?php
@@ -270,7 +268,6 @@
                                               <td><?= htmlspecialchars($row['contact_no_1'] ?? 'N/A') ?></td>
                                               <td><?= htmlspecialchars($row['email'] ? $row['email'] : " " ) ?></td>
                                               <td><?= $status ?></td>
-                                              <td><?= htmlspecialchars($row['sponser_reference'] ?? 'Root') ?></td>
                                           </tr>
                                       <?php
                                         }

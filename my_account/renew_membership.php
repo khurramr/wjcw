@@ -94,7 +94,8 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa fa-user bigicon" ></i></span>
                                  </div>
-                                 <input id="memberId" name="memberId" type="number" placeholder="Member Id" class="form-control">
+                                 <input id="memberId" name="memberId" type="number" 
+                                 placeholder="Member Id" class="form-control">
                             </div>
                                 <span id="memberId_span" class="text-danger span_alert">Enter Member Id</span>
                         </div>
@@ -164,7 +165,11 @@
     
   
     
+$("#memberId").val(<?= $_GET["memberId"] ?>);
+$("#name").val('<?= $_GET["name"] ?>');
+$("#email").val('<?= $_GET["email"] ?>');
     
+
 $("#submit_renew").click(function(){
     event.preventDefault();
 var member_id = $("#memberId").val();

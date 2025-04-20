@@ -80,7 +80,6 @@ $total_members = mysqli_num_rows($result_hierarchy);
 
 
 // active members
-
 $sql_active_members = "
 WITH RECURSIVE sponsorship_hierarchy AS (
     -- Start with the root sponsor
@@ -190,7 +189,7 @@ $total_inactive = mysqli_num_rows($result_inactive_members);
 $sql_direct_sponsors = "
 SELECT * 
 FROM member_registration 
-WHERE member_id = sponser_reference
+WHERE sponser_reference = $member_id
 ORDER BY first_name, last_name;
 ";
 
