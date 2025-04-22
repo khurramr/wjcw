@@ -14,7 +14,7 @@
                       <li role="presentation"><a href="#stage02" aria-controls="profile" role="tab" data-toggle="tab">ACTIVE MEMBERS</a></li>
                       <li role="presentation"><a href="#stage03" aria-controls="messages" role="tab" data-toggle="tab">INACTIVE MEMBERS</a></li>
                       <li role="presentation"><a href="#stage04" aria-controls="messages" role="tab" data-toggle="tab">DIRECT SPONSORED</a></li>
-                      <li role="presentation"><a href="#stage05" aria-controls="messages" role="tab" data-toggle="tab">ALL TEAM MEMBERS</a></li>
+                      <li role="presentation"><a href="#stage05" aria-controls="messages" role="tab" data-toggle="tab">ALL TEAMS MEMBERS</a></li>
 
                       <!-- <li role="presentation"><a href="#newTab" aria-controls="messages" role="tab" data-toggle="tab">NEW TAB</a></li> -->
                   </ul>
