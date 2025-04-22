@@ -170,6 +170,8 @@
                       </div>
                       <div role="tabpanel" class="tab-pane fade" id="stage04">
                           <h1 class="h_fonts h_color resizeable_h" style="text-align:center"><?php echo "DIRECT SPONSORED " . $total_direct_sponsors; ?></h1>
+                          <h1 class="h_fonts h_color resizeable_h" style="text-align:center"><?php echo $direct_member_id.'<br /> '.$direct_name ?></h1>
+                          
                           <table id="total_members" class="table  display table-hover text-center">
                               <thead>
                                   <th style="width:10%;">Serial #</th>

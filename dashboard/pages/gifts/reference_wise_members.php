@@ -112,7 +112,9 @@ only screen and (max-width: 760px),
                                 member_registration
                                 LEFT OUTER JOIN payment_methods ON member_registration.member_id = payment_methods.memberid
                                 WHERE
-                                member_registration.member_id = $sponser_reference LIMIT 1";
+                                member_registration.member_id = $sponser_reference 
+                                and member_registration.member_id <> member_registration.sponser_reference
+                                LIMIT 1";
                            $result = mysqli_query($link, $sql);
                            while($row = mysqli_fetch_assoc($result)){
                        ?>

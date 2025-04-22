@@ -5,23 +5,25 @@ include("../../../db/connect.php");
                         $result = mysqli_query($link, $sql);
                         $row = mysqli_fetch_assoc($result);
                         $sponser_reference = $row['sponser_reference'];
-                            
-                        $sql = "SELECT * FROM gift_donation_transactions WHERE sent_by = $member_id and received_by = $sponser_reference";
-                        $result = mysqli_query($link, $sql);
-                        $row = mysqli_fetch_assoc($result);
-                        $verified = $row['verified'];    
-                        $sql = "SELECT
-                                member_registration.member_id,
-                                member_registration.first_name,
-                                member_registration.last_name,
-                                payment_methods.service_provider_type,
-                                member_registration.gift_donation_amount,
-                                member_registration.dated
-                                FROM
-                                member_registration
-                                LEFT OUTER JOIN payment_methods ON member_registration.member_id = payment_methods.memberid
-                                WHERE
-                                member_registration.member_id = $sponser_reference";
+                        if ($sponser_reference && $sponser_reference != $member_id) {
+                          $sql = "SELECT * FROM gift_donation_transactions WHERE sent_by = $member_id and received_by = $sponser_reference";
+                          $result = mysqli_query($link, $sql);
+                          $row = mysqli_fetch_assoc($result);
+                          $verified = $row['verified'];    
+                          $sql = "SELECT
+                                  member_registration.member_id,
+                                  member_registration.first_name,
+                                  member_registration.last_name,
+                                  payment_methods.service_provider_type,
+                                  member_registration.gift_donation_amount,
+                                  member_registration.dated
+                                  FROM
+                                  member_registration
+                                  LEFT OUTER JOIN payment_methods ON member_registration.member_id = payment_methods.memberid
+                                  WHERE
+                                  member_registration.member_id = $sponser_reference";
+  
+                        }
 ?>
 <!DOCTYPE html>
 <html lang="en">

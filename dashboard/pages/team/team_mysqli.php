@@ -26,6 +26,14 @@ $result = mysqli_query($link, $sql);
 $row = mysqli_fetch_assoc($result);
 $total_lapsed = $row['total_lapsed'];
 
+
+$sql = "SELECT * FROM member_registration where member_id = $member_id";
+$user_detail = mysqli_query($link, $sql);
+$user_detail = mysqli_fetch_assoc($user_detail);
+$direct_name = $user_detail["first_name"].' '.$user_detail["last_name"];
+$direct_member_id = $user_detail["member_id"];
+
+
 /*Total Members*/
 $sql = "SELECT * FROM member_registration";
 $result_total = mysqli_query($link, $sql);
@@ -190,6 +198,7 @@ $sql_direct_sponsors = "
 SELECT * 
 FROM member_registration 
 WHERE sponser_reference = $member_id
+and sponser_reference <> member_id
 ORDER BY first_name, last_name;
 ";
 
