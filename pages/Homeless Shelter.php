@@ -55,6 +55,22 @@
             margin: 0;
         }
     }
+    
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: start; 
+        gap: 1px;
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: 500px;
+        width: 1960px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
         
     </style>
 
@@ -65,12 +81,15 @@
     include '../header_footer/headers.php'?>
 
 <section id="MainBanner">
-            <!--<img class="d-block w-100" src="../assets/images/homeless_shelter/main.jpg" alt="pic">-->
+    <!--<img class="d-block w-100" src="../assets/images/homeless_shelter/main.jpg" alt="pic">-->
+    <div class="image-container">
+        <img src="../assets/new_images/home-less.jpg" alt="">
+    </div>
 </section>
 
 
 
-<div class="container mt-3 pt-3 fix-header-cut">
+<div class="container mt-3 pt-3">
         <div class="row">
 
             <div class="column">
@@ -84,9 +103,9 @@
             <div class="heading-container">
                 <h3>Homeless Shelters and Orphanages Based</h3>
             </div>
-            <div class="img-container">
+            <!--<div class="img-container">
                 <img src="../assets/new_images/home-less.jpg" class="w-100 d-block" alt="real estate">
-            </div>
+            </div>-->
         </div>
         
     </div>

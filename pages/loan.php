@@ -53,7 +53,23 @@
             justify-content: center;
             margin: 0;
         }
-    }
+        }
+        
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: start; 
+            gap: 1px;
+            padding: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: 500px;
+            width: 800px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
     </style>
     
 </head>
@@ -61,10 +77,14 @@
 <?php include '../header_footer/headers.php'?>
 
 <section id="MainBanner">
-            <!--<img class="d-block w-100" src="../assets/images/loan/loan_payoff_1920x500.jpg" alt="pic">-->
+    <!--<img class="d-block w-100" src="../assets/images/loan/loan_payoff_1920x500.jpg" alt="pic">-->
+    <div class="image-container">
+        <img src="../assets/new_images/loan-1.jpg" alt="" >
+        <img src="../assets/new_images/loan-2.jpg" alt="" >
+    </div>
 </section>
 
-<div class="container mt-4 pt-4 fix-header-cut">
+<div class="container mt-4 pt-4">
        <h3>Loan Debit Credit</h3>
  <div class="row">
   <div class="column">
@@ -75,8 +95,8 @@
   </div>
   <div class="text-img-container">
         <div class="img-container">
-          <img src="../assets/new_images/Loan-2.jpg" class="w-100 d-block" >
-          <img src="../assets/new_images/Loan-1.jpg" class="w-100 d-block" alt="">
+          <!--<img src="../assets/new_images/Loan-2.jpg" class="w-100 d-block" >
+          <img src="../assets/new_images/Loan-1.jpg" class="w-100 d-block" alt="">-->
         </div>
       </div>
 </div>

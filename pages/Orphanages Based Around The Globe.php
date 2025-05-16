@@ -56,6 +56,22 @@
             margin: 0;
         }
     }
+    
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: start; 
+        gap: 1px;
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: 500px;
+        width: 1920px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
     </style>
 
@@ -65,11 +81,14 @@
     include"../google_translator.php";
     include '../header_footer/headers.php'?>
     <section id="MainBanner">
-            <!--<img class="d-block w-100" src="../assets/images/orphanage%20base%20around%20the%20gloab/IMG_1110.jpg" alt="pic" height="500" width="1920">-->
+        <!--<img class="d-block w-100" src="../assets/images/orphanage%20base%20around%20the%20gloab/IMG_1110.jpg" alt="pic" height="500" width="1920">-->
+        <div class="image-container">
+            <img src="../assets/images/orphanage%20base%20around%20the%20gloab/IMG_1110.jpg" alt="" >
+        </div>
 </section>
 
 
-<div class="container mt-3 pt-3 fix-header-cut">
+<div class="container mt-3 pt-3">
     <div class="row">
         <!-- <h3 class="font-weight-bold">Orphanages Based Around The Globe</h3> -->
     </div>
@@ -87,9 +106,9 @@
             <div class="heading-container">
             <h3 class="font-weight-bold">Orphanages Based Around The Globe</h3>
             </div>
-            <div class="img-container">
+            <!--<div class="img-container">
                 <img src="../assets/new_images/home-less.jpg" class="w-50 d-block" alt="haj-2">
-            </div>
+            </div>-->
             </div>
         </div>
         <ul>

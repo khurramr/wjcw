@@ -55,6 +55,23 @@
             margin: 0;
         }
     }
+    
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: start; 
+        gap: 1px;
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: 620px;
+        width: 800px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    
   </style>
 </head>
 <body>
@@ -65,7 +82,12 @@
   ?>
 
   <section id="MainBanner">
-    <!-- <img class="d-block w-100" src="../assets/images/depatmental_store/main.jpg" alt="Department Store Banner"> -->
+    <!--<img class="d-block w-100" src="../assets/images/depatmental_store/main.jpg" alt="Department Store Banner">-->
+    <div class="image-container">
+        <img src="../assets/new_images/dep-store-1.jpg" alt="" >
+        <!--<img src="../assets/new_images/dep-store-2.jpg" alt="" >-->
+        <img src="../assets/new_images/dep-store-3.jpg" alt="" >
+    </div>
   </section>
 
   <div class="container mt-5 pt-5">
@@ -73,9 +95,9 @@
       <div class="heading-container">
         <h3 class="font-weight-bold">Departmental Stores Discounts For Members</h3> 
       </div>
-      <div class="img-container">
+      <!--<div class="img-container">
         <img src="../assets/new_images/dep-store.jpg" alt="Fruits Discount Image">
-      </div>
+      </div>-->
     </div>
   </div>
 

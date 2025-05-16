@@ -54,6 +54,23 @@
             margin: 0;
         }
     }
+    
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: start; 
+        /*gap: 1px;*/
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: 600px;
+        width: 800px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    
   </style>
 </head>
 <body>
@@ -64,6 +81,10 @@
 
   <section id="MainBanner">
     <!--<img class="d-block w-100" src="../assets/images/real_estate/buildings_1920x500.jpg" alt="pic">-->
+    <div class="image-container">
+        <img src="../assets/new_images/real-estate-1.jpg" alt="" >
+        <img src="../assets/new_images/real-estate-2.jpg" alt="" >
+    </div>
   </section>
 
   <br />
@@ -87,10 +108,10 @@
         <h3>Real Estate</h3>
         <h5 class="font-weight-light text-muted mt-3">Real estate, house for everyone, home sweet home.</h5>
       </div>
-      <div class="img-container">
+      <!--<div class="img-container">
         <img src="../assets/new_images/real-estate-1.jpeg" class="w-100 d-block" alt="real estate">
         <img src="../assets/new_images/real-estate-2.jpg" class="w-100 d-block" alt="real estate">
-      </div>
+      </div>-->
     </div>
   </div>
 

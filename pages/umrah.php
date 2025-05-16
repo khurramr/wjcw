@@ -62,6 +62,21 @@
             margin: 0;
         }
     }
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: start; 
+        gap: 1px;
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: 500px;
+        width: 800px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -69,7 +84,11 @@
   <?php include '../header_footer/headers.php' ?>
   
   <section id="MainBanner">
-    <!-- <img id="img_main" class="d-block w-100" src="../assets/images/ziaraat_umrah_haj/umrah_main.jpg" alt="Umrah"> -->
+    <!--<img id="img_main" class="d-block w-100" src="../assets/images/ziaraat_umrah_haj/umrah_main.jpg" alt="Umrah">-->
+    <div class="image-container">
+        <img src="../assets/new_images/free-haj-1.jpg" alt="" >
+        <img src="../assets/new_images/free-haj-2.jpg" alt="" >
+    </div>
   </section>
 
   <div class="container mt-5 pt-5">
@@ -90,10 +109,10 @@
       <div class="heading-container">
         <h3>Free Umrah</h3>
       </div>
-      <div class="img-container">
+      <!-- <div class="img-container">
         <img src="../assets/new_images/free-haj-1.jpeg" class="w-50 d-block" alt="Poverty 1">
         <img src="../assets/new_images/free-haj-2.jpg" class="w-50 d-block" alt="Poverty 2">
-      </div>
+      </div>-->
     </div>
   </div>
 

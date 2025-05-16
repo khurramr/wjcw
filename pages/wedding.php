@@ -24,25 +24,49 @@
             margin: 0;
         }
     }
+    
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: start; 
+        margin-top: 145px;
+    }
+    .image-container img {
+        width: 50%;
+        max-width: 100%;
+        height: 500px;
+        object-fit: fill;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    
   </style>
 </head>
 <body>
 <?php include '../header_footer/headers.php' ?>
 
-<section id="MainBanner"></section>
+<section id="MainBanner">
+    <!--<img class="d-block w-100" src="../assets/images/wedding/flower_grommet_1920x500.jpg" alt="pic" width="1920" height="500">-->
+    <div class="image-container">
+        <!--<img src="../assets/new_images/wedding-new-1.jpg" alt="" >-->
+        <!--<img src="../assets/new_images/wedding-new-2.jpg" alt="" >-->
+        <img src="../assets/new_images/wedding-1.jpg" alt="" >
+        <img src="../assets/new_images/wedding-2.jpg" alt="" >
+    </div>
+</section>
 
-<div class="container mt-4 pt-4 fix-header-cut">
+<div class="container mt-3 pt-3">
   <div class="row">
     <h3>WEDDING</h3>
   </div>
-  <div class="row">
+  <!--<div class="row">
     <div class="column">
       <img src="../assets/new_images/Wedding-1.jpg" class="w-100 d-block" alt="" height="100%">
     </div>
     <div class="column">
       <img src="../assets/new_images/Wedding-2.jpg" class="w-100 d-block" alt="" height="100%">
     </div>
-  </div>
+  </div>-->
 </div>
 
 

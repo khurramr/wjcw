@@ -41,14 +41,14 @@
     </section>
 
     <div class="container mt-4 pt-4">
-        <div class="row">
+        <!--div class="row">
             <div class="column">
                 <img src="../assets/new_images/free-haj-1.jpeg" class="w-100 d-block" alt="" height="100%" title="Imam Ali Raza a.s (Iran: Mashad)">
             </div>
             <div class="column">
                 <img src="../assets/new_images/free-haj-2.jpg" class="w-100 d-block" alt="" height="100%" title="Imam Moas Kazim a.s (Iraq: Samra)">
             </div>
-        </div>
+        </div>-->
 
         <!-- New Content Section -->
         <div class="row mt-4">
