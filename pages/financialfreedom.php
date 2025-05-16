@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="../css/CarouselAllCss.css">
+  <link rel="stylesheet" href="../css/CarouselAllCss.css">
 
 <link rel = "icon" href =  "../assets/images/cropped-logo.png" type = "image/x-icon"> 
     <title>Financial Freedom</title>
@@ -22,6 +22,32 @@
           flex: 45.33%;
           padding: 2px;
         }
+        .text-img-container{
+          display: flex;
+        }
+        .text-img-container .heading-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+        .text-img-container .img-container{
+          display: flex;
+          flex: 1;
+          margin-left: 50px;
+        }
+        .text-img-container .img-container img {
+          max-width: 50%;
+          margin-right: 15px;
+        }
+        @media screen and (max-width: 960px) {
+        .text-img-container {
+            flex-direction: column;
+        }
+        .text-img-container .img-container {
+            justify-content: center;
+            margin: 0;
+        }
+    }
     </style>
 
 </head>
@@ -34,8 +60,15 @@
 
 
 <div class="container mt-3 pt-3 fix-header-cut">
-    <div class="row">
-            <h1>Financial Freedom</h1>
+    <div class="text-img-container">
+        <div class="heading-container">
+          <h1>Financial Freedom</h1>
+          <h2 class="font-weight-light text-muted mt-3">Financial Freedom</h2>
+        </div>
+        <div class="img-container">
+          <img src="../assets/new_images/financial-freedom-1.jpg"class="w-100 d-block" alt="" >
+          <img src="../assets/new_images/financial-freedom-2.jpg"class="w-100 d-block" alt="" >
+        </div>
     </div>
     <div class="row">
       <div class="column">
@@ -47,7 +80,6 @@
       </div>
     
 <div class="row">
-       <h2 class="font-weight-light text-muted mt-3">Financial Freedom</h2>
                 <ul>
                 <li>
                     <p>We believe that through  knowledge, discipline, and unity, financial freedom is possible for all of us.</p>

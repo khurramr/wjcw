@@ -336,12 +336,6 @@
                             <p class="h4 fs-11 text-center text dark pl-3 pr-3 pt-3 mb-0 font-weight-bolder">Free Haj</p>
                         </a>    
                        </div>
-                       <div class="item">
-                        <a href="pages/haj.php">
-                        <img src="assets/images/harm.jpeg" class="carousel_image" alt="">
-                            <p class="h4 fs-11 text-center text dark pl-3 pr-3 pt-3 mb-0 font-weight-bolder">Free Haj</p>
-                        </a>    
-                       </div>
 
                         <div class="item">
                         <a href="pages/umrah.php">

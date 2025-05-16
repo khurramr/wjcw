@@ -23,6 +23,36 @@
         .fix-cut {
           margin-left: 285px;
         }
+        .text-img-container{
+          display: flex;
+        }
+        .text-img-container .heading-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+        .text-img-container .img-container{
+          display: flex;
+          flex: 1;
+          margin-left: 50px;
+          justify-content: flex-end;
+        }
+        .text-img-container .img-container img {
+          max-width: 50%;
+          margin-right: 15px;
+        }
+        .heading-container .h5{
+          margin-bottom: -10px;
+        }
+        @media screen and (max-width: 960px) {
+        .text-img-container {
+            flex-direction: column;
+        }
+        .text-img-container .img-container {
+            justify-content: center;
+            margin: 0;
+        }
+    }
     </style>
 
 
@@ -41,10 +71,10 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-9">
-           <h3 class="font-weight-bold">Help To Reduce Poverty Around The Globe</h3>
+           <!-- <h3 class="font-weight-bold">Help To Reduce Poverty Around The Globe</h3> -->
         </div>
     </div>
-    <div class="row">
+    <div class="row"> 
       <div class="column">
                 <!--<img src="../assets/images/help_reduce_poverty/indian_village_640x415.jpg" class="w-100" alt="village">-->
       </div>
@@ -53,11 +83,21 @@
 
       </div>
       </div>
+      <div class="text-img-container">
+        <div class="heading-container">
+          <h3>Help To Reduce Poverty Around The Globe</h1>
+          <h5 class="font-weight-light text-muted mt-3">What Islam says about poverty?</h2>
+        </div>
+        <div class="img-container">
+          <img src="../assets/new_images/poverty-2.jpg"class="w-100 d-block" alt="" >
+          <img src="../assets/new_images/poverty.jpg"class="w-100 d-block" alt="" >
+        </div>
+      </div>
 
 </div>
 
-        <div class="container mt-2 pt-2 fix-header-cut">
-                    <h5>What Islam says about poverty?</h5>
+        <div class="container pt-2 ">
+                    <!-- <h5>What Islam says about poverty?</h5> -->
                 <div class="clearfix">
 
                     <ul>

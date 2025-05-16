@@ -11,16 +11,52 @@
     <link rel = "icon" href =  "../assets/images/cropped-logo.png" type = "image/x-icon"> 
     <title>Senior Citizen Homes Around The Globe</title>
     <style>        
-        li{
-          margin: 10px 0;
+        li {
+      margin: 10px 0;
+    }
+    .row {
+      display: flex;
+    }
+    .column {
+      flex: 45.33%;
+      padding: 2px;
+    }
+    .fix-cut {
+      margin-left: 285px;
+    }
+    .text-img-container {
+      display: flex;
+    }
+    .text-img-container .heading-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .text-img-container .img-container {
+      display: flex;
+      flex: 1;
+      margin-left: 50px;
+      justify-content: flex-end;
+    }
+    .text-img-container .img-container img {
+      max-width: 70%;
+      margin-right: 15px;
+    }
+    .heading-container .h5 {
+      margin-bottom: -10px;
+    }
+    ul{
+      padding-left:0;
+    }
+    @media screen and (max-width: 960px) {
+        .text-img-container {
+            flex-direction: column;
         }
-        .row {
-          display: flex;
+        .text-img-container .img-container {
+            justify-content: center;
+            margin: 0;
         }
-        .column {
-          flex: 45.33%;
-          padding: 2px;
-        }
+    }
         /*html { font-size: 1vw; }*/
     </style>
 
@@ -36,16 +72,21 @@
 
 <div class="container mt-3 pt-3 fix-header-cut">
     <div class="row">
-         <h3 class="font-weight-bold">Senior Citizen Homes Around The Globe</h3>
-    </div>
-    <div class="row">
       <div class="column">
             <!--<img src="../assets/images/senior-citizens/hands.jpg" class="w-100" alt="">-->
       </div>
       <div class="column">
             <!--<img src="../assets/images/senior-citizens/three.jpeg" class="w-100" alt="" height="100%">-->
       </div>
-    </div>
+      <div class="text-img-container">
+            <div class="heading-container">
+            <h3 class="font-weight-bold">Senior Citizen Homes Around The Globe</h3>
+            </div>
+            <div class="img-container">
+                <img src="../assets/new_images/senior-citizen.jpg" class="w-100 d-block" alt="real estate">
+            </div>
+      </div>
+</div>
     
 <div class="row">
     <h4 class="font-weight-bold">Senior Citizen Around The Globe</h4>

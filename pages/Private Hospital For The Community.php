@@ -23,6 +23,39 @@
           flex: 45.33%;
           padding: 2px;
         }
+        .fix-cut {
+          margin-left: 285px;
+        }
+        .text-img-container{
+          display: flex;
+        }
+        .text-img-container .heading-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+        .text-img-container .img-container{
+          display: flex;
+          flex: 1;
+          margin-left: 50px;
+          justify-content: flex-end;
+        }
+        .text-img-container .img-container img {
+          max-width: 50%;
+          margin-right: 15px;
+        }
+        .heading-container .h5{
+          margin-bottom: -10px;
+        }
+        @media screen and (max-width: 960px) {
+        .text-img-container {
+            flex-direction: column;
+        }
+        .text-img-container .img-container {
+            justify-content: center;
+            margin: 0;
+        }
+    }
     </style>
 
 </head>
@@ -36,14 +69,19 @@
 
   <div class="container mt-3 pt-3 fix-header-cut">
     <div class="row">
-        <h3 class="font-weight-bold">Private Hospital For The Community</h3>
-    </div>
-    <div class="row">
       <div class="column">
                 <!--<img src="../assets/images/private_hospital_for_the_community/thumbs_up.jpg" class="w-100" alt="" height="79%">-->
       </div>
       <div class="column">
                 <!--<img src="../assets/images/private_hospital_for_the_community/beds.jpg" class="w-100" alt="" height="79%">                -->
+      </div>
+      <div class="text-img-container">
+        <div class="heading-container">
+        <h3 class="font-weight-bold">Private Hospital For The Community</h3>
+        </div>
+        <div class="img-container">
+          <img src="../assets/new_images/poverty.jpg"class="w-100 d-block" alt="" >
+        </div>
       </div>
       </div>
     <p></p>

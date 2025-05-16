@@ -22,6 +22,41 @@
           flex: 45.33%;
           padding: 2px;
         }
+        
+    .text-img-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .text-img-container .heading-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      flex: 1;
+    }
+
+    .text-img-container .img-container {
+      display: flex;
+      justify-content: flex-end;
+      flex: 1;
+      margin-left: 50px;
+    }
+
+    .text-img-container .img-container img {
+      max-width: 80%;
+      margin-right: 15px;
+    }
+
+    @media screen and (max-width: 960px) {
+        .text-img-container {
+            flex-direction: column;
+        }
+        .text-img-container .img-container {
+            justify-content: center;
+            margin: 0;
+        }
+    }
+
     </style>
 
 </head>
@@ -36,7 +71,7 @@
 
 <div class="container mt-3 pt-3 fix-header-cut">
     <div class="row">
-        <h3 class="font-weight-bold">Orphanages Based Around The Globe</h3>
+        <!-- <h3 class="font-weight-bold">Orphanages Based Around The Globe</h3> -->
     </div>
     <div class="row">
       <div class="column">
@@ -48,7 +83,15 @@
       </div>
     
 <div class="row">
-        <h5>Orphanages Based Around The Globe</h5>
+        <div class="text-img-container">
+            <div class="heading-container">
+            <h3 class="font-weight-bold">Orphanages Based Around The Globe</h3>
+            </div>
+            <div class="img-container">
+                <img src="../assets/new_images/home-less.jpg" class="w-50 d-block" alt="haj-2">
+            </div>
+            </div>
+        </div>
         <ul>
             <li>According to <strong>Islam, orphans</strong> are those children who are left with no protection because their fathers have passed away.</li>
             <li>Many <strong>orphans</strong> have no source of income and/or a guardian to take care of them. This is where Muslims as a community have to step in and aid the <strong>orphans</strong> even if the mother is still living.</li>

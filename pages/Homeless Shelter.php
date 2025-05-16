@@ -12,20 +12,49 @@
 
     <title>Homeless Shelter</title>
         <style>
-        li{
-            margin: 10px 0;
+        li {
+        margin: 10px 0;
         }
-
-
         .row {
-            display: flex;
+        display: flex;
         }
-
-        /* Create three equal columns that sits next to each other */
         .column {
-            flex: 45.33%;
-            padding: 5px;
+        flex: 45.33%;
+        padding: 2px;
         }
+        .fix-cut {
+        margin-left: 285px;
+        }
+        .text-img-container {
+        display: flex;
+        }
+        .text-img-container .heading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        }
+        .text-img-container .img-container {
+        display: flex;
+        flex: 1;
+        margin-left: 50px;
+        justify-content: flex-end;
+        }
+        .text-img-container .img-container img {
+        max-width: 70%;
+        margin-right: 15px;
+        }
+        .heading-container .h5 {
+        margin-bottom: -10px;
+        }
+        @media screen and (max-width: 960px) {
+        .text-img-container {
+            flex-direction: column;
+        }
+        .text-img-container .img-container {
+            justify-content: center;
+            margin: 0;
+        }
+    }
         
     </style>
 
@@ -43,11 +72,6 @@
 
 <div class="container mt-3 pt-3 fix-header-cut">
         <div class="row">
-            <div class="column">
-               <h3>Homeless Shelters and Orphanages Based</h3>
-            </div>
-        </div>
-        <div class="row">
 
             <div class="column">
                 <!--<img src="../assets/images/homeless_shelter/beds.jpg" class="w-100" alt="" height="100%">-->
@@ -56,6 +80,15 @@
                 <!--<img src="../assets/images/homeless_shelter/food.jpg" class="w-100" alt="">-->
             </div>
         </div>
+        <div class="text-img-container">
+            <div class="heading-container">
+                <h3>Homeless Shelters and Orphanages Based</h3>
+            </div>
+            <div class="img-container">
+                <img src="../assets/new_images/home-less.jpg" class="w-100 d-block" alt="real estate">
+            </div>
+        </div>
+        
     </div>
 
     <div class="container mt-2 pt-2">
