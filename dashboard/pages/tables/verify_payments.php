@@ -187,12 +187,11 @@ only screen and (max-width: 760px),
                                         <td><?php  echo $row['sent_by']; ?></td>
                                         <td><?php  echo $row['first_name'] . ' ' . $row['last_name'] ; ?></td>
                                         <td><?php  echo $row['amount']; ?></td>
-                                        <td><?php  echo $row['date'] ?></td>
+                                        <td><?php  echo $row['dated'] ?></td>
                                         <td><?php  echo $row['gift_donation_level']; ?></td>
-                                        <!-- <td><?php  echo $row['Comment'] ?></td> -->
                                           <td>
-                                            <button class="btn btn-success verify-btn" data-id='<?php echo $row['id']?>'>
-                                              Verify
+                                            <button disabled class="btn btn-success verify-btn" data-id='<?php echo $row['id']?>'>
+                                              Verified
 
                                             </button>
 

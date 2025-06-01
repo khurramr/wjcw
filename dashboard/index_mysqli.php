@@ -16,7 +16,7 @@
     $row = mysqli_fetch_assoc($result);
     $total_sent = $row['total_sent'];
 
-    $sql = "Select sum(amount) as total_received from gift_donation_transactions where received_by = '$member_id'";
+    $sql = "Select sum(amount) as total_received from gift_donation_transactions where received_by = '$member_id' and verified is true";
     $result = mysqli_query($link, $sql);
     $row = mysqli_fetch_assoc($result);
     $total_received = $row['total_received'];

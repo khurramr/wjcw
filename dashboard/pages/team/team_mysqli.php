@@ -50,6 +50,7 @@ WITH RECURSIVE sponsorship_hierarchy AS (
         first_name,
         last_name,
         email,
+        contact_no_1,
         sponser_reference,
         0 AS level,
         CAST(member_id AS CHAR(1000)) AS visited_ids
@@ -63,6 +64,7 @@ WITH RECURSIVE sponsorship_hierarchy AS (
         m.first_name,
         m.last_name,
         m.email,
+        m.contact_no_1,
         m.sponser_reference,
         sh.level + 1,
         CAST(CONCAT(sh.visited_ids, ',', m.member_id) AS CHAR(1000))
@@ -76,6 +78,7 @@ SELECT
     first_name,
     last_name,
     email,
+    contact_no_1,
     sponser_reference AS invited_by,
     level
 FROM sponsorship_hierarchy
@@ -96,6 +99,7 @@ WITH RECURSIVE sponsorship_hierarchy AS (
         mr.first_name,
         mr.last_name,
         mr.email,
+        mr.contact_no_1,
         mr.sponser_reference,
         0 AS level,
         CAST(mr.member_id AS CHAR(1000)) AS visited_ids
@@ -110,6 +114,7 @@ WITH RECURSIVE sponsorship_hierarchy AS (
         m.first_name,
         m.last_name,
         m.email,
+        m.contact_no_1,
         m.sponser_reference,
         sh.level + 1,
         CAST(CONCAT(sh.visited_ids, ',', m.member_id) AS CHAR(1000))
@@ -123,6 +128,7 @@ SELECT DISTINCT
     sh.first_name,
     sh.last_name,
     sh.email,
+    sh.contact_no_1,
     sh.sponser_reference AS invited_by,
     sh.level,
     tp.expiry_date,
@@ -149,6 +155,7 @@ WITH RECURSIVE sponsorship_hierarchy AS (
         mr.first_name,
         mr.last_name,
         mr.email,
+        mr.contact_no_1,
         mr.sponser_reference,
         0 AS level,
         CAST(mr.member_id AS CHAR(1000)) AS visited_ids
@@ -163,6 +170,7 @@ WITH RECURSIVE sponsorship_hierarchy AS (
         m.first_name,
         m.last_name,
         m.email,
+        m.contact_no_1,
         m.sponser_reference,
         sh.level + 1,
         CAST(CONCAT(sh.visited_ids, ',', m.member_id) AS CHAR(1000))
@@ -176,6 +184,7 @@ SELECT DISTINCT
     sh.first_name,
     sh.last_name,
     sh.email,
+    sh.contact_no_1,
     sh.sponser_reference AS invited_by,
     sh.level,
     CASE

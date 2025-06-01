@@ -141,6 +141,7 @@
                                   <th style="width:15%;">Serial #</th>
                                   <th>Member ID</th>
                                   <th>Name</th>
+                                  <th>Mobile</th>
                                   <th>Email</th>
                                   <th>Renew</th>
                               </thead>
@@ -159,6 +160,7 @@
                                           <td><?php echo $i++; ?></td>
                                           <td><?= $member_id; ?></td>
                                           <td><?= $name; ?></td>
+                                          <td><?= $row['contact_no_1'] ?? 'N/A'; ?></td>
                                           <td><?= $email; ?></td>
                                           <td><a
                                           target="_blank"

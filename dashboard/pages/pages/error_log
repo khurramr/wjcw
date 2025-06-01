@@ -1,0 +1,1017 @@
+[30-Nov-2021 17:17:10 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[30-Nov-2021 17:17:10 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[30-Nov-2021 17:17:10 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[30-Nov-2021 17:17:10 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[30-Nov-2021 17:17:10 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[30-Nov-2021 17:17:10 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[30-Nov-2021 17:17:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[30-Nov-2021 17:17:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[11-Dec-2021 07:05:50 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[11-Dec-2021 07:05:50 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[11-Dec-2021 07:05:50 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[11-Dec-2021 07:05:50 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[11-Dec-2021 07:05:50 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[11-Dec-2021 07:05:50 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[11-Dec-2021 07:05:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[11-Dec-2021 07:05:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[10-Jan-2022 21:06:16 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[10-Jan-2022 21:06:16 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[10-Jan-2022 21:06:16 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[10-Jan-2022 21:06:16 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[10-Jan-2022 21:06:16 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[10-Jan-2022 21:06:16 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[10-Jan-2022 21:06:16 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[10-Jan-2022 21:06:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[10-Jan-2022 21:06:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[03-Mar-2022 09:58:12 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[03-Mar-2022 09:58:12 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[03-Mar-2022 09:58:12 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[03-Mar-2022 09:58:12 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[03-Mar-2022 09:58:12 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[03-Mar-2022 09:58:12 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[03-Mar-2022 09:58:12 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[03-Mar-2022 09:58:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[03-Mar-2022 09:58:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[17-Apr-2022 14:39:35 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[17-Apr-2022 14:39:35 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[17-Apr-2022 14:39:35 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[17-Apr-2022 14:39:35 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[17-Apr-2022 14:39:35 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[17-Apr-2022 14:39:35 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[17-Apr-2022 14:39:35 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[17-Apr-2022 14:39:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[17-Apr-2022 14:39:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[23-Nov-2022 06:55:26 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Nov-2022 06:55:26 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Nov-2022 06:55:26 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Nov-2022 06:55:26 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Nov-2022 06:55:26 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Nov-2022 06:55:26 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[23-Nov-2022 06:55:26 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[23-Nov-2022 06:55:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[23-Nov-2022 06:55:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[01-Aug-2023 22:54:32 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[01-Aug-2023 22:54:32 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[01-Aug-2023 22:54:32 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[01-Aug-2023 22:54:32 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[01-Aug-2023 22:54:32 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[01-Aug-2023 22:54:32 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[01-Aug-2023 22:54:32 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[01-Aug-2023 22:54:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[01-Aug-2023 22:54:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[20-Apr-2024 00:37:09 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[20-Apr-2024 00:37:09 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[20-Apr-2024 00:37:09 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[20-Apr-2024 00:37:09 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[20-Apr-2024 00:37:09 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[20-Apr-2024 00:37:09 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[20-Apr-2024 00:37:09 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[20-Apr-2024 00:37:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[20-Apr-2024 00:37:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[20-Apr-2024 00:39:40 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[20-Apr-2024 00:39:40 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[20-Apr-2024 00:39:40 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Jun-2024 17:50:54 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Jun-2024 17:50:54 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Jun-2024 17:50:54 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Jun-2024 17:50:54 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Jun-2024 17:50:54 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Jun-2024 17:50:54 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[04-Jun-2024 17:50:54 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Jun-2024 17:50:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Jun-2024 17:50:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[04-Jun-2024 17:52:03 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Jun-2024 17:52:03 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Jun-2024 17:52:03 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[07-Jun-2024 20:30:34 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[07-Jun-2024 20:30:34 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[07-Jun-2024 20:30:34 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[07-Jun-2024 20:31:44 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[07-Jun-2024 20:31:44 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[07-Jun-2024 20:31:44 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 11:41:10 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Jun-2024 11:41:10 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Jun-2024 11:41:10 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 11:41:10 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 11:41:10 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 11:41:10 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[24-Jun-2024 11:41:10 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[24-Jun-2024 11:41:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[24-Jun-2024 11:41:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[24-Jun-2024 14:28:33 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Jun-2024 14:28:33 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Jun-2024 14:28:33 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 14:28:33 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 14:28:33 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 14:28:33 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[24-Jun-2024 14:28:33 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[24-Jun-2024 14:28:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[24-Jun-2024 14:28:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[24-Jun-2024 14:35:58 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Jun-2024 14:35:58 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Jun-2024 14:35:58 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 14:35:58 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 14:35:58 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[24-Jun-2024 14:35:58 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[24-Jun-2024 14:35:58 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[24-Jun-2024 14:35:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[24-Jun-2024 14:35:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[04-Nov-2024 21:34:41 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:34:41 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:34:41 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:34:41 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:34:41 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:34:41 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[04-Nov-2024 21:34:41 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:34:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:34:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[04-Nov-2024 21:39:17 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:17 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:17 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:17 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:17 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:17 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[04-Nov-2024 21:39:17 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[04-Nov-2024 21:39:24 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:24 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:24 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:24 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:24 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:24 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[04-Nov-2024 21:39:24 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[04-Nov-2024 21:39:26 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:26 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:26 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:26 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:26 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:26 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[04-Nov-2024 21:39:26 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[04-Nov-2024 21:39:32 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:32 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[04-Nov-2024 21:39:32 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:32 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:32 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[04-Nov-2024 21:39:32 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[04-Nov-2024 21:39:32 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[04-Nov-2024 21:39:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[02-Dec-2024 15:09:12 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[02-Dec-2024 15:09:12 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[02-Dec-2024 15:09:12 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[02-Dec-2024 15:09:12 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[02-Dec-2024 15:09:12 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[02-Dec-2024 15:09:12 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[02-Dec-2024 15:09:12 UTC] PHP Notice:  Undefined variable: link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[02-Dec-2024 15:09:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[02-Dec-2024 15:09:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[05-Jan-2025 05:46:27 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/chat_mysqli.php on line 4
+[05-Jan-2025 05:46:27 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/chat.php on line 40
+[05-Jan-2025 05:46:27 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[05-Jan-2025 05:46:27 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[05-Jan-2025 05:46:27 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[05-Jan-2025 05:46:27 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[05-Jan-2025 05:46:27 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[05-Jan-2025 05:46:27 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[05-Jan-2025 05:46:30 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/chat_mysqli.php on line 4
+[05-Jan-2025 05:46:30 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/pages/chat.php on line 40
+[05-Jan-2025 05:46:30 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[05-Jan-2025 05:46:30 UTC] PHP Warning:  include(../../../db/connect.php): failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[05-Jan-2025 05:46:30 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[05-Jan-2025 05:46:30 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[05-Jan-2025 05:46:30 UTC] PHP Notice:  Undefined variable: fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[05-Jan-2025 05:46:30 UTC] PHP Notice:  Undefined variable: member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Jan-2025 16:52:59 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 16:52:59 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 16:53:20 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 16:53:20 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 17:09:36 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Jan-2025 17:09:36 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[23-Jan-2025 17:09:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 17:09:36 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 17:09:36 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[23-Jan-2025 17:09:36 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[23-Jan-2025 17:09:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[23-Jan-2025 20:05:00 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[23-Jan-2025 20:05:00 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[03-Feb-2025 12:05:01 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[03-Feb-2025 12:05:01 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[08-Feb-2025 05:09:41 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[08-Feb-2025 05:09:41 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[08-Feb-2025 05:09:47 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 05:09:47 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 05:09:47 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[08-Feb-2025 06:13:48 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[08-Feb-2025 06:13:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[08-Feb-2025 06:14:04 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 06:14:04 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[08-Feb-2025 06:14:04 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[11-Feb-2025 22:21:04 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[11-Feb-2025 22:21:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[14-Feb-2025 21:07:26 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:07:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[14-Feb-2025 21:07:49 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:07:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:08:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:08:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:08:36 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[14-Feb-2025 21:12:39 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:12:39 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:13:09 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:13:09 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:13:09 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:18:30 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:18:30 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:18:30 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[14-Feb-2025 21:22:00 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:22:00 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[14-Feb-2025 21:24:20 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[14-Feb-2025 21:24:20 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[15-Feb-2025 16:16:08 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[15-Feb-2025 16:16:08 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 05:04:14 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 05:04:14 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 05:05:04 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 05:05:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+  
+  
+  
+
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 05:19:26 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 05:19:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 06:05:06 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 06:05:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 11:39:11 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:39:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 11:43:28 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:43:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 11:44:54 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:44:54 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 11:45:42 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:45:42 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 11:48:36 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:48:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 11:50:12 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:50:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:51:04 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:51:04 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:51:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 11:51:09 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:51:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 11:51:09 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(107): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:23:20 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(109): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:23:24 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(109): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:24:41 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:24:41 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:24:41 UTC] PHP Warning:  include(): Failed opening '../../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:24:41 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(110): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:24:45 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:24:45 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:24:45 UTC] PHP Warning:  include(): Failed opening '../../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:24:45 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(110): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  include(): Failed opening '../../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 12:27:33 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:27:33 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(108): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  include(): Failed opening '../../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 1
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 12:27:37 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:27:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(108): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:29:48 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:29:48 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:29:48 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:29:48 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 12:29:48 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:29:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(113): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 12:30:23 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:30:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(113): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 119
+[16-Feb-2025 12:31:25 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:31:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(117): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 7
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 7
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  include(): Failed opening '../../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 7
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:33:16 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:33:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(118): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 7
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  include(../../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 7
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  include(): Failed opening '../../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php on line 7
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:33:34 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:33:34 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(118): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:34:42 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:34:42 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:34:42 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:34:42 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:34:42 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(117): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:36:23 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:36:23 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:36:23 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:36:23 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:36:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(117): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:36:39 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:36:39 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:36:39 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:36:39 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:36:39 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(117): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:37:33 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:37:33 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:37:33 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:37:33 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:37:33 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:38:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:38:36 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:38:36 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:38:36 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:38:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:39:19 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 89
+[16-Feb-2025 12:39:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php:89
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php(89): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 89
+[16-Feb-2025 12:39:28 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 89
+[16-Feb-2025 12:39:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php:89
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php(89): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/sidebar-menu.php on line 89
+[16-Feb-2025 12:39:40 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:39:40 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:39:40 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 118
+[16-Feb-2025 12:39:40 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:39:40 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:120
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(120): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:41:57 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:41:57 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:41:57 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:41:57 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[16-Feb-2025 12:41:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:122
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(122): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[16-Feb-2025 12:42:23 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:42:23 UTC] PHP Warning:  include(../../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:42:23 UTC] PHP Warning:  include(): Failed opening '../../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 120
+[16-Feb-2025 12:42:23 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[16-Feb-2025 12:42:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php:122
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php(122): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 122
+[21-Feb-2025 17:55:07 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/chat_mysqli.php on line 18
+[21-Feb-2025 17:55:07 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/chat.php on line 58
+[21-Feb-2025 17:55:07 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 121
+[21-Feb-2025 17:55:07 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu.php on line 125
+[21-Feb-2025 17:55:07 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[21-Feb-2025 17:55:07 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 19
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 05:56:07 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 05:56:07 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 05:56:10 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 05:56:10 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 05:56:19 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 05:56:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 12:48:22 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 12:48:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 12:48:25 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 12:48:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 12:48:31 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 12:48:31 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 18:55:33 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:55:33 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 18:55:35 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:55:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 18:55:40 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:55:40 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[24-Feb-2025 18:56:00 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[24-Feb-2025 18:56:00 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[26-Feb-2025 18:41:45 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[26-Feb-2025 18:41:45 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[26-Feb-2025 18:41:49 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[26-Feb-2025 18:41:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[27-Feb-2025 17:33:18 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[27-Feb-2025 17:33:18 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[02-Mar-2025 17:22:36 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 17:22:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[02-Mar-2025 17:22:48 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 17:22:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[02-Mar-2025 17:22:53 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 17:22:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[02-Mar-2025 18:27:57 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 18:27:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(../session_login.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(): Failed opening '../session_login.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 5
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(../header_green.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(): Failed opening '../header_green.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php on line 90
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(../../db/connect.php): Failed to open stream: No such file or directory in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  include(): Failed opening '../../db/connect.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 112
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 113
+[02-Mar-2025 18:28:10 UTC] PHP Warning:  Undefined variable $link in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114
+[02-Mar-2025 18:28:10 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php:114
+Stack trace:
+#0 /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php(114): mysqli_query()
+#1 /home/em8cxtwqiira/public_html/dashboard/pages/pages/calendar.php(119): include('/home/em8cxtwqi...')
+#2 {main}
+  thrown in /home/em8cxtwqiira/public_html/dashboard/pages/pages/sidebar-menu.php on line 114

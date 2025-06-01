@@ -42,3 +42,17 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/em8cxtwqiira/public_html/dashboard/pages/currency_converter/currency_converter.php on line 132
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 24
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 149
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 153
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 18
+[02-Mar-2025 17:39:09 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 18
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 21
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 24
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 50
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 149
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Trying to access array offset on null in /home/em8cxtwqiira/public_html/dashboard/pages/sidebar-menu-pages.php on line 153
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Undefined variable $fullname in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 18
+[06-Mar-2025 14:51:29 UTC] PHP Warning:  Undefined variable $member_id in /home/em8cxtwqiira/public_html/dashboard/header_green.php on line 18

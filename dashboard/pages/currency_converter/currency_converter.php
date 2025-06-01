@@ -157,7 +157,7 @@ z-index: 9999;
                         </div>
                        <div>
                           <br>
-                          <p style="color: red;"><b><u>NOTE</u>: The rate provided here is only an estimate.</b></p>
+                          <p style="color: #cc3333;"><u>NOTE</u>: The rate provided here is only an estimate.</p>
                           </div>
                         <div>
                             <br>

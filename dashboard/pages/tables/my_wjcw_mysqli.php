@@ -8,68 +8,70 @@ $current_user_level = mysqli_fetch_assoc(mysqli_query($link, $sql))["gift_donati
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 1;";
+where received_by = $member_id and level = 1 and gdt.sent_by <> gdt.received_by;";
 $result_level1 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 2;";
+where received_by = $member_id and level = 2 and gdt.sent_by <> gdt.received_by;";
 $result_level2 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 3;";
+where received_by = $member_id and level = 3 and gdt.sent_by <> gdt.received_by;";
 $result_level3 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 4;";
+where received_by = $member_id and level = 4 and gdt.sent_by <> gdt.received_by;";
 $result_level4 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 5;";
+where received_by = $member_id and level = 5 and gdt.sent_by <> gdt.received_by;";
 $result_level5 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 6;";
+where received_by = $member_id and level = 6 and gdt.sent_by <> gdt.received_by;";
 $result_level6 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 7;";
+where received_by = $member_id and level = 7 and gdt.sent_by <> gdt.received_by;";
 $result_level7 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 8;";
+where received_by = $member_id and level = 8 and gdt.sent_by <> gdt.received_by;";
 $result_level8 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 9;";
+where received_by = $member_id and level = 9 and gdt.sent_by <> gdt.received_by;";
 $result_level9 = mysqli_query($link, $sql);
 
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 10;";
+where received_by = $member_id and level = 10 and gdt.sent_by <> gdt.received_by;";
 $result_level10 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 11;";
+where received_by = $member_id and level = 11 and gdt.sent_by <> gdt.received_by;";
 $result_level11 = mysqli_query($link, $sql);
 
 $sql = "Select mr.first_name, mr.last_name, gdt.* from gift_donation_transactions gdt
   inner join member_registration mr ON (mr.member_id = gdt.sent_by)
-where received_by = $member_id and level = 12;";
+where received_by = $member_id and level = 12 and gdt.sent_by <> gdt.received_by;";
 $result_level12 = mysqli_query($link, $sql);
 
 
 
-$sql = "select wp.*, mr.first_name, mr.last_name, mr.gift_donation_level from wjcw_payments wp left join member_registration mr ON (mr.member_id = wp.sent_by)  where active = 1;";
+
+$sql = "Select mr.*, gdt.* from gift_donation_transactions gdt
+ inner join member_registration mr on (mr.member_id = gdt.sent_by) where received_by = '$member_id' and gdt.verified is true and gdt.sent_by <> gdt.received_by";
 $wjcw_payments = mysqli_query($link, $sql);
 
 

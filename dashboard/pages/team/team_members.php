@@ -69,7 +69,7 @@
       <?php include "../../header_green.php" ?> <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper  mt-4">
         <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">Mr <?= $fullname; ?>,</h1>
-        <p class="larger-text" style="margin-left:25px">On this page you can see your team activities and performance. You can all make contact via email or phone with your team, also total my Team Members, Active Members, Inactive Members, Direct Sponsored, All Teams Members!</p>
+        <p class="larger-text h_color" style="margin-left:25px">On this page you can see your team activities and performance. You can all make contact via email or phone with your team, also total my Team Members, Active Members, Inactive Members, Direct Sponsored, All Teams Members!</p>
         <!-- <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">These Are</h1>
   <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">Your Direct Sponsored</h1>
   <h1 class="h_fonts h_color resizeable_h" style="margin-left:25px">Members</h1> -->

@@ -231,6 +231,7 @@ $avatar = $row['avatar'];
               </p>
             </a>
           </li>
+          <!--
           <li class="nav-item">
             <a href="../../genererate_link_send_email.php" class="nav-link">
               <i class="nav-icon fas fa-link"></i>
@@ -239,6 +240,7 @@ $avatar = $row['avatar'];
               </p>
             </a>
           </li>
+          -->
               
               <li class="nav-item">
                 <a href="../team/team_members.php" class="nav-link" id="team_members">
