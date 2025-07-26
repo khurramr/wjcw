@@ -47,10 +47,10 @@
                     <div class="col-md-3 py-3 col-sm-6 ">
                         <h5 class="text-success text-uppercase mb-md-4 ml-5">Follow Us</h5>
                         <ul class="ml-2">
-                            <li class="list-inline-item"><a href="#" class="fab fa-facebook fa-2x"></a></li>
-                            <li class="list-inline-item"><a href="#" class="fab fa-twitter fa-2x"></a></li>
-                            <li class="list-inline-item"><a href="#" class="fab fa-linkedin fa-2x"></a></li>
-                            <li class="list-inline-item"><a href="#" class="fab fa-skype fa-2x"></a></li>
+                            <li class="list-inline-item"><a href="https://x.com/WJCW_Welfare" class="fab fa-twitter fa-2x"></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/wjcwelfare110?igsh=MXMzZWYxaHVxazM4eQ%3D%3D&utm_source=qr" class="fab fa-instagram fa-2x"></a></li>
+                            <li class="list-inline-item"><a href="https://www.tiktok.com/@tariq56387?_t=ZN-8yDn4cQLOSs&_r=1" class="fab fa-tiktok fa-2x"></a></li>
+                            <li class="list-inline-item"><a href="https://chat.whatsapp.com/EtzknxQUtOBBP2o5jOmKEd?mode=r_t" class="fab fa-whatsapp fa-2x"></a></li>
                         </ul>
                     </div>
                 </div>

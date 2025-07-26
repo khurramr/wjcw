@@ -4,7 +4,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                         <a href="pages/financialfreedom.php">
-                        <img src="assets/images/hm-pic4.jpg" class="carousel_image" alt="">
+                        <img src="assets/images/financial_freedom.jpeg" class="carousel_image" alt="">
                             <p class="h4 fs-11 text-center text dark pl-3 pr-3 pt-3 mb-0 font-weight-bolder">Financial Freedom</p>
                         </a>
                         
